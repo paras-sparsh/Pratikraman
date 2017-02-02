@@ -1,0 +1,1070 @@
+<resources>
+    <string name="app_name">Pratikraman</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_path">Path</string>
+    <string name="title_activity_tp">tp</string>
+    <string name="title_activity_expanded_navigation_drawer"></string>
+
+
+    <string name="part_1">Vandana</string>
+    <string name="part_2">Samayik</string>
+    <string name="part_3">Pratikraman Ki Agyya</string>
+    <string name="part_4">Koussag</string>
+    <string name="part_5">Pratyakyhan</string>
+    <string name="part_6">Chovisattva</string>
+    <string name="part_7">Shraman Sutra</string>
+    <string name="part_8">Bhav Vandana</string>
+
+    <string name="title_eng_navkar_mantra">Navkar Mantra</string>
+    <string name="title_eng_Tikkhuto">Tikkhuto Ka Path</string>
+    <string name="title_eng_dhyan">4 Dhyan Ka Path</string>
+    <string name="title_eng_Tassauttari">Tassa Uttari Ka Path</string>
+    <string name="title_eng_Logassa">Logassa Ka Path</string>
+    <string name="title_eng_KaremiBhante">Karemi Bhante Ka Path</string>
+    <string name="title_eng_Nammotthunam">Nammotthunam Ka Path</string>
+    <string name="title_eng_EyassaNavamassa">Eyassa Navamassa Ka Path</string>
+    <string name="title_eng_Irrayavahia">Iriyavahi Ka Path</string>
+    <string name="title_eng_Tein">Teen Tatva Ka Path</string>
+    <string name="title_eng_GuruGun">Guru Gun Ka Path</string>
+
+    <string name="text_eng_navkar_mantra">Namo Arihantanam,\nNamo Siddanam,\nNamo Aayariyanam,\nNamo Uvajjhayanam,\nNamo Loe Savva-sahunam,\nEso Panch Namokkaro,\nSavva-pava ppanasano \nManglanam cha savvesim\nPadhamamHavai Mangalam.
+   \n\n\n\n\n </string>
+    <string name="text_eng_Tikkhuto">
+        Tikkhuto, Ayahinam,\n
+Payahinam, Karemi,\n
+Vandami, Namamsami,\n
+Sakkaremi, Sammanemi,\n
+Kallanam, Mangalam,\n
+Devyam, Cheiyam,\n
+Pajjuvasami,\n
+Mathhen Vandami.\n\n\n\n\n\n
+</string>
+    <string name="text_eng_Iriyavahia">
+        Ichchha&#45; Karenam Sandisaha Bhagavan&#33; Iriyavahiyam Paddikkamami
+Ichchham Ichchami Padikkamium&#33; Iriyavahiyae Virahanae, Gamanagamane,
+Panakkamane, Biyakkamane, Hariyakkamane, Osa, Uttinga, Panaga, Daga, Matti,
+Makkada, Santana, Sankamane, Je me jivavirahiya, Egindiya, Beindiya, Teindiya, Chaurindiya,
+Panchindiya Abihaya, Vattiya, Lesiya, Sanghaiya, Sanghattiya, Pariyaviya, Kilamiya, Uddaviya,
+Thanao-Thanam, Sankamiya Jiviyao&#45; Vavaroviya, Tassa Micchhami Dukkadam.\n\n\n\n\n
+    </string>
+    <string name="text_eng_Tassauttari">
+        Tassauttarikaranenam payacchitta&#45; karanenam, visohi&#45; karanenam, visalli&#45; karanenam
+Pavanam, kammanam, Nigghayanatthae Thami Kaussaggam. Annattha Usasienam, Neesasienam,
+Khasienam, Chienam, Jambhaienam, Udduenam, Vay&#45; nisaggenam, Bhamalie, Pitta&#45; muchhae, Suhumehim
+Anga&#45; sanchalehim, Suhumehim Khel&#45; sanchalehim, Suhumehim Ditthi&#45; sanchalehim, Evamaiehim,
+Agarehim, Abhaggo, Avirahio, Hujja Me Kaussaggo Java Arihantanam, Bhagavantanam, Namokkarenam,
+NaParemi TavaKayam Thanenam, Monenam, Jhanenam, Appanam Vosirami.\n\n\n\n\n
+</string>
+    <string name="text_eng_Logassa">
+        Logassa Ujjoya&#45; gare Dhamma&#45; Tittha&#45; Yare jine,\n
+Arihante Kittaissam Chauvisampi Kevali &#40;1&#41; \n\n
+Usabhamajiyam Cha Vande, Sambhavamabhinandanam Cha\n
+Sumaim Cha Paumappaham Supasam Jinam Cha Chandappaham Vande &#40;2&#41;\n\n
+Suvihim Cha Puffhadantam Siyal Sijjansa Vasu&#45; pujjamCha\n
+Vimalmanantam Cha Jinam, Dhammam Santim Cha Vandami &#40;3&#41;\n\n
+Kunthum Aram Cha Mallim Vande Muni&#45; suvvayamNami&#45; jinam Cha.\n
+VandamiRittha&#45; nemim Pasamtah Vaddhamanam Cha &#40;4&#41;\n\n
+Evam Mae Abhithua, Vihuyarayamala Pahinjarmarana\n
+ChauVisam Pi jinavara, Titthayara Me Pasiyantu &#40;5&#41;\n\n
+Kittiya&#45; vandiy&#45; mahiya, Je ea Logassa Uttama Siddha.\n
+Arugga&#45; Bohi&#45; labham, Samahi&#45; Vara&#45; Muttamam&#45; dintu &#40;6&#41;\n\n
+Chandesu Nimmalayara Aichhesu Ahiyam Payasayara.\n
+Sagarvargambhira Siddha Siddhim Mam Disantu &#40;7&#41;\n\n\n\n\n\n\n
+
+</string>
+    <string name="text_eng_KaremiBhante">Karemi Bhante &#33; Samaiyam, Savajjam Jogam Pachhakkhami Jav Niyamam Pajjuvasami, Duviham
+Tivihenam Na Karemi, Na Karvemi Mansa, Vaysa, Kaysa Tass Bhante&#33; Pdikkamami
+Nindami Garihami Appanam Vosirami.\n\n\n\n\n
+
+</string>
+    <string name="text_eng_Nammotthunam">
+        Namotthunam Arihantanam, Bhagavantanam, Aaigaranam, Titthayaranam, SayamSambuddhanam,
+Purisuttamanam, Purisasihanam, Purisavar Pundarianam, Purisavar Gandhahatthinam,
+Loguttamanam, Loganahanam, Logahiyanam, Logapaivanam, Lohpajjoyagaranam, Abhaydayanam,
+Chakkudayanam, Maggadayanam, Sarandayanam, Jeevdayanam, Bohidayanam, Dhammadayanam,
+Dhammadesayanam, Dhammnayaganam, Dhammsarahinam, Dhammavarchauranta
+Chakkavattinam, Divottanam, Sarangaipaitthanam Appadihayavaranana Dansana Dharanam,
+Viyatta chaumanam, Jinanam Javayanam, Tinnanam Taryanam, Buddhanam Bohayanam,
+Muttanam Moyganam Savvannunam Savvadarisinam SivamayalmaruaManantaMakkhay
+MavvabahMapunaravitti, SiddhigaiNamadheyam, ThanamSampattanam, Namo Jinanam Jiy bhayanam.\n
+            <strong>
+&#40;2re mai&#41;</strong>\n
+
+Thanam Sampaviukamanam,Namo Jinanam Jiy-bhayanam.
+Namotthunam \n <strong>&#40;3re mai &#41;</strong>\n
+
+Namotthunam mam dhammayariyass dhammovdesyassa Aneggunsanjuttass java sampaviu kamass.\n\n\n\n\n
+
+</string>
+    <string name="text_eng_EyassaNavamassa">Eyassa Navamassa Samaiya Vayassa Pancha Aiyara Janiyavva Na Samayariyavva Tamjaha Te Alou&#45;
+Manaduppanihane, Vayaduppanihane, Kayaduppanihane, Samaiyassa Sai Akaranayae, Samaiyassa
+AnavatthiyassaKaranyae Tass Michhami Dukkadam.\n\n
+Samaiyam Sammam Kayenam Na Phasiyam, Na Paliyam, Na Sohiyam, Na Teeriyam, Na Kittiyam,
+Na Arahiyam, Anaye Anupaliyam Na Bhavai Tass Micchami Dukkadam.\n\n
+Paddikkamami Aaharasanna, Bhayasanna, Mehunasanna, PariggahaSanna aeya chu Sanna kaya Tass Micchami Dukkadam.\n\n
+Paddikkamami chaunham Vikaha Ithikaha/ puriskaha, bhattkaha, Deskaha, raykaha aeya chu Vikaha kaya Tass Micchami Dukkadam.\n\n
+Aekkamane Vaekkamane Aeyaare Anayaare jo mein devsio aeyaaro kao Tass Micchami Dukkadam.\n\n
+Samaea Manso Das Dosa Vayanassa Das Dosa, Sarirassa Duvalassa Dosa kaya Tass Micchami Dukkadam.\n\n\n\n\n\n
+</string>
+    <string name="text_eng_dhyan">Dhyan mai man, vachan, kaaya chalet hua ho,
+Aartdhyan, Raudradhyan dhyaya ho Dharma Dhyan Shukla Dhyan nahi dhyaya ho, to Tassa Micchhami Dukkadam.\n\n\n\n\n
+</string>
+    <string name="text_eng_Tein">Arihanto Mahadevo, Javajjivam Susahuno Guruno
+Jinapanattam Tattam, ea Sammatam maye Gahiyam.\n\n\n\n\n
+</string>
+    <string name="text_eng_GuruGun">Panchendiy Savarno taha navaviha Bambhacher Guttidharo\nChuvih Kasaymukko, ea Attharas Gunehim Sanjutto\n
+Panch Mahavvaya Jutto, Panch Vihayar Palan Samttho\n
+Panch Samie Tigutto, Chattis Guno Guru Majjha\n\n\n\n\n
+    </string>
+    
+<string name="text_chauvisathav_ka_path">
+    Shree Mahaveer Swami, Simandhar Swami, Guruguruniji m. s.  aapase Chauvisathav karne ki aadnyaa leta / leti hu.
+    </string>
+    <string name="text_devsi_pratikraman_ki_agya">
+        Shree Mahaveer Swami, Simandhar Swami, Guruguruniji m. s.  aapase devasi/
+        raysi pratikraman karne ki  aadnyaa leta / leti hu.
+    </string>
+    <string name="text_ichhaminam_bhante_ka_path">
+Ichhaminam Bhante! Tubbhehim Abbanunnaye Samane Devasiyam Padikkamanam Thayemi
+        Devasiya-Nana-Dansana Charittacharitta Tav Aiyar-Chintanatham Karemi Kaussaggam.
+    </string>
+    <string name="text_pratham_avashyak_ki_aadnyaa">
+	( Khade hokar) Shree Mahaveer Swami, Simandhar Swami, Guruguruniji m.s. aapase Pratham Avashyak  ki  aadnyaa leta/leti hu
+    </string>
+    <string name="text_ichhami_thami_ka_path">
+        Ichhami Thami Kaussaggam Jo Me Devasio Aaiyaro Kao, Kaio, Vaio, Manasio, Ussutto, Ummaggo, Akappo, Akarnijjo, Dujjhao, Duvvichintio,
+        Anayaro, Anichhiyavvo, Asavag Pauggo, Nane Tah Dansane, Charittacharitte, Sue, Samaiye, Tinham Guttinam, Chaunham Kasayanam,
+        Panchanham Anuvayanam Tinham
+        Gunvayanam, Chaunham Sikkhavayanam, Baras Vihass Savag Dhammass Jam Khandiyam, Jam Virahiyam, Tass Michhami Dukkadam.\n\n\n\n\n
+    </string>
+    <string name="text_kayotsarg_instruction">
+        ( \'Appanam Osrami \'kehte hi Kayotsarg Mudra mai baithe. )( Kayotsarg mai micchami dukkadam na bole )
+    </string>
+    <string name="text_dnyan_ke_atichar_ka_path">
+Agame Tivihe Pannatte Tamjaha Suttagame, Atthagame, Tadubhayagame, Is Tarah Teen Prakar Ke Agamrup Gyan Ke Vishay Me Jo Koi Atichar
+        Laga Ho To Aloum,  Jam Vaiddham, Vachhameliyam, Heenakkharam, Achhakkharam, Payheenam, Vinayheenam, Jogheenam, Ghosaheenam,
+        Sutthudinnam, Dutthupadichhiyam, Akale Kao Sajjhao, Kale Na Kao Sajjhao, Asajjhaye Sajjhaiyam, Sajjhaye Na Sajjhaiyam, Bhanta,
+        Gunta,
+        Vicharta, Gyan Aur Gyanvant Purusho Ki Avinay Ashatna Ki Ho To Jo Me Devasio Aiyaro Kao Tass Michhami Dukkadam.
+        \n\n\n\n\n
+    </string>
+    <string name="text_darshan_samyaktva_ka_path">
+        Arihanto Mah Devo, Javjjivam Susahuno Guruno\n
+Jinapannattam Tattam, Ea Sammattam Maye Gahiyam ।।1।।\n
+ Parmatth Santhavo Va, Sudittha Parmattha Sevana Va Vi ।\n
+ Vavanna Kudansana Vajjana, Ya Sammatta Saddahana ।।2।।\n
+ Ea Sammattassa Panch Aiyara Peyala Janiyavva Na Samayariyavva Tamjaha Te Aloum-Sanka, Kankha, Vitigichha, Parpasand Pasansa,
+        Parpasand Santhavo-Is Prakar Shri Samkit Ratna Padarth Ke Vishay Me Jo Koi Atichar Laga Ho To Aloum-\n
+1. Shri Jin Vachan Saccha kar, shraddha  na ho, Prateetya na ho \n
+ 2. Pardarshan Ki Akanksha Ki Ho \n
+3 . Par-pakhandi Ki Prashansa Ki Ho \n
+4. Par-pakhandi Ka Parichay Kiya Ho, \n
+5. Dharm Ke Phal Me Sandeh Kiya Ho, Mere Samyaktva Roop Ratna Par Mithyatva Roopi Raj Mail Laga Ho.\n\n\n\n\n
+    </string>
+    <string name="text_pehla_sthool">
+Pranatipat  Virman Vrat Ke Vishay Me Jo Koi Atichar Laga Ho To Aloum - \n
+        1. Rosh Vash Gadha Bandhan Bandha Ho, \n
+        2. Gadha Ghav Ghala Ho,\n3. Avyav Ka Chedan Kiya Ho, \n4. Adhik Bhar Bhara Ho, \n5. Bhat Pani Ka Vichhed Kiya Ho.
+        \n\n\n\n\n
+    </string>
+    <string name="text_duja_sthool">
+Mrushawad  Virman Vrat Ke Vishay Me Jo Koi Atichar Laga Ho To Aloum - \n1. Sahsakar Se Kisi Ke Prati Kuda Aal Diya Ho,
+        \n2. Ekant Me Gupt Batchit Karte Hue Vyaktio Par Jhutha Arop Lagaya Ho,
+        \n3. Stri Purush Ka Marm Prakashit Kiya Ho,\n4. Mrusha Updesh Diya Ho,\n5. Kuda Lekh Likha Ho.
+        \n\n\n\n\n
+    </string>
+    <string name="text_tija_sthool">
+ Adattadan Virman Vrat Ke Vishay Me Jo Koi Atichar Laga Ho To Aloum - \n1. Chor Ki Churai Hui Vastu Li Ho,\n2. Chor Ko Sahayta Di Ho,
+        \n3. Rajya Viruddh Kam Kiya Ho,\n4. Kuda Tol Kuda Map Kiya Ho,\n5. Vastu Me Bhel Sambhel Kiya Ho.
+        \n\n\n\n\n
+    </string>
+    <string name="text_chautha_sthool">
+Swadar-Santosh Pardar Vivarjan (Swapati Santosh Parpurush Vivarjan) Roop Maithun Virman Vrat  Ke Vishay Me Jo Koi
+        Atichar Laga Ho To Aloum –\n1. Ittariya Pariggahiya Se Gaman Kiya Ho,\n2. Apariggahiya Se Gaman Kiya Ho,\n
+        3. Anang Kreeda Ki Ho,\n4. Paraye Ka Vivah Nata Karaya Ho,\n5. Kam Bhog Ki Tivra Abhilasha Ki Ho.
+        \n\n\n\n\n
+    </string>
+    <string name="text_panchava_sthool">
+Parigrah Pariman Vrat Ke Vishay Me Jo Koi Atichar Laga Ho To Aloum -\n
+        1. Khett Vatthu Ke Pariman Ka Atikraman Kiya Ho,\n2. Hiranya Suvarna Ke Pariman Ka Atikraman Kiya Ho,\n3. Dhan-Dhanya Ke Pariman Ka Atikraman Kiya Ho,
+        \n4. Dwipad Chaupad Ke Pariman Ka Atikraman Kiya Ho,\n5. Kuviy Sona Chandi Adi Dhatu Ke Pariman Ka Atikraman Kiya Ho.
+        \n\n\n\n\n
+    </string>
+    <string name="text_chatthe_dishivrat_sthool">
+  Ke Vishay Me Jo Koi Atichar Laga Ho To Aloum -\n1. Unchi Disha Ka Pariman Atikraman Kiya Ho,\n2. Nichi Disha Ka Pariman Atikraman Kiya Ho,
+        \n3. Tirchi Disha Ka Pariman Atikraman Kiya Ho,
+        \n4. Kshetra Badhaya Ho,\n5. Kshetra Ka Pariman Bhool Jane Se Pantha Ka Sandeh Padne Par Age Chala Ho.
+        \n\n\n\n\n
+    </string>
+    <string name="text_satava_upbhog_paribhog_pariman_vrat_sthool">
+Ke Vishay Me Jo Koi Atichar Laga Ho To Aloum - \n1. Pachhakkan Uprant Sachitt Ka Ahar Kiya  Ho,\n2. Sachitt PadibaddhKa Ahar Kiya Ho,
+        \n3. Apakva Ka Ahar Kiya Ho,\n4. Dupakva Ka Ahar Kiya Ho,\n5. Tuchhoushadhi Ka Ahar Kiya Ho.
+        \n\n\n\n\n
+    </string>
+    <string name="text_pandrah_karmadan">
+    Jo Shravak Shravika Ko Janane Yogya Hai Kintu Acharan Karne Yogya Nahi Hai Unme Jo Koi Atichar Laga Ho To Aloum -\n1. Ingalkamme
+        \n2. Vanakamme \n3. Sadikamme \n4. Bhadikamme \n5. Phodikamme\n6. Dantvanijje\n7. Lakkhavanijje
+        \n8. Rasvanijje\n9. Kesvanijje\n10. Visavanijje\n11. Jantpilankamme\n12. Nilanchanakamme
+        \n13. Davaggidavaniya\n14. Sar-Dah-Talay-Sosanya\n15. Asaijanposnaya.
+        \n\n\n\n\n
+    </string>
+    <string name="text_athave_anarthadand_virman_vrat_sthool">
+Ke Vishay Me Jo Koi Atichar Laga Ho To Aloum -\n1. Kam Vikar Paida Karne Wali Katha Ki Ho,
+        \n2. Bhand Kuchesta Ki Ho,\n3. Mukhari Vachan Bola Ho,\n4. Adhikaran Jod Rakkha Ho,\n5. Upbhog Paribhog Adhik Bhadhaya Ho.
+        \n\n\n\n\n
+    </string>
+    <string name="text_navave_samayik_vrat_sthool">
+Ke Vishay Me Jo Koi Atichar Laga Ho To Aloum -\n1. Man Vachan Kaya Ke Ashubh Yog Pravartaye Ho,\n2.  Samayik Ki Smruti Na Ki Ho,
+        \n3. Samay Purna Hue Bina Samayik Pari Ho.
+        \n\n\n\n\n
+    </string>
+    <string name="text_dasave_desavagasik_vrat_sthool">
+Ke Vishay Me Jo Koi Atichar Laga Ho To Aloum -\n1. Niyamit Seema Ke Bahar Ki Vastu Mangvai Ho,\n2. Bijvai Ho,
+        \n3. Shabd Karke Chetaya Ho,\n4. Roop Dikhakar Apne Bhav Prakat Kiya Ho,\n5. Kankar Adi Phenk Kar Dusron Ko Bulaya Ho.
+        \n\n\n\n\n
+    </string>
+    <string name="text_gyarhave_padipunna_paushadh_vrat_sthool">
+Ke Vishy Me Jo Koi Atichar Laga Ho To Aloum -\n1. Paushadh Me Shayya Santhara Na Dekha Ho Ya Achi Tarah Se Na Dekha Ho,
+        \n2. Pramarjan Na Kiya Ho Ya Achhi Tarah Se Na kiya Ho,
+        \n3. Uchhar Pasvan Ki Bhoomi Ko Na Dekhi Ho Ya Achhi Tarah Se Na Dekhi Ho,
+        \n4. Punji Na Ho Ya Achhi Tarah Se Na Punji  Ho,
+        \n5. Upwas Yukta Paushadh Ka Samyak Prakar Se Palan Na Kiya Ho.
+        \n\n\n\n\n
+    </string>
+    <string name="text_barhave_atithi_samvibhag_vrat_sthool">
+Ke Vishay Me Jo Koi Atichar Laga Ho To Aloum -
+        \n1. Sujati Vastu Sachitt Me Dali Ho,\n2. Sachitt Se Dhanki Ho,
+        \n3. Apni Vastu Parai Kahi Ho,\n4. Matsar Bhav Se Dan Diya Ho,
+        \n5. Bhojan Ka  Samay Talkar Sadhuon Se Prarthana Ki Ho Athava Dan Dene Ki Bhavana N Bhai Ho.
+        \n\n\n\n\n
+    </string>
+    <string name="text_sanlekhana_ke_panch_atichar_ka_path">
+Sanlekhana Ke Vishay Me Jo Koi Atichar Laga Ho To Aloum -
+\n1. Is lok mai Raja Chakrawarti aadi ke sukh  ki wancha ki ho .
+\n2. Parlok mai Devta Indra aadi ke sukh ki wancha ki ho.
+\n3.  jivit rahne ki akanksha ki ho.
+\n4. Marne ki iccha ki ho.
+\n5. Bhogvilas ki abhilasha ki ho.\n
+\'Ma majz, hujj marnente vi saddhaparuwannami annaha Bhawo\' - Arthathat marnantik kasht honepar bhi meri shradha prarupana mai
+        farak naho .
+\n\n\n\n\n
+    </string>
+    <string name="text_attharah_papsthan_ka_path">
+1. Pranatipat, 2. Mrushawad, 3. Adattadan, 4. Maithun, 5. Parigrah, 6. Krodh, 7. Maan, 8. Maya, 9. Lobh,
+        10. Rag, 11. Dwesh, 12. Kalah,
+        13. Abhyakhyan, 14. Paishunya, 15. Parpariwad, 16. Rati-Arati, 17. Maya-mrushawad, 18. Mithyadarshan shalya\n
+        In Attharah Papsthano Me Se Kisi Ka Sevan Kiya Ho, Karaya Ho,  Karte Hue ka anumodan kiya ho.
+        \n\n\n\n\n
+    </string>
+    <string name="text_icchami_thami_ka_path_without_micchami">
+        Ichhami Thami Kaussaggam Jo Me Devasio Aaiyaro Kao, Kaio, Vaio, Manasio, Ussutto, Ummaggo, Akappo, Akarnijjo, Dujjhao, Duvvichintio,
+        Anayaro, Anichhiyavvo, Asavag Pauggo, Nane Tah Dansane, Charittacharitte, Sue, Samaiye, Tinham Guttinam, Chaunham Kasayanam,
+        Panchanham Anuvayanam Tinham
+        Gunvayanam, Chaunham Sikkhavayanam, Baras Vihass Savag Dhammass Jam Khandiyam, Jam Virahiyam
+        \n\n\n\n\n
+    </string>
+    <string name="text_dusare_aavashyak_ki_aadnyaa">
+Shree Mahaveer Swami, Simandhar Swami evam Guruguruniji m. s. Pahila Avashyak purna huva
+        Aapase Dusare Aavashyak karne ki  aadnyaa leta / leti hu.
+        \n\n\n\n\n
+    </string>
+    <string name="text_teesare_aavashyak_ki_aadnyaa">
+        Pehla Samayik,  Dusara Chauvisattva ye do Avashyak purna huye Shree Mahaveer Swami, Simandhar Swami evam Guruguruniji
+        m. s. aapase teesare Avashyak  karaneki aadnyaa leta/leti hu.
+        \n\n\n\n\n
+    </string>
+    <string name="text_ichhami_khamasamno_ka_path">
+Ichhami Khamasamno! Vandium Javnijjaye Niseehiyae Anujanah Me Miuggaham Niseehi. Aho Kayam Kay Samfasam Khamnijjo Bhe!
+        Kilamo Appakilantanam Bahu Subhenam Bhe!Divaso Vaikkanto Jatta Bhe! Javani Jjamcha Bhe! Khamemi Khamasamno! Devasiyam
+        Vaikkamam, Avassiyae, Padikkamami, Khamasamnanam, Devasiae, Asayanae, Tittisannyarae, Jam Kinchi Michhae, Mandukkadae,
+        Vaydukkadae, Kaydukkadae, Kohae, Manae, Mayae, Lohae, Savvakaliyae, Savvamichhovayarae, Savvadhammaikkamnae,
+        Asayanae, Jo Me Devasio Aiyaro Kao Tass Khamasamno! Padikkamami, Nindami, Garihami, Appanam Vosirami.
+        \n\n\n\n\n
+    </string>
+<string name="text_chauthe_aavashyak_ki_aadnyaa">
+    Pahla Samayik, Dusara Chauvisattva teesare Vandana ye teen Avashya purna huye,
+    Shree Mahaveer Swami, Simandhar Swami evam Guruguruniji m. s. aapase Chauthe Aavashyak kee  aadnyaa leta/leti hu .
+    \n\n\n\n\n
+</string>
+    <string name="text_dansan_samkit_ka_path">
+Dansansamatta Parmatth Santhavo Va, Sudittha Parmattha Sevana Va Vi ।\n
+ Vavanna Kudansana Vajjana, Ya Sammatta Saddahana ।।\n
+Evam samanovasenam  Sammattassa Panch Aiyara Peyala Janiyavva Na Samayariyavva Tamjaha Te Aloum -
+        Sanka, Kankha, Vitigichha, Parpasandi Pasansa, Parpasandi Santhavo , Evam paanch aticharo me jo koi atichar laga
+        ho to Tass Michhami Dukkadam.
+\n\n\n\n\n
+    </string>
+    <string name="text_pahla_anuvrat">
+Thulao Panaivayao Vermanam Tras Jeev Beindriya, Teindriya, Chaurindriya, Panchindriya, Jan Ke, Pahichan Ke Sankalp Karke Usme
+        Sage-Sambhandhi Va Sva Sharir Ke Bhitar Me Pidakari Saparadhi Ko Chod Niraparadhi Ko Akutti Ki Buddhi Se Hanane Ka
+        Pachhakkhan Javajjivaye Duviham, Tivihenam, Na Karemi, Na Karvemi, Mansa, Vaysa Kaysa Aise Pahla Sthool Pranatipat Virman
+        Vrat Ke Panch Aiyara Peyala Janiyavva Na Samayariyavva Tamjaha Te Aloum-Bandhe,
+        Vahe, Chavichhe-a, Aibhare, Bhattapanvichhe-a, Jo Me Devasio Aiyaro Kao Tass Michhami Dukkadam.
+        \n\n\n\n\n
+    </string>
+    <string name="text_duja_anuvrat">
+Thulao Musavayao Vermanam-Kannaliye, Govaliye, Bhomaliye, Nnasavaharo, Kudsakkhijje Ityadi Mota Jhut Bolne Ka Pachhakkhan.
+        Javajjivaye Duviham Tivihenam Na Karemi, Na Karvemi, Mansa,  Vaysa, kaysa Evam Duja Sthool Mrushawad Virman Vrat Ke Panch
+        Aiyara Janiyavva Na Samayariyavva Tamjaha Te Aloum-Sahassabbakkhane,
+        Rahassabbakkhane, Sadarmantabheye, Mosovayese, Kudleh Karne, Jo Me Devasio Aiyaro Kao Tass Michhami Dukkadam.
+        \n\n\n\n\n
+    </string>
+    <string name="text_teeja_anuvrat">
+Thulao Adinnasanao Vermanam Khat Khan Kar Ganth Khol Kar Tale Par Kunchi Lagakar, Marg Me Chalte Hue Ko Lootkar, Padi Hui Dhaniyati
+        Moti Vastu Jankar Lena, Ityadi Mota Adattadan Ka Pachhakkhan Sage Sambandhi, Vyapar Sambandhi, Tatha Padi Nirbhrami Vastu
+        Ke Uprant Adattadan Ka Pachhakkhan Javajjivaye Duviham, Tivihenam, Na Karemi, Na Karvemi, Mansa, Vaysa, Kaysa Evam Teeja
+        Sthool Adattadan Virman Vrat Ke Panch Aiyara Janiyavva Na Samayariyavva Tamjaha Te Aloum-Tenahade, Takkarappaoge,
+        Virudharajjaikkame, Kudtull Kudmane,
+        Tappadi Ruvag Vavahare, Jo Me Devasio Aiyaro Kao Tass Michhami Dukkadam.
+        \n\n\n\n\n
+    </string>
+    <string name="text_chautha_anuvrat">
+Thulao Mehunao Vermanam-Sadarsantosiye Avases Mehunvihim Pachhakkami Javajjivaye Dev-Devi Sambandhi Duviham, Tivihenam, Na Karemi, Na
+        Karvemi, Mansa, Vaysa, Kaysa Tatha Manushya-Tiryanch Sambandhi Egviham, Egvihenam, Na Karemi, Kaysa Evam Chautha Sthool
+        Swadar Santosh Pardar Vivarjan Roop Maithun Virman Vrat Ke Panch Aiyara Janiyavva Na Samayariyavva Tamjaha Te Aloum-Ittariya
+        Pariggahiya Gamne, Apariggahiya Gamne, Anangakeeda, Pravivah Karne,
+        Kam Bhogativvabhilase, Jo Me Devasio Aiyaro Kao Tass Michhami Dukkadam.
+         \n\n\n\n\n
+    </string>
+    <string name="text_panchva_anuvrat">
+Thulao Pariggahao Vermanam-Khett-Vatthu Ka Yatha Pariman, Hiranna-Suvanna Ka Yatha Pariman, Dhan-Dhanya Ka Yatha Pariman,
+        Dwipad-Chatushpad Ka Yatha Pariman, Kuviy Dhatu Ka Yatha Pariman, Evam Jo Pariman Kiya Hai Uske Uprant Apna Karke
+        Parigraha Rakhne Ka Pachhakhan Javajjivaye Egviham, Tivihenam, Na Karemi, Mansa, Vaysa, Kaysa Evam Panchva Sthool
+        Parigrah Pariman Vrat Ke Panch Aiyara Janiyavva Na Samayariyavva Tamjaha Te Aloum-Khett-Vatthuppamanaikkame,
+        Hiranna-Suvannappamanaikkame, Dhandhannappamanaikkame,
+        Duppaya-Chauppayappamanaikkame, Kuviyappamanaikkame, Jo Me Devasio Aiyaro Kao Tass Michhami Dukkadam.
+         \n\n\n\n\n
+    </string>
+    <string name="text_chattha_dishivrat">
+Uddhadisi Ka Yatha Pariman Ahodisi Ka Yatha Pariman Tiriyadisi Ka Yatha Pariman Evam Jo Pariman Kiya Hai Uske Uprant Svecha Kaya Se
+        Age Jakar Panch Ashrav Sevan Ka Pachhakkhan Javajjivaye Duviham, Tivihenam, Na Karemi, Na Karvemi, Mannsa, Vaysa, Kaysa Evam
+        Chatthe Dishivrat Ke Panch Aiyara Janiyavva Na Samayariyavva Tamjaha Te Aloum-Uddhadisippamanaikkame, Ahodisippamanaikkame,
+        Tiriyadisippamanaikkame, khittvuddhi,
+        Saiantaraddha, Jo Me Devasio Aiyaro Kao Tass Michhami Dukkadam.
+        \n\n\n\n\n
+    </string>
+    <string name="text_satava_vrat_upbhog_paribhogvihim">
+Pachhakkayamane Ullaniyavihi, Dantanvihi, Phalvihi, Abbhanganvihi, Uvattanvihi, Majjanvihi, Vatthavihi, Vilevanvihi, Puffavihi,
+        Abharanvihi, Dhuvanvihi, Dhuvavihi, Pejjavihi, Bhakkhanvihi, Odanvihi, Supavihi, Vigayvihi, Sagvihi, Mahurvihi, Jimanvihi,
+        Paniyavihi, Mukhvasvihi, Vahanavihi, Uvanahvihi, Sayanvihi, Sachittavihi, Davvavihi, In 26 Bolon Ka Yatha Pariman Kiya He
+        Iske Uprant Upbhog-Paribhog Vastu Ko Bhog Nimitta Se Bhogne Ka Pachhakkhan Javjjivaye Egviham, Tivihenam, Na Karemi, Mansa,
+        Vaysa, Kaysa Evam Satva Vrat Upbhog-Paribhog Duvihe Pannatte Tamjaha Bhoyanao Ya Kammao Ya Bhoyanao Samnovasayanam Panch
+        Aiyaro Janiyavva Na Samayariyavva Tamjaha Te Aloum-Sachittahare, Sachttapadibaddhahare, Appu-uli Osahibhakkhanya, Duppa-uli
+        Osahibhkkhanya, Tuchhosahibhakkhanya, Kamm-o Ya Nam Samanovasyenam Pannarass Kammadanaim Janiyavvaim Na Samayariyavvaim
+        Tamjaha Te Aloum-Ingalkamme, Vankamme, Sadikamme, Bhadikamme, Phodikamme, Dantvanijje, Lakhavanijje, Rasvanijje, Kesvanijje,
+        Visvanijje, Jantpilankamme,
+        Nillanchankamme, Davaggidavnaya, Sar-dah-talay-sosanaya, Asaijan Posanaya, Jo Me Devasio Aiyaro Kao Tass Michhami Dukkadam.
+        \n\n\n\n\n
+    </string>
+    <string name="text_athava_anatthadand_virman_vrat">
+Chauvvihe Anatthadande Pannatte Tamjaha-Avajjhanachariye, Pamayachariye, Hinsappayane, Pavkammovayese, Evam Athava Anatthadand
+        Sevan Ka Pachhakkhan Jisme Ath Agar Aye Va, Raye Va, Naye Va, Parivare Va, Deve Va,  Nage Va,  Jakkhe Va, Bhuye Va,
+        Ettiehim Agarehim Annattha Javajjivaye Duviham, Tivihenam, Na Karemi, Na Karvemi, Mansa, Vaysa, Kaysa, Evam Athava
+        Anatthadand Virman Vrat Ke Panch Aiyara Janiyavva Na Samayariyavva Tamjaha Te Aloum-Kandappe, Kukkuie,
+        Moharie, Sanjuttahigarane, Uvabhog Paribhogairitte, Jo Me Devasio Aiyaro Kao Tass Michhami Dukkadam.
+        \n\n\n\n\n
+    </string>
+    <string name="text_navva_samayik_vrat">
+Savajjam  Jogam Pachhakkhami Javniyamam  Pajjuvasami  Duviham, Tivihenam, Na Karemi, Na  Karvemi, Mansa,  Vaysa, Kaysa, Eisi Meri
+        Saddahana Prarupna To Hai, Samayik Ka Avsar Aye, Samayik Karu Tab Pharasna Karke Shuddh  Hou  Evam  Navme Samayik Vrat Ke
+        Panch Aiyara  Janiyavva Na Samayariyavva Tamjaha  Te Aloum-Manduppanihane, Vayduppanihane,
+        Kayduppanihane, Samaiyassa Sai Akarnaya, Samaiyassa Anavatthiyassa Karanaya, Jo Me Devasio Aiyaro Kao Tass Michhami Dukkadam.
+        \n\n\n\n\n
+    </string>
+    <string name="text_dasva_deshavagasik_vrat">
+Din Prati Prabhat Se Prarambh Karke Purvadik Chaho Dishao Me Jitni Bhoomika Ki Maryada Rakhi Ho, Uske  Uprant Svechha Kaya Se Age
+        Jakar Panch Ashrav Sevan Ka Pachhakkhan Jav Ahorattam Duviham, Tivihenam, Na Karemi, Na Karvemi, Mansa, Vaysa, Kaysa Tatha
+        Jitni Bhoomika Ki Hadd Rakhi Hai, Usme Jo Dravyadik Ki Maryada  Ki Hai Uske Uprant Upbhog Paribhog Vastu Ko Bhog Nimitt Se
+        Bhogne Ka Pachhakkhan Jav Ahorattam Egviham, Tivihenam, Na Karemi, Mansa, Vaysa, Kaysa Evam  Dasve Desavagasik Vrat Ke Panch
+        Aiyara Janiyavva Na Samayariyavva Tamjaha Te Aloum-Anvanappaoge, Pesavanappaoge,
+        Saddanuvae, Ruvanuvae, Bahiyapuggal Pakkheve, Jo Me Devasio  Aiyaro Kao  Tass Michhami  Dukkadam.
+        \n\n\n\n\n
+    </string>
+    <string name="text_gyarahva_padipunna_paushadh_vrat">
+Asanam, Panam, Khaimam, Saimam Ka Pachhakkhan, Abambh Sevan  Ka Pachhakkhan, Amuk Mani-Suvarna Ka Pachchakkhan, Mala Vannaga-Vilevan
+        Ka Pachhakkhan, Satthamusladik Savajja Jog Sevan Ka Pachhakkhan, Jav Ahorattam Pajjuvasami Duviham, Tivihenam, Na Karemi, Na
+        Karvemi, Mansa, Vaysa, Kaysa Aisi Meri  Saddahana Prarupana To Hai, Poushadh Ka Avsar Aye Poushadh Karu, Tab Pharasna Karke
+        Shuddh Hou Evam Gyarahva Pratipurna Paushadh Vrat Ke Panch Aiyara Janiyavva Na Samayariyavva Tamjaha Te Aloum-Appadilehiy
+        Duppadilehiy Sejjasantharae, Appamajjiy Duppamajjiy Sejjasantharae, Appadilehiy Duppadilehiy Uchhar Pasvanbhoomi, Appamajjiy
+        Duppamajjiy
+        Uchhar  Pasvanbhoomi, Posahassa Sammam Ananupalanaya, Jo Me Devasio Aiyaro Kao Tass Michhami Dukkadam.
+         \n\n\n\n\n
+    </string>
+    <string name="text_barahva_atithi_samvibhag_vrat">
+Samne Nigganthe Phasuy Esanijjenam Asanam, Panam, Khaimam, Saimam, Vatha, Padiggaha, Kambal, Paypunchhanenam, Padihariy Peedh,
+        Phalag, Sejja, Santharenam, Osah, Bhesajjenam, Padilabhemane Vihrami, Aisi Meri Saddahana Prarupana To Hai,
+        Sadhu Sadhviyo Ka Yog Milne Par Nirdosh Dan Du, Tab Pharasna Karke Shudhh Hou, Evam Barahve Atithi Samvibhag Vrat Ke Panch
+        Aiyara Janiyavva Na Samayariyavva Tamjaha
+        Te Aloum-Sachitta Nikkhevanya, Sachitta Pihanya, Kalaikkame, Parovaese, Machhariyae, Jo Me Devasio Aiyaro Tass Michhami Dukkadam.
+    \n\n\n\n\n
+    </string>
+    <string name="text_badi_sanlekhana_ka_path">
+    Aho Bhante! Apachhim Marnantia Samlehana, Jhusana Arahana Poushadhshala Punj, Punjkar, Uchhar Pasvan Bhumi Padileh, Padileh Kar
+        Gamna-Gamne Padikkam, Padikkam Kar Darbhadik Santhara Santhar-Santhar Kar, Darbhadik Santhara Duruh-Duruhakar, Purva
+        Tatha Uttar Disha Sammukh Palyankadik Asan Se Baith, Baithkar Karyal Sampariggahiyam Sirsavattam Mathae Anjali Kattu Evam
+        Vayasi “Namotthunam Arihantanam Bhawantanam Jav Sampattanam” Aise Anant Siddh Bhagwan Ko Namaskar Karke “Namotthunam,
+        Arihantanam Bhagwantanam Jav Sampaviu Kamanam”Jayvante Vartaman Kale Mahavideh Kshetra Me Vicharte Hue Tirthankar Bhagwan Ko
+        Namaskar Karke Apne Dharmacharyaji Ko Namaskar Karta Hu. Sadhu Pramukh Charo Tirth Ko Khama Ke, Sarva Jeev Rashi Ko Khama
+        Karke,  Pehle Jo Vrat Adre Hai, Unme Jo Atichar Dosh Lage Hai, Ve Sarva Aloch Ke, Padikkam Ke, Nind Ke, Nishalya Ho Karke
+        Savvam Panaivayam Pachhakkhami, Savvam Musavayam Pachhakkhami, Savvam Adinnadanam Pachhakkhami, Savvam Mehunam Pachhakkhami,
+        Savvam Pariggaham Pachhakkhami, Savvam Koham Manam Jav Michhadamsanasallam Savvam Akarnijjam Jogam Pachhakkhami, Javajjivae
+        Tiviham Tivihenam Na Karemi, Na Karvemi, Karantam Pi Annam Na Samanujanami,  Mansa, Vaysa, Kaysa Aise Atharah Papsthan
+        Pachhakkh Ke Savvam Asnam, Panam, Khaimam, Saimam, Chauvvihampi Aharam Pachhakkhami, Javajjivae Aise Charo Ahar Pachhakkh Ke
+        Jam Piyam Imam Sariram Ittham, Kantam, Piyam, Manunnam, Manamam, Dhijjam, Visasiyam, Sammayam, Anumayam, Bahumayam,
+        Bhandakarandag Samanam, Rayankarandag Bhuyam, Ma Nam Siyam, Ma Nam Unham, Ma Nam Khuha, Ma Nam Pivasa, Ma Nam Vala, Ma Nam
+        Chora, Ma Nam Damsamasaga, Ma Nam Vaiyam, Pittiyam, Kaffiyam, Sambhimam, Sannivaiyam, Viviha Rogayanka, Parisaha Uvasagga,
+        Phasa Phusantu Evam Piyanam Charimehim Ussasa Nissasehim Vosirami.  Ti Kattu Aise Sharir s Vosira Ke, Kalam Anavakankh Mane
+        Vihrami, Aisi Meri Saddahana Prarupana To Hai, Farasna Karu Tab Shuddh Hou, Aise Apachhim Marnantiy Samlehana Jusana Arahanae
+        Panch Aiyara Janiyavva Na Samayariyavva Tamjaha Te Aloum - Ihalogasansappaoge
+        Parlogasansappaoge Jeeviyasansappaoge Marnasansappaoge Kambhogasansappaoge Jo Me Devasio Aiyara Kao Tass Michhami Dukkadam.
+        \n\n\n\n\n
+    </string>
+    <string name="text_samuchchhay_ka_path">
+Yo Samkit purvak 12 Vrat , Salekhanaa sahit, esame jo koi Aatikram, Vyatikram, Atichaar, Anaachar janate Ajante, man-vachan-kaya se
+        sevan kiya ho, karavaya ho, Anumodan kiya ho to Anant siddh kevalgyaani kee Aatma kee Sakshi se Tassa Michchhaami Dukkadam.
+        \n\n\n\n\n
+    </string>
+    <string name="text_chaudah_sthaan_samoorchchhim_manushya_ka_path">
+Chaudah Sthaan samoorchchhim jeev aaloum - 1. Uchchaaresu vaa, 2. paasavanesu vaa, 3. khelesu vaa, 4. sanghaanesu vaa, 5. vantesu vaa, 6.
+        pittesu vaa, 7. soniesu vaa, 8. pooesu vaa, 9. sukkesu vaa, 10. sukka puggal parisaadesu vaa, 11. vigay jeev parisaadesu vaa,
+        12. itthee puris kalevaresu vaa, 13. nagar niddhamanesu vaa, 14. savvesu
+        chev asueethhaanesu vaa in choudaha prakaar ke samoorchchhim  manushyo kee viraadhana kee ho to tassa michchhaami Dukkadam.
+        \n\n\n\n\n
+    </string>
+    <string name="text_pacchis_mithyaatva_ka_paath">
+1)Abhigrahik Mithyaatva\n2)Anaabhigrahik Mithyaatva\n3)Abhiniveshik  Mithyaatva\n4)Saansayik Mithyaatva\n5)Anaabhog Mithyaatva
+        \n6)Loukik Mithyaatva \n7)Lokottar\n8)Krupraavachanik\n9)Jinmaarg se nyoon kahe to Mithyaatva
+        \n10) Jinmaarg se adhik kahe to Mithyaatva\n11) Jinmarg se vipareet kahe to Mithyaatva\n12)Jeev ko Ajeev kahe to Mithyaatva
+        \n13)Ajeev ko Jeev kahe to Mithyaatva\n14)Dharma ko Adharma Shraddhe to Mithyaatva\n15)Adharma ko Dharma Shraddhe
+        to Mithyaatva\n16)Saadhu ko Asaadhu shraddhe to Mithyaatva\n17)Asaadhu ko Saadhu Shraddhe to Mithyaatva\n18)Mokshmaarg ko
+        Sansaar kaa maarg shraddhe to Mithyaatva\n19)Sansaar ke maarg ko Mokshs ka maarg Shraddhe to Mithyaatva\n20)Moksh gaye ko
+        moksh naahi gaye Shraddhe to Mithyaatva\n21)Moksh naahi gaye ko Moksh gaye Shraddhe to Mithyaatva\n22)Avinay  Mithyaatva
+        \n23)Aasaatanaa Mithyaatva\n24)Agnaan Mithyaatva\n25)Akriyaa Mithyaatva, \nin  25 prakaar ke Mithyaatva me se kisee Mithyaatva ka
+        seven kiyaa ho, seven karaayaa ho,
+        seven karanevaale ko Anumodan kiya ho to Tassa Michchhami Dukkadam.
+        \n\n\n\n\n
+    </string>
+    <string name="text_shraman_sootra">
+        Shree Mahaveer Swami, Simandhar Swami, Guruguruniji m. s. aapase ‘ Shraman Sootra’ karne ki aadnyaa leta / leta hu.
+        \n\n\n\n\n
+    </string>
+    <string name="text_maangalik">
+        Chattaari magalam, Arihantaa magalam, Siddhaa magalam, Saahoo magalam Kevalipannatto Dhammo mangalam, Chattaari loguttamaa,
+        Arihantaa loguttamaa, saahoo loguttamaa, Kevali pannatto Dhammo Loguttamaa, Chattaari Saranam Pavajjaami, Arihante Saranam
+        Pavajjaami Siddhe Saranam Pavajjami, Saahu Saranam Pavajjami, Kevali pannattam dhammam Saranam Pavajjami, Arihanto Ka Sharana,
+        Siddho Ka Sharana, Saadhuvo ka Sharana, Kevaliparupeet Daya Dharm  Ka Sharana, Chaar  Sharana, Durgati Harana aur Sharana
+        Nahi Koy, Jo Bhavi Praani Aadare To Ajar Amar Pad Hoy.\n
+                   Angusthe Amrut Vase,\n
+                   Labddhi Tana Bhandar |\n
+                   Shreeguru Gautam Sumariye,\n
+                   Manvancchit Phaldattar |\n
+                   Bhave Bhavana Bhaviye,\n
+                   Bhave Dije Daan |\n
+                   Bhave Dharm  Aaradhiye\n
+               	 Bhave Kevalgyaan |\n
+                  Bhave Padh Nirvaan ||\n
+\n\n\n\n
+    </string>
+    <string name="text_nidradosh_nivurutti_ka_paath">
+Icchami Paddikkmium Pagaamsijaye, Nigaamsijaye Santhara Uvatthanaye, Pariytthanaye, aautthanaye, Pasaarnaye, Chappai
+        Sanghattanaye Kuiye, Kakkaraiye, Chiye, Jambhaiye, Oomose Sasrakhamose, Aaulmaulaye, Suvanvattiyaye,
+        Ithivipariyasiyaye, Ditthivipariyasiyaye,
+        Manvipariyasiyaye, Pan-Bhoyan-vipariyasiyaye, jo me Devasio Aiyaro Kao Tass Michhami Dukkadam.
+        \n\n\n\n\n
+    </string>
+    <string name="text_bhikshadosh_nivurutti_ka_paath">
+Paddhikkmami Goyarggachariyaye, Bhikkhariyaye , Ugghadkavad Ugghadnaye, Saana-Vaccha-Darayaa-Sanghtanaye, Mandipahudiyaye,
+        Balipahudiyaye, Thavana-Paahudiyaye, Sankiye, Sahassagare, Aanesnaye, Panesnaye, Annabhoanaye, Panbhoanaye, Biybhoanaye,
+        Hariybhoanaye, Pacchakammiyaye, Purekammiyaye, Adithhadaye, Dagsansathhadaye, Raysansathhada, Parisadniyaye, Parithavaniyaye,
+        Oohasnabhikkkhaye, Jam Uggamenam, Uppaynesnaaye,
+        Apadisuddham, Paddiggahiyam Paribbhuttam Vaa Jam n Paritthaviyam, Tass Michhami Dukkadam.
+        \n\n\n\n\n
+    </string>
+    <string name="text_svadhaay_tatha_pratilekhana_dosh_nivurutti_ka_paath">
+Padikkammami Chaukalam Sajzayassa Akarnayaye Ubhoo Kalam Bhandovagrnssa Appadilehnnaye, Duppadilehnnaye, Appamajjanaye,
+        Duppamajjanaye, Aaikkamane, Vaikkamane, Aiyare, Anayare,  jo me Devasio Aiyaro- Kao Tass Michhami Dukkadam.
+         \n\n\n\n\n
+    </string>
+    <string name="text_teintes_bol_ka_paath">
+Padikkamami egvihe Asanjame. Padikkamami dohim Bandhanehim – Rag bandhnenam , Dos bandhnenam. Padikkamami tihim Dandehim – Man
+        dandenam, Vay dandenam, Kaaya dandenam. Padikkamami tihim Guttihim – Man guttiye, Vay guttiye, kaay guttiye. Padikkamami
+        tihim sallehim – Maya sallenam, Niyan sallenam, michhadansan sallenam, Padikkamami tihim Gaarvehim - Iddhi gaarvenam,
+        Ras gaarvenam, Saaya gaarvenam. Padikkamami tihim Virahanaahim – Naan virahanaae, Dansan virahanaae,
+        Charitt virahanaae. Padikkamami Chauhim kasaaehim – Koh kasaaenam, Maan kasaaenam, Maaya kasaaenam, Loh kasaaenam.
+Padikkamami Chauhim Sannahim – Ahaar sannae, Bhay sannae, Mehun sannae, Pariggah sannae.  Padikkamami
+Chauhim Vikahaahim – Itthi Kahaae, Bhatt kahaae, Des Kahaae, Raay Kahaae. Padikkamami Chauhim Zanehim – Attenam zaanenam ,
+        Ruddenam zaanenam, Dhammenam zaanenam, Sukkenam zaanenam. Padikkamami Panchahim kiriyaahim – Kaaiyaae,
+        Ahigarniyaae, Paausiyae, Parittavniyaae, Paanaivayaae.
+Padikkamami Panchahim Kaam Gunehim Saddenam, Ruvenam, Gandhenam, Rasenam, Faasenam, Padikkamami Panchahim Mahavvaehim – Savvaao -
+        Panaaivayao - Vermanam, Savvaao Musaavayao Vermanam, Savvao Aadinnadanao Vermanam, Savvao Mehunao Vermanam, Savvao Pariggahao
+        Vermanam.
+Padikkamami Panchahim Samaihim – Iriyaa samiiye, Bhaasha samiiye, Esnaa samiiye, Ayaanbhand - mattnikkhevana samiiye, Uccharpasvaan -
+        khel jalsandhaan - paritthavniyaa samiiye.  Padikkamami Chhahim Jivnikaaehim – Pudhvikaaenam, Aau kaaenam, Teu kaaenam,
+        Vau kaaenam, Vanassai kaaenam, tas kaaenam. Padikkamami Chhahim Lesaahim – Kinha lesaae, Neel lesaae, Kau lessae, Teu lessae,
+        Paum lessae, Sukk lesaae. Padikkamami Sattahim Bhaythhanehim – Ihloga bhaenam, Parloga  bhaenam, Aadaan bhaenam, Akamha
+        bhaenam, Aajeevika bhaenam, Maran Bhaenam, Silaagha bhaenam.
+Padikkamami Attahim Maytthaanehim – Jaaimaenam, Kulmaenam, Balmaenam, Ruvmaenam, Tavmaenam, Laab hmaenam, Sooymaenam, Issriyaamaenam.
+        Padikkamami Navhim Bambhcher guttihim. Padikkamami Dashim Samandhammehim. Ekkarashim Uvaasag padimahim. Baarashim Bhikkhu
+        Padimaahim. Terasahim Kiriyaa Thhanehim, Chaudasahim Bhuyagaamehim, Pannarasahim Parmahammi ehim, Solasahim Gahaa Solasehim.
+        Sattarasvihe Asanjamehim, Attarasvihe Abambhehim, Egunvissae Naayazay nehim, Visaae Asamaahi thhanehim, Egvisaae Sablehim,
+        Baavisaae Parisehim, Tevisaae Suyagadjzaynehim,
+Chauvisaae Devehim, Panvisaae Bhaavnahim, Chhavvisaae Dasaa kappa - vavharenam Uddesankalenam, Sattavisaae Anagaar - Gunehim,
+        Athh - thha - visaae Aayarapp - kappehim, Eguntisaae Paavsuyapp - sangehim, Tisaae Mahaamohniya Thaanehim, Egtisaae
+        Siddhaae Gunehim, Battisaae Jogsang - he - him, Tettisaae Aasaanaae,  Arihantanam Aasaanaae, Siddhaanam Aasaanaae,
+        Aayariyaanam
+Aasaanaae, Uvajzaayanam Aasaanaae, Saahunam Aasaanaae, Saahuninam Aasaanaae, Saavyaanam Aasaanaae, Saaviyaanam Aasaanaae,
+        Devanam Aasaanaae, Devinam Aasaanaae, Iha Logassa Aasaanaae, Para-logassa Aasaanaae, Kevalinam Aasaanaae,
+        Kevali Pannatassa Dhamassa  Aasaanaae, Sadevmanuyaa - surassa - Logassa Aasaanaae, Savva- Paan- Bhooya- jeev- Sattanam
+        Aasaanaae, Kalassa Aasaanaae, Suyassa Aasaanaae, Suydevyaae Aasaanaae, Vaaynayriyassa Aasaanaae,  Jam Vaiddham,
+        Vachhameliyam, Heenakkharam, Achhakkharam, Payheenam, Vinayheenam, Jogheenam, Ghosaheenam, Sutthudinnam, Dutthupadichhiyam,
+        Akale Kao Sajjhao, Kale Na Kao Sajjhao, Asajjhaye Sajjhaiyam, Sajjhaye Na Sajjhaiyam, Eesinam Egaaiye Tettisaae Thhananam
+        Mazje je Jaaniyvvaaim te no naaya, Je Vippajhiy - vvaim – Teno - Vippajhiyaa, Je Samayriyvvaim Teno Samayriya Tassa Michhaami
+        Dukdam.
+        \n\n\n\n\n\n
+    </string>
+    <string name="text_nigranth_pravachan_ka_path">
+Namo Chauvvisaye Titthayranam Usabhai-Mahaveer Pajjvsananam, Inamev Niggantham Pavyanam, Saccham, Anuttaram, Kevaliyam, Paddipunnam,
+        Neyauyam, Sansuddham, Sallakattanam, Siddhimaggam, Muttimaggam, Nijjanmagganam, Nivvanmagganam, khAvithamvisandidhham,
+        Savvadukhppahinmaggam, ittham Thiya Jiva, Sijzanti, Bujzanti, Mucchanti, Parinivvayanti, savvadukhhanmantam Karanti,
+        tam Dhammam Saddahami Patiyami, Royemi, Phasemi, Palemi, Anupalemi, Tam Dhammam Saddahanto, Pattiyanto, Royanto, Phasanto,
+        Palanto, Anupalanto, Tassa Dhammass, Kevalipannassa, Abhhutthioomi
+     \n\nAarahnaye, Veeroomi, Virahnaye, Asanjamam Pariyanami, Sanjamam Uvasanpajjaammi, Kappam Uvasanpajjaammi, Annanam Pariyanami,
+        Nanam Uvasanpajjaammi Akiriyam Pariyanami, Kiriyam Uvasanpajjaammi Micchattam Pariyanami Sammattam Uvasanpajjaammi,
+        Abohim Pariyanami, Maggam Uvasanpajjaammi, jam Samrami, jam ch n Samrami, jam Padikkamami, jam ch n Padikkamami,
+        Samnoham Sanjay - viray - Padihay - Pacchkkhaypavkamme, Aniyano, Didithsampanno Mayamosam - Vivajjaoo,
+        Addhaijjesu Divsamuddesu, Pannaras - Kammabhumisu Javanti Kei Saahu, Rayharan - Gucchag - Padiggahadhara, Panch
+        Mahvvaydhara, Attharassahassa Silangarhadhra, Akkhay - aayar - Charritta, te Savve Sirasa, Manasa, matthein Vandami ||
+\n\n\n\n\n
+    </string>
+    <string name="text_panchva_avashyak">
+Shree Mahaveer Swami, Simandhar Swami, Guruguruniji m. s.  aapase Panch Padon ki Bhavvandana karne ki  aadnyaa leta / leti hu.
+        \n\n\n\n\n
+    </string>
+    <string name="text_first_savaiya">
+        Pratham Sat Akshar Padho Panch Padho Chitlay,\n\n
+	Sat Sat Nav Akshara, Pap Sakal kshay Jay|\n\n
+Pahile pad Arihant Bhagwan Jaghanya Bees Tirthankarji, Utkrushta Ek Sau Sath Tatha Ek Sau Sittar Devadhidevji Unme Vartaman Kal
+        Me Bees Viharmanji Mahavideh Kshetra Me Vicharte Hai. Ek Hajar Ath Lakshan Ke Dharanhar Chautis Atishay, Paintis Vani Karke
+        Virajman, Chausath Indro Ke Vandaniy, Pujaniy, Atharah Dosh Rahit, Barah Gun Sahit, Anant Gyan, Anant Darshan, Anant
+        Charitra, Anant Bal Virya, Divya-Dhwani, Bhamandal, Sphatik-Sinhasan, Ashok-Vruksh, Kusum-Vrushti, Dev Dundubhi, Chatra
+        Dharave, Chamvar Bijave, Purushakar Parakram Ke Dharanhar,  Aise Adhai Dveep Pandraha Kshetra Me Vicharte Hai, Jaghanya
+        Do Karod Kevali, Utkrushta Nav Karod Kevali, Kevalgyan, Kevaldarshan, Ke Dharanhar Sarva Dravya-Kshetra-Kal-Bhav Ke Jananhar.
+        \n\n\n\n\n
+    </string>
+    <string name="text_second_savaiya">
+        Namo Shri Arihant, Karmo Ka Kiya Ant,\n\n
+Hua So Kevalvant Karuna Bhandari Hai |\n\n
+Atishay Chautis Dhar, Paintis Vani Uchhar,\n\n
+Samjhave Nar-Nar, Par Upkari Hai |\n\n
+Sharir Sundarkar, Suraj So Jhalkar,\n\n
+Gun Hai Anant Sar, Dosh Parihari Hai |\n\n
+Kahat Hai Tilok Rikh, Man Vach Kayakari,\n\n
+Luli Luli Barambar, Vandana Hamari Hai |\n\n
+Aise Shri Arihant Bhagwan Din Dayal Maharaj Apki Diwas Sambandhi Avinay Ashatana Ki Ho To, He Arihant Bhagwan! Mera Apradh Kshma
+        Kariye! Hath Jod, Man Mod, Shish Namakar, Tikkutto Ke Path Se Ek Hazar Ath Bar Vandana Namaskar Karta Hu.
+        (Recite Full Tikkhutto Path Here) Ap Mangalik Ho, Ap Uttam Ho, He Swami!He Nath!Apka Is Bhav,  Parbhav, Bhav-Bhav Me
+        Sadakal Sharan Ho.\n\n
+Duje Pad Shri Siddh Bhagwan Maharaj-Choudh Prakare, Pandrah Bhede Anant Siddh Hue Hai, Ath Karma Khapakar Moksh Pahunche Hai, Tirth
+        Siddha, Atirth Siddh, Tirthankar Siddha, Atirthankar Siddha, Svayambuddha Siddha, Pratyekbuddha Siddha, Buddha Bodhit Siddha,
+        Strilin Siddha, Purushling Siddha, Napumsakling Siddha, Swaling Siddha, Anyaling Siddha, Grihasthaling Siddha, Ek Siddha,
+        Anek Siddha, Jahan Janma Nahi, Jara Nahi, Maram Nahi, Bhay Nahi, Rog Nahi, Shok Nahi, Dukh Nahi, Daridra Nahi, Karm Nahi,
+        Kaya Nahi, Moh Nahi, Maya Nahi, Chakar Nahi, Thakar Nahi, Bhukh Nahi, Trusha Nahi, Jyot Me Jyot Virajman, Sakal Karya Siddh
+        Karke, Choudah Prakare, Pandrah Bhede Anant Siddh Bhagwan Hue Hai. Anant Gyan, Anant Darshan, Anant Sukh, Kshayik Samkit,
+        Atal Avgahana, Amrut, Agurulaghu, Anantavirya, Ye Ath Gun Karke Sahit Hai.
+\n\n\n\n\n
+    </string>
+    <string name="text_third_savaiyya">
+        Sakal Karam Tal, Vash Kar Liyo Kal,\n\n
+Mugati Me Rahya Mal, Atma Ko Tari Hai |\n\n
+Dekhat Sakal Bhav, Hua Hai Jagat Rav,\n\n
+Sada Hi Kshayik Bhav, Bhaye Avikari Hai |\n\n
+Achal Atal Roop, Ave Nahi Bhav Koop,\n\n
+Anup Swaroop Up, Aise Siddh Dhari Hai |\n\n
+Kahat Hai Tilok Rikh, Batao Ea Vas Prabhu,\n\n
+Sada Hi Ugante Soor, Vandana Hamari Hai |\n\n
+Aise Shri Siddh Bhagwan Din Dayal Maharaj Apki Diwas Sambandhi Avinay Ashatna Ki Ho To, He Siddh Bhagwan! Mera Apradh Barambar
+        Kshama Kariye! Hath Jod, Man Mod, Shish Namakar, Tikkutto Ke Path Se Ek Hazar Ath Bar Vandana Namaskar Karta Hu.
+        (Recite Full Tikkhutto Path Here)Ap Mangalik Ho, Ap Uttam Ho, He Swami!He Nath! Apka Is Bhav,  Parbhav, Bhav-Bhav Me Sadakal
+        Sharan Ho.\n\n
+Tije Pad Shri Acharyaji Maharaj-Chattis Gun Karke Virajman, Panch Mahavrat Pale, Panch Achar Pale, Panch Indriya Jeete,
+        Char Kashay Tale, Nav-Vad Sahit Shuddh Brahmacharya Pale, Panch Samiti, Teen Gupti, Shuddh Aradhe Ye
+        Chattis Gun Karke Sahit Hai. Ath Sampada - 1. Achar Sampada 2. Shrut Sampada 3. Sharir Sampada 4. Vachan Sampada
+        5. Vachana Sampada 6. Mati Sampada 7. Prayogmati Sampada 8. Sangrah Parigya Sampada Sahit Hai.
+\n\n\n\n\n
+    </string>
+    <string name="text_fourth_savaiyya">
+        Gun Hai Chattis Pur, Dharat Dharam Ur,\n\n
+Marat Karam Krur, Sumati Vichari Hai |\n\n
+Shuddh So Acharwant,  Sundar Hai Roop Kant,\n\n
+Bhaniya Hai Sabhi Siddhant, Vachana Supyari Hai |\n\n
+Adhik Madhur Ven, Koi Nahi Lope Ken,\n\n
+Sakal Jivo Ka Sen, Kirati Apari Hai |\n\n
+Kahat Hai Tilok Rikh, Hitkari Det Seekh,\n\n
+Aise Acharajaji Ko, Vandana Hamari Hai |\n\n
+Aise shri Acharyaji Maharaj Nyaypakshi, Bhadrik Parinami, Param Pujya Kalpaniy Achitt Vastu Ke Grahanhar, Sachitt Ke Tyagi,
+        Vairagi, Mahaguni, Guno Ke Anuragi, Soubhagi Hai. Aise Shri Acharyaji Maharaj Apki Diwas Sambandhi Avinay Ashatana Ki Ho
+        To, He Acharya Bhagwan! Mera Apradh Barambar Kshama Kariye!Hath Jod, Man Mod, Shish Namakar, Tikkutto Ke Path Se Ek Hazar
+        Ath Bar Vandana Namaskar Karta Hu. (Recite Full Tikkhutto Path Here)Ap Mangalik Ho, Ap Uttam Ho, He Swami! He Nath! pka
+        Is Bhav,  Parbhav, Bhav-Bhav Me Sadakal Sharan Ho.
+        \n\n
+Chauthe Pad Shri Upadhyayji Maharaj-Pachhis Gun Karke Virajman Gyarah Ang, Barah Upang,
+        Charan Sattari, Karan Sattari, Ye Pachhis Gun Karke Sahit Hai, Gyarah Ang Ka Path Arth Sahit Sampurna Jane,
+        Choudah Purva Ke Pathak Aur Nimnokt Battis Sutro Ke Jankar Hai-Gyarah Ang-Acharang, Suyagdang, Thanang, Samvayang,
+        Vivahapannati, Gyata Dharm Katha, Uvasagdasa, Antagadadasa, Anuttarovavai, Prashna-Vyakaran, Vipak-Sootra| Barah
+        Upang-Uvavai, Rayppaseni, Jivabhigam, Pannavana, Jambudiv-Pannatti, Chandapannatti, Soorapannatti, Niryavaliya,
+        Kappavadansiya, Puphiya, Puphachuliya, Vanhidasa |Char Mool Sootra-Uttaradhyayan, Dashvaikalik, Nandisootra, Anuyogdwar
+        Sootra. Char Ched-Dashashrut Skandh, Bruhatkalp, Vyavhar Sootra, Nishith Sootra Aur Battisava Avashyak Sootra Tatha Anek
+        Grantho Ke Jankar, Sat Nay, Char Nikshep, Nischay, Vyavhar, Char Praman Adi Swamat Tatha Anyamat Ke Jankar. Manushya Ya
+        Devta Koyi Bhi Viwad Me Jinko Chalne Me Samarth Nahi, Jin Nahi Pan Jin Sarikhe, Kevali Nahi Pan Kevali Sarikhe Hai.
+        \n\n\n\n\n
+    </string>
+<string name="text_fifth_savaiyya">
+Padhat Gyarah Ang, Karmo Su Kare Jang,\n\n
+Pakhandi Ko Man Bhang, Karan Hushiyari Hai |\n\n
+Chavde Purabdhar, Janat Agam Sar,\n\n
+Bhaviyan Ke Sukhakar, Bhramata Nivari Hai |\n\n
+Padhave Bhavik Jan, Sthir Kar Det Man,\n\n
+Tap Kari Tave Tan, Mamta Ko Mari Hai |\n\n
+Kahat Hai Tilok Rikh, Gyan-Bhanu Partikh,\n\n
+Aise Upadhyayji Ko Vandana Hamari Hai |\n\n
+Aise Shri Upadhyayji Maharaj, Mithyatva Roop Andhkar Ke Metanhar, Samkit Roop Udyot Ke Karanhar, Dharm Se Digte Hue Prani Ko Sthir
+    Kare Sarae, Vare, Dhare, Ityadi Anek Gun Karke Sahit Hai. Aise Shri Upadhyayji Maharaj Apki Diwas Sambandhi Avinay Ashatana Ki
+    Ho To, He Upadhyayji Maharaj! Mera Apradh Barambar Kshama Kariye!Hath Jod, Man Mod, Shish Namakar, Tikkutto Ke Path Se Ek
+    Hazar Ath Bar Vandana Namaskar Karta Hu. (Recite Full Tikkhutto Path Here)Ap Mangalik Ho, Ap Uttam Ho, He Swami! He Nath! Apka
+    Is Bhav,  Parbhav, Bhav-Bhav Me Sadakal Sharan Ho.\n\n
+Panchave Pad Namo Loe Savva Sahunam Adhai Dvip Pandrah Kshetra Roop Lok Me Sarva Sadhuji Maharaj Jaghanya  Do Hajar Karod,
+    Utkrusht Nav Hajar Karod Jaywanta Vichare. Panch Mahavrat Pale, Panch Indriy Jeete, Char Kashay Tale, Bhav Sachhe, Karan-Sachhe,
+    Jog-Sachhe, Kshamavant, Vairagyawant, Man Samadharanya, Vay Samadharanya, Kay Samadharanya, Nan Sampanna, Dansan Sampanna,
+    Charitra Sampanna, Vedneey-Sama-Ahiyasanya, Marnantiy-Sama-Ahiyasanya, Aise Sattais Gun Karke Sahit Hai. Panch Achar Pale,
+    Cha-Kay Ki Raksha Kare, Sat Kuvyasan Chhode, Ath Mad Chhode, Navwad Sahit Shudh Brahmacharya Pale, Das Prakare Yati Dharm Dhare,
+    Barah Bhede Tapasya Kare, Satrah Bhede Sanyam Pale, Atharah Papo Ko Tyage, Bais Parishah Jeete, Tees Mahamohaniy Karm Nivare,
+    Taittis Ashatna Tale, Bayalees Dosh Tal Ke Ahar Pani Leve, Saitalis Dosh Tal Ke Bhoge, Bawan Anachar Tale, Tediya Ave Nahi,
+    Netiya Jeeme Nahi, Sachitt Ke Tyagi, Achitt Ke Bhogi, Loch Kare, Nange Pair Chale, Ityadi Kay Klesh Kare Aur Moh Mamta Rahit Hai.
+\n\n\n\n\n\n
+</string>
+    <string name="text_sixth_savaiya">
+        Adri Sanyam Bhar, Karni Kare Apar,\n\n
+Samiti Gupti Dhar Vikatha Nivari Hai |\n\n
+Jayana Kare Chah Kay, Savadhya Na Bole Vay,\n\n
+Bujhai Kashay Lay, Kiriya Bhandari Hai |\n\n
+Gyan Bhane Atho Yam, Leve Bhagwant Nam,\n\n
+Dharam Ko Kare Kam, Mamta Ko Mari Hai |\n\n
+Kahat Hai Tilok Rikh, Karmo Ko Tale Vikh,\n\n
+Aise Muniraj Ko, Vandana Hamari Hai |\n\n
+Aise Muniraj Maharaj Apki Diwas Sambandhi Avinay Ashatana Ki Ho To, He Muniraj Maharaj! Mera Apradh Barambar Kshama Kariye!
+        Hath Jod, Man Mod, Shish Namakar, Tikkutto Ke Path Se Ek Hazar Ath Bar Vandana Namaskar Karta Hu.
+        (Recite Full Tikkhutto Path Here)Ap Mangalik Ho, Ap Uttam Ho, He Swami!He Nath!Apka Is Bhav,  Parbhav,
+        Bhav-Bhav Me Sadakal Sharan Ho. \n\n
+Namo Mam Dhammayriyanam Arthath Mere Dharmacharyji Shri (Yah Apne Guru Maharaj Ka Nam Lena) Ko Vandana Namskar Ho Guruji
+        Maharaj Sadhuji Ke Gun Sahit, Dharmopadeshak Ke Datar Samyaktva Rup Ratna Ke Datar Sansar Samudra se Tarnewale,
+        Adnyan Andhakar Ko Mitanewale, Mokshmarga Me Laganewale, Anantaanant Upkari Mahapurush Hai |
+\n\n\n\n\n\n
+    </string>
+    <string name="text_seventh_savaiya">
+        Jaise Kapda Ko Than, Daraji Betat Aan,\n\n
+Khand Khand Kare Jan, Det So Sudhari Hai |\n\n
+Kasht Ko Jo Sutrdhar, Hem Ko Kase Sunar,\n\n
+Mati Ko Jo Kumbhkar, Patra Kare Tyari Hai |\n\n
+Dharati Ko Kirsan, Loh Ko Luhar Jan,\n\n
+Shilavat Shila Aan, Ghat Ghade Bhari Hai,\n\n
+Kahat Hai Tilok Rikh, Sudhare Jo Guru Sikh,\n\n
+Guru Upkari Nit, Lije Balihari Hai |\n\n
+Guru Mitra Guru Mat, Guru Saga Guru Tat,\n\n
+Guru bhup Guru Bhrat, Guru Hitkari Hai |\n\n
+Guru Ravi Guru Chandra, Guru Dev Guru Indra,\n\n
+Guru Det Hai Anand, Guru Pad Bhari Hai |\n\n
+Guru Det Nyan Dyan, Guru Det Dan Man,\n\n
+Guru Det Moksha Sthan, Sada Upkari Hai |\n\n
+Kahat Hai Tilok Rikh, Bhali Bhali Dini Sikh,\n\n
+Pal Pal Guruji Ko, Vandana Hamari Hai |\n\n
+Gurudev Maharaj! Apki Diwas Sambhandi Avinay Ashatana Ki Ho To Maf Kijiye.
+        Hath Jod, Man Mod, Shish Namakar Ek Hazar Ath Bar Vandan Namskar Karta Hu. (Recite Full Tikkhutto Path Here) Guruji
+        Gurunisa Maharaj Apka Is Bhav, Parbhav, Bhav-Bhav Me Sadakal Sharan Ho
+\n\n\n\n\n\n
+    </string>
+    <string name="text_doha">
+        Anant Chaubisi Jin Namu Siddh Ananta Karod,\n\n
+Kevalgyani Ganadhara Vandu Be Kar Jod |\n\n
+Doy Karod Kewal Dhara Viharman Jin Bees,\n\n
+Sahastra Yugal Kodi Namu Sadhu Namu Nish Dees |\n\n
+Dhan Sadhu Dhan Sadhavi Dhan Dhan Hai Jin Dharma,\n\n
+Ye Samarya Patak Zare Tute Atho Karm |\n\n
+Anguthe Amrit Base Labdhi Tana Bhandar,\n\n
+Shri Guru Gautam Samariye Man Vanchit Phal Datar |\n\n
+Guru Dipak Guru Chandano, Guru Bin Ghor Andhar,\n\n
+Palak N Visaru Tum Bhani Guru Muze Pran Adhar |\n\n
+Sukh Deva Dukh Metava Yahi Tumhari Van,\n\n
+Moy Dasni Vinati Sunjo Krupanidhan |\n\n
+Jay Jay Shri Parmeshithine Jay Jay Shri Jin Ven,\n\n
+Jay Jay Shri Guru Ki Raho Diya Sumarag Jain |\n\n
+\n\n\n\n
+    </string>
+    <string name="text_ayariya_uvajjhaye_ka_path">
+Ayariya Uvajjhaye Sise Sahmmiye Kul-Gane Ya,\n\n
+Je Me Keyi Kasaya Savve Tivihena Khamemi |\n\n
+Savvass Saman-Sanghass Bhagwao Anjali Karia Sise,\n\n
+Savvam Khamavaitta Khamami Savvass Ahayam Pi |\n\n
+Savvass Jeevrasissa Bhavao Dhamma-Nihiy Niyachitto,\n\n
+Savvam Khamavaitta Khamami Savvassa Ahayam Pi |
+\n\n\n\n\n\n
+    </string>
+    <string name="text_adhai_dweep_pandrah_kshetra_ka_path">
+Aise Adhai Dweep Pandrah Kshetra Me Tatha Bahar Shravak Shravika Dan Deve, Sheel Pale, Tapasya Kare, Shuddh Bhavna Bhave Samvar Kare,
+        Samayik Kare, Poushadh Kare, Pratikraman Kare, Teen Manorath Chintve, Choudah Niyam Chitare Jeevadi Nav Padharth Jane
+        Aise Shravak Ke Ekkees Gun Karke Yukta Ek Vrat Dhari Jav Barah Vrat Dhari Bhagwant Ki Agnya Me Vichare, Aise Bado Se Hath
+        Jod Pair Padkar Kshama Mangta Hu.
+        Ap Kshama Kare Ap Kshama Karne Yogya Hai, Aur Shesh Sabhi Ko Khamata Hu.
+        \n\n\n\n\n
+    </string>
+    <string name="text_chaurasi_lakh_jivyoni_ka_path">
+Sat Lakh Pruthvikay,  Sat Lakh Apkay, Sat Lakh Teukay, Sat Lakh Vayukay, Das Lakh Pratyek Vanaspatikay, Choudah Lakh Sadharan
+        Vanaspati Kay, Do Lakh Beindriy, Do Lakh Teindriy, Do Lakh Chaurindriy, Char Lakh Devta, Char Lakh Narki, Char Lakh
+        Tiryanch Panchendriy, Chaudah Lakh Manushya. Aise Char Gati, Chaubis Dandak, Chaurasi Lakh Jivyoni Me Sukshma Badar
+        Paryapta-Aparyapta Jeevo Me Se Kisi Jeev Ka Halte, Chalte, Uthte, Baithe, sote, Jagte, Hanan kiya Ho, Hanan Karaya Ho,
+        Hanta Prati Anumodan Kiya Ho, Cheda Ho, Bheda Ho, Kilamana Upajai Ho, To Man, Vachan, Kaya, Karke(18, 24, 120)
+        Atharah Lakh Chaubis Hajar Eksou Bees Prakare Diwas Sambandhi Tass Michhami Dukkadam.
+        \n\n\n\n\n
+    </string>
+    <string name="text_kulkodi_ko_khamane_pa_path">
+Pruthvikay ke Barah Lakh Kodikul, Apkay Ke Sat Lakh Kodikul, Teukay Teen Lakh Kodikul, Vayukay Ke Sat Lakh Kodikul,
+        Vanaspati Kay Ke Atthais Lakh Kodikul, Dwidriy Ke Sat Lakh Kodikul, Trindriy Ke Ath Lakh Kodikul, Chaturindriy Ke Nau Lakh
+        Kodikul, Jalchar Ke Sadhe Barah Lakh Kodikul, Sthalchar Ke Das Lakh Kodikul, Khechar Ke Barah Lakh Kodikul, Urpar Ke Das
+        Lakh Kodikul, Bhujpar Ke Nau Lakh Kodikul, Narak Ke Pachhis Lakh Kodikul, Devta Ke Chabis Lakh Kodikul,
+        Manushay Ke Barah Lakh Kodikul Yo Ek Karod Sade satanve Lakh Kodikul Ki Viradhana Ki Ho To Devsi Sambhandi Tass Michhami
+        Dukkadam.
+        \n\n\n\n\n
+    </string>
+    <string name="text_kshamapna_path">
+        Khamemi Savve Jeeva, Savve Jeeva Khamantu Me,\n
+Mitti Me Savva Bhooesu, Veram Majzam Na Kenai |\n
+Evamahm Aloiyam, Nindiyam Garhiyam Duguchhiyam Sammam,\n
+Tivihenam Padikkanto, Vandami Ji Chuvvisam |
+\n\n\n\n\n
+    </string>
+    <string name="text_pachave_aavashyak_kee_aadnyaa">
+        Pahala Samayik, Dusara Chauvisattva, Teesari Vandana, Chautha Pratikraman, ye Chaar Avashyak Purn Huye|
+        Shree Mahaveer Swami, Simandhar Swami evam Guruguruniji m. s.
+        aapase Pachave Aavashyak kee  aadnyaa leta / leti hu .
+    </string>
+    <string name="text_prayaschitt_ka_path">
+Devsiya Payacchitt Visohanattham Karemi Kaussaggam.
+    </string>
+    <string name="text_logassa_dnyaan">
+(Rayasi or Devsi Pratikaman - 4 loggassa ,  Pakkhi Pratikaman - 8 loggassa, Chaumasi Pratikaman - 12 loggassa,
+        Savvatsari Pratikaman - 20 loggassa Ka dhyan karna )
+    </string>
+    <string name="text_chatthe_aavashyak_ki_aadnya">
+        Pahala Samayik, Dusara Chauvisattva, Teesari Vandana, Chautha Pratikraman, Panchva Kaussagga,
+        ye Panch Avashyak Purn Huye| Shree Mahaveer Swami, Simandhar Swami evam Guruguruniji m. s.
+        aapase Chatthe Aavashyak ki  aadnya leta / leti hu.
+        \n\n\n\n\n
+    </string>
+    <string name="text_samuchhay_pachhakkhan_ka_path">
+Ganthisahiyam, Mutthisahiyam, Namukkarsahiyam, Porisiyam, Saddha Porisiyam, Apni Apni Ichhanusar Pachhakkhan Tiviham Pi,
+        Chauviham Pi, Aharam, Asnam, Panam, Khaimam, Saimam,
+        Annatthanabhogenam, Sahasagarenam, Mahattaragarenam, Savva-Samahi-Vattiyagarenam Appanam Vosirami.
+         \n\n\n\n\n
+    </string>
+    <string name="text_antim_path">
+Pahla Samayik, Dusra Chauvisattva, Teesri Vandana, Chautha Pratikraman, Panchva Kaussagga Aur Chattha Pratyakhyan In Chah
+        Avashyako Me Atikram, Vyatikram, Atichar, Anachar, Jante Ajante Koi Atichar Dosh Laga Ho Tatha Path Uchharan Karte
+        Samay Kana, Matra, Anuswar, Pad, Akshar, Adhik, Nyun, Aage, Piche Kaha Ho To Devsi Sambhandi Tass Michhami Dukkadam.\n\n
+Mithyatva Ka Pratikraman, Avrat Ka Pratkraman, Pramad Ka Pratikraman, Kashay Ka Pratikraman, Ashubh Yog Ka Pratikraman,
+        In Panch Prakar Ka Pratikraman Nahi Kiya Ho To Tass Michhami Dukkadam.\n\n
+Sam, Samveg, Nirved, Anukampa Aur Astha, Sacche Ki Shradha aur Juthe Ka Barmbar Michhami Dukkadam.\n\n
+Bhutkal Ka Pratikraman, Vartaman Kal Ki Samayik Aur Agmi Kal Ka Pachhakkhan, Ye Teen Karte Hai,
+        Karvate Hai, Karne Wale Ko Anumodan Dete Hai, Un Pursho Ko Dhanya Hai. Dev Arihant, Guru Nigranth, Keval Bhashit
+        Dayamay Dharma Ye Teen Tatva Sar!Sansar Aasar!Bhagwant Maharaj Apka Marg Sachham!Sachham!Sachham!Thaithui Mangalam.
+\n\n\n\n\n
+    </string>
+    <string name="chauvisatthav">
+        Chauvisatthav
+    </string>
+    <string name="pratikaman_ki_aadnya">
+        Pratikraman ki aadnya
+    </string>
+    <string name="samayik">
+        Samayik
+    </string>
+    <string name="chaturvishatistav">
+        Chaturvishatistav
+    </string>
+    <string name="vandna">
+        Vandana
+    </string>
+    <string name="pratikaman">
+        Pratikraman
+    </string>
+    <string name="kayotsarg">
+        Kayotsarg
+    </string>
+    <string name="pratyakhyan">
+        Pratyakhyan
+    </string>
+
+    <string name="title_chauvisathav_ka_path">
+        Chauvisathav Ki Aadnya
+    </string>
+    <string name="title_tikhutto_ka_path">
+        Tikhutto Ka Path
+    </string>
+    <string name="title_navkar_mantra_ka_path">
+        Navkar Mantra Ka Path
+    </string>
+    <string name="title_iriyavahi_ka_path">
+        Iriyavahi Ka Path
+    </string>
+    <string name="title_tass_uttari_ka_path">
+        Tass Uttari Ka Path
+    </string>
+    <string name="title_logassa">
+        Logassa
+    </string>
+    <string name="title_kayotsarg_vishudhi_ka_path">
+        Kayotsarg Vishudhi Ka Path
+    </string>
+    <string name="title_nammotthunam_ka_path">
+        Nammotthunam Ka Path
+    </string>
+
+    <string name="title_ichhaminam_bhante_ka_path">
+        Ichhaminam Bhante Ka Path
+    </string>
+    <string name="title_ichhami_thami_ka_path">
+        Ichhami Thami Ka Path
+    </string>
+    <string name="title_dnyan_ka_atichar_ka_path">
+        Dnyan Ke Atichar Ka Path
+    </string>
+    <string name="title_darshan_samyaktva_ka_path">
+        Darshan Samyaktva Ka Path (12Sthool)
+    </string>
+    <string name="title_pehla_sthool_pranatipat_virman_vrat">
+        Pehla Sthool-Pranatipat  Virman Vrat
+    </string>
+    <string name="title_duja_sthool_mrushawad_virman_vrat">
+        Duja Sthool Mrushawad  Virman Vrat
+    </string>
+    <string name="title_tija_sthool_adattadan">
+        Tija Sthool Adattadan
+    </string>
+
+    <string name="title_chautha_sthool_swadar_santosh_pardar_vivarjan_swapati_santosh_parpurush_vivarjan_roop_maithun_virman_vrat">
+        Chautha Sthool Swadar-Santosh Pardar Vivarjan (Swapati Santosh Parpurush Vivarjan) Roop Maithun Virman Vrat
+    </string>
+
+    <string name="title_panchava_sthool_parigrah_pariman_vrat">
+        Panchava Sthool Parigrah Pariman Vrat
+    </string>
+    <string name="title_chatthe_dishivrat">
+        Chatthe Dishivrat
+    </string>
+    <string name="title_satava_upbhog_paribhog_pariman_vrat">
+        Satava Upbhog Paribhog Pariman  Vrat
+    </string>
+    <string name="title_pandrah_karmadan">
+         Pandrah Karmadan
+    </string>
+    <string name="title_athave_anarthadand_virman_vrat">
+        Athave Anarthadand Virman Vrat
+    </string>
+    <string name="title_navave_samayik_vrat">
+        Navave Samayik Vrat
+    </string>
+    <string name="title_dasave_desavagasik_vrat">
+        Dasave Desavagasik Vrat
+    </string>
+    <string name="title_gyarhave_padipunna_paushadh_vrat">
+        Gyarhave Padipunna Paushadh Vrat
+    </string>
+    <string name="title_barhave_atithi_samvibhag_vrat">
+        Barhave Atithi Samvibhag Vrat
+    </string>
+    <string name="title_sanlekhana_ke_panch_atichar_ka_path">
+        Sanlekhana Ke Panch Atichar Ka Path
+    </string>
+    <string name="title_attharah_papsthan_ka_path">
+        Attharah Papsthan Ka Path
+    </string>
+    <string name="title_chaar_dhyan_ka_path">
+        Chaar Dhyan Ka Path
+    </string>
+    <string name="title_ichhami_khamasamno_ka_path">
+        Ichhami Khamasamno Ka Path
+    </string>
+    <string name="title_chautha_avashyak">
+        Chautha Avashyak
+    </string>
+    <string name="title_dyaan_ke_atichar_ka_paath">
+        Dyaan Ke Atichar Ka Paath
+    </string>
+    <string name="title_dansan_samkit_ka_path">
+        Dansan Samkit Ka Path
+    </string>
+    <string name="title_barah_anuvrat">
+        Barah Anuvrat
+    </string>
+    <string name="title_pahla_anuvrat">
+        Pahla Anuvrat
+    </string>
+    <string name="title_duja_anuvrat">
+        Duja Anuvrat
+    </string>
+    <string name="title_teeja_anuvrat">
+        Teeja Anuvrat
+    </string>
+    <string name="title_chautha_anuvrat">
+        Chautha Anuvrat
+    </string>
+    <string name="title_panchva_anuvrat">
+        Panchva Anuvrat
+    </string>
+    <string name="title_chattha_dishivrat">
+        Chattha Dishivrat
+    </string>
+    <string name="title_satava_vrat_upbhog_paribhogvihim">
+        Satava Vrat Upbhog-Paribhogvihim
+    </string>
+    <string name="title_athava_anatthadand_virman_vrat">
+        Athava Anatthadand Virman Vrat
+    </string>
+    <string name="title_navva_samayik_vrat">
+        Navva  Samayik Vrat
+    </string>
+    <string name="title_dasva_deshavagasik_vrat">
+        Dasva Deshavagasik Vrat
+    </string>
+    <string name="title_gyarahva_padipunna_paushadh_vrat">
+        Gyarahva Padipunna Paushadh Vrat
+    </string>
+    <string name="title_barahva_atithi_samvibhag_vrat">
+        Barahva Atithi Samvibhag Vrat
+    </string>
+    <string name="title_badi_sanlekhana_ka_path">
+        Badi Sanlekhana Ka Path
+    </string>
+    <string name="title_samuchchhay_ka_path">
+        Samuchchhay Ka Path
+    </string>
+    <string name="title_chaudah_sthaan_samoorchchhim_manushya_ka_path">
+        Chaudah Sthaan Samoorchchhim Manushya Ka Path
+    </string>
+    <string name="title_pacchis_mithyaatva_ka_paath">
+        Pacchis Mithyaatva Ka Paath
+    </string>
+    <string name="title_shraman_sootra">
+        Shraman Sootra
+    </string>
+    <string name="title_maangalik">
+        Maangalik
+    </string>
+    <string name="title_nidaradosh_nivurutti_ka_paath">
+        Nidaradosh Nivurutti Ka Paath
+    </string>
+    <string name="title_bhikshadosh_nivurutti_ka_paath">
+        Bhikshadosh Nivurutti Ka Paath
+    </string>
+    <string name="title_svadhaay_tatha_pratilekhana_dosh_nivurutti_ka_paath">
+        Svadhaay Tatha Pratilekhana Dosh Nivurutti Ka Paath
+    </string>
+    <string name="title_33_bol_ka_paath">
+        33 Bol Ka Paath
+    </string>
+    <string name="title_nigranth_pravachan_ka_path">
+        Nigranth Pravachan Ka Path
+    </string>
+    <string name="title_panchva_avashyak">
+        Panchva Avashyak
+    </string>
+    <string name="title_savaiya">
+        Savaiya
+    </string>
+    <string name="title_doha">
+        Doha
+    </string>
+    <string name="title_ayariya_uvajjhaye_ka_path">
+        Ayariya Uvajjhaye Ka Path
+    </string>
+    <string name="title_adhai_dweep_pandrah_kshetra_ka_path">
+        Adhai Dweep Pandrah Kshetra Ka Path
+    </string>
+    <string name="title_chaurasi_lakh_jivYoni_ka_path">
+        Chaurasi Lakh JivYoni Ka Path
+    </string>
+    <string name="title_kulkodi_ko_khamane_ka_path">
+        Kulkodi Ko Khamane Ka Path
+    </string>
+    <string name="title_kshamapna_path">
+        Kshamapna Path
+    </string>
+    <string name="title_prayaschitt_ka_path">
+        Prayaschitt Ka Path
+    </string>
+    <string name="title_karemi_bhante_ka_paath">
+        Karemi Bhante Ka Paath
+    </string>
+    <string name="title_samuchhay_pachhakkhan_ka_path">
+        Samuchhay Pachhakkhan Ka Path
+    </string>
+    <string name="title_antim_path">
+        Antim Path
+    </string>
+    <string name="title_devasi_pratikraman_karne_ki_aadnyaa">
+        Devasi/Raysi Pratikraman Karne Ki Aadnyaa
+    </string>
+    <string name="title_pratham_aavayshyak">
+        Pratham Aavashyak ki_Aadnyaa
+    </string>
+    <string name="title_barah_sthool">
+        Barah Sthool
+    </string>
+    <string name="title_dusre_aavayshyak">
+        Dusre Aavashyak ki_Aadnyaa
+    </string>
+    <string name="title_tije_aavayshyak">
+        Tije Aavashyak ki_Aadnyaa
+    </string>
+    <string name="title_chouthe_aavayshyak">
+        Chavthe Aavashyak ki_Aadnyaa
+    </string>
+    <string name="title_panchve_aavayshyak">
+        Panchve Aavashyak ki_Aadnyaa
+    </string>
+    <string name="title_shraman_sutra_ki_agyaa">
+        Shraman Sutra ki_Aadnyaa
+    </string>
+    <string name="title_bhav_vandana_ki_agyaa">
+        Bhav Vandana ki_Aadnyaa
+    </string>
+    <string name="title_logassa_dnyaan">
+        Logassa Dhyaan
+    </string>
+    <string name="title_chatthe_aavashyak_ki_aadnya">
+        Chatthe Aavashyak ki Aadnya
+    </string>
+    <string name="title_activity_path">PathActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_pehli_samayik">Pehla samayik</string>
+    <string name="title_mithyatva_ka_pratikraman">Mithyatva ka pratikraman</string>
+    <string name="title_sham_saveg">Sham Savveg</string>
+    <string name="title_bhootkaal_ka_pratikraman">Bhootkaal ka Pratikraman</string>
+
+    <string name="text_pehli_samayik">Pahla Samayik, Dusra Chauvisattva, Teesri Vandana, Chautha Pratikraman, Panchva Kaussagga Aur Chattha Pratyakhyan In Chah
+        Avashyako Me Atikram, Vyatikram, Atichar, Anachar, Jante Ajante Koi Atichar Dosh Laga Ho Tatha Path Uchharan Karte
+        Samay Kana, Matra, Anuswar, Pad, Akshar, Adhik, Nyun, Aage, Piche Kaha Ho To Devsi Sambhandi Tass Michhami Dukkadam.\n\n
+\n\n\n\n\n</string>
+    <string name="text_mithyatva_ka_pratikraman">Mithyatva Ka Pratikraman, Avrat Ka Pratkraman, Pramad Ka Pratikraman, Kashay Ka Pratikraman, Ashubh Yog Ka Pratikraman,
+        In Panch Prakar Ka Pratikraman Nahi Kiya Ho To Tass Michhami Dukkadam.\n\n
+\n\n\n\n\n</string>
+    <string name="text_sham_saveg">Sam, Samveg, Nirved, Anukampa Aur Astha, Sacche Ki Shradha aur Juthe Ka Barmbar Michhami Dukkadam.\n\n
+\n\n\n\n\n</string>
+    <string name="text_bhootkaal_ka_pratikraman">Bhutkal Ka Pratikraman, Vartaman Kal Ki Samayik Aur Agmi Kal Ka Pachhakkhan, Ye Teen Karte Hai,
+        Karvate Hai, Karne Wale Ko Anumodan Dete Hai, Un Pursho Ko Dhanya Hai. Dev Arihant, Guru Nigranth, Keval Bhashit
+        Dayamay Dharma Ye Teen Tatva Sar!Sansar Aasar!Bhagwant Maharaj Apka Marg Sachham!Sachham!Sachham!Thaithui Mangalam.
+\n\n\n\n\n</string>
+
+</resources>

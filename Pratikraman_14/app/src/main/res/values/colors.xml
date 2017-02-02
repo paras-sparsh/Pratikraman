@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#30275A</color>
+    <color name="colorPrimaryDark">#1e1839</color>
+    <color name="colorRed">#ff4a6a</color>
+    <color name="colorNavyBlue">#01334e</color>
+    <color name="colorAccent">#fd4545</color>
+    <color name="colorDivBar">#e5e5e5</color>
+    <color name="colorText">#2F5368</color>
+    <color name="colorChildTitles">#6a6a6a</color>
+    <color name="colorSplashBackground">#2E2956</color>
+</resources>
