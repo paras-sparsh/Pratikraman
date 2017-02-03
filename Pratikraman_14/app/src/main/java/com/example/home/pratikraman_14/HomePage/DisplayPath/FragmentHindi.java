@@ -89,10 +89,6 @@ public class FragmentHindi extends Fragment {
 //        }
     }
 
-
-
-
-
     public int getTheObject(String pos) {
         for (int i =0;i<completeList.size();i++){
             if (completeList.get(i).getId().equalsIgnoreCase(pos)) {
@@ -193,7 +189,6 @@ public class FragmentHindi extends Fragment {
     }
 
     public ArrayList<Path> createparentListForSixth() {
-
         Path p1 = new Path("46",this.getResources().getString(R.string.title_chautha_avashyak),this.getResources().getString(R.string.text_chauthe_aavashyak_ki_aadnyaa),R.raw.chouthe_aavyshak_ki_agyaa);
         Path p2 = new Path("47",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
         Path p3 = new Path("48",this.getResources().getString(R.string.title_dnyan_ka_atichar_ka_path),this.getResources().getString(R.string.text_dnyan_ke_atichar_ka_path),R.raw.pratikraman_agme_tivehe_panate);
@@ -254,11 +249,8 @@ public class FragmentHindi extends Fragment {
         Path p33 = new Path("2005",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
         Path p34 = new Path("2006",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
 
-
         ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3,p4,b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,p6,p7,p8,p9,p10,p11,p12,p2,p13,p14,p15,p11,p16,p17,p18,p19,p20,p21,p22,p23,p2,p13,a1,a2,a3,a4,a5,a6,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34));
         return parentList;
-
-
     }
 
     public ArrayList<Path> createparentListForSeventh() {
