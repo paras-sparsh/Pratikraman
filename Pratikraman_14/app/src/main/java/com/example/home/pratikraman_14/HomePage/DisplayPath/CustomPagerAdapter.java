@@ -23,7 +23,7 @@ class CustomPagerAdapter extends PagerAdapter {
     Context mContext;
     LayoutInflater mLayoutInflater;
     ArrayList<Path> completeList;
-
+    TextView tv;
     private Button playPause;
     private MediaPlayer mediaPlayer;
     private double startTime = 0;
@@ -52,7 +52,7 @@ class CustomPagerAdapter extends PagerAdapter {
     public Object instantiateItem(ViewGroup container, int position) {
         View itemView = mLayoutInflater.inflate(R.layout.pager_item, container, false);
 
-        TextView tv = (TextView) itemView.findViewById(R.id.textViewPath);
+        tv = (TextView) itemView.findViewById(R.id.textViewPath);
         tv.setText(completeList.get(position).getDescription());
         playPause = (Button)itemView.findViewById(R.id.play);
         seekbar = (SeekBar)itemView.findViewById(R.id.seekbar);

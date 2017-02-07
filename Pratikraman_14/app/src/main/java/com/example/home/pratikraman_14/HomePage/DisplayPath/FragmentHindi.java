@@ -22,9 +22,10 @@ import com.example.home.pratikraman_14.R;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class FragmentHindi extends Fragment {
-    ArrayList<Path> completeList;
+public class FragmentHindi extends Fragment implements PositionUpdateInterface {
+    static ArrayList<Path> completeList;
     CustomPagerAdapter mCustomPagerAdapter;
+    static String id;
 String position;
 public FragmentHindi(){}
     public FragmentHindi(ArrayList<Path> completeList, String pos) {
@@ -69,10 +70,12 @@ public FragmentHindi(){}
 
         mCustomPagerAdapter = new CustomPagerAdapter(getContext(), completeList);
         viewPager.setAdapter(mCustomPagerAdapter);
+        viewPager.setOffscreenPageLimit(1);
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
                 getActivity().setTitle(completeList.get(position).getTitle());
+                id = completeList.get(position).getId();
             }
 
             @Override
@@ -104,4 +107,13 @@ public FragmentHindi(){}
     }
 
 
+    @Override
+    public void setPosition(String pos) {
+
+    }
+
+    @Override
+    public String getPosition() {
+        return id;
+    }
 }

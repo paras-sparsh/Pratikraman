@@ -1,6 +1,9 @@
 package com.example.home.pratikraman_14.HomePage.DisplayPath;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -23,15 +26,16 @@ import com.example.home.pratikraman_14.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Locale;
 
 public class DisplayPathActivity extends AppCompatActivity {
     TextView textViewDisplayPath;
     CustomPagerAdapter mCustomPagerAdapter;
     ViewPager mViewPager;
     TabLayout tabLayout;
-    ArrayList<Path> completeList;
-
-
+    static  ArrayList<Path> completeList;
+String id;
+FragmentHindi fragment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,6 +58,40 @@ public class DisplayPathActivity extends AppCompatActivity {
 
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
+        fragment = (FragmentHindi)getSupportFragmentManager().findFragmentById(R.id.sub_fragment);
+        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                //PositionUpdateInterface positionUpdateInterface = (PositionUpdateInterface)TabsAdapter.ge
+                int pos = tab.getPosition();
+                if (pos == 0){
+                    setLocale(DisplayPathActivity.this,"hi");
+                    SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sharedPref.edit();
+                    editor.putString("locale", "hi");
+                    editor.commit();
+                }
+                else if (pos == 1){
+                    setLocale(DisplayPathActivity.this,"en");
+                    SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sharedPref.edit();
+                    editor.putString("locale", "en");
+                    editor.commit();
+                }
+                fragment = new FragmentHindi();
+                fragment.mCustomPagerAdapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+                //id = FragmentHindi.id;
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
 
 //        mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 //            @Override
@@ -80,7 +118,13 @@ public class DisplayPathActivity extends AppCompatActivity {
 //        String description = intent.getStringExtra("description");
 //        textViewDisplayPath.setText(description);
     }
-
+    public static void setLocale (Context context,String code){
+        Locale locale = new Locale(code);
+        Locale.setDefault(locale);
+        Configuration config = new Configuration();
+        config.locale = locale;
+        context.getApplicationContext().getResources().updateConfiguration(config, null);
+    }
     private void setupViewPager(ViewPager viewPager) {
         Intent intent = getIntent();
         String pos = intent.getStringExtra("id");
