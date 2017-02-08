@@ -57,7 +57,7 @@ public class FragmentEnglish extends Fragment {
         ViewPager viewPager = (ViewPager)getView().findViewById(R.id.view_pager);
         createList();
         mCustomPagerAdapter = new CustomPagerAdapter(getContext(), completeList);
-        viewPager.setAdapter(mCustomPagerAdapter);
+       // viewPager.setAdapter(mCustomPagerAdapter);
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {

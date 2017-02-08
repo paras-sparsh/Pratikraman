@@ -63,14 +63,14 @@ public FragmentHindi(){}
 //            String position = bundle.getString("position");
             setData(position);
         }
+        setRetainInstance(true);
     }
 
     public void setData(String pos) {
         ViewPager viewPager = (ViewPager)getView().findViewById(R.id.view_pager);
-
+    viewPager.setOffscreenPageLimit(1);
         mCustomPagerAdapter = new CustomPagerAdapter(getContext(), completeList);
-        viewPager.setAdapter(mCustomPagerAdapter);
-        viewPager.setOffscreenPageLimit(1);
+        //viewPager.setAdapter(mCustomPagerAdapter);
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {

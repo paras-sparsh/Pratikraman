@@ -9,9 +9,14 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
@@ -31,7 +36,7 @@ import java.util.Locale;
 public class DisplayPathActivity extends AppCompatActivity {
     TextView textViewDisplayPath;
     CustomPagerAdapter mCustomPagerAdapter;
-    ViewPager mViewPager;
+    RecyclerView mViewPager;
     TabLayout tabLayout;
     static  ArrayList<Path> completeList;
 String id;
@@ -40,59 +45,35 @@ FragmentHindi fragment;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_path);
-        createList();
+
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        //createList();
+        createList();
 
         Intent intent = getIntent();
-     String pos = intent.getStringExtra("id");
-        //mCustomPagerAdapter = new CustomPagerAdapter(this,completeList);
+        String pos = intent.getStringExtra("id");
 
-        mViewPager = (ViewPager) findViewById(R.id.pager);
-        setupViewPager(mViewPager);
-//        mViewPager.setAdapter(mCustomPagerAdapter);
+        mViewPager = (RecyclerView) findViewById(R.id.pager);
+        mCustomPagerAdapter = new CustomPagerAdapter(this,completeList);
+        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        mViewPager.setLayoutManager(mLayoutManager);
+        mViewPager.setItemAnimator(new DefaultItemAnimator());
+        mViewPager.setAdapter(mCustomPagerAdapter);
+        mCustomPagerAdapter.setSelectedItem(getTheObject(pos));
+        mViewPager.scrollToPosition(getTheObject(pos));
+
+mViewPager.addOnScrollListener(new RecyclerView.OnScrollListener() {
+    @Override
+    public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+        super.onScrollStateChanged(recyclerView, newState);
+        setTitle(completeList.get(newState).getTitle());
+    }
+});
+
+
 //        mViewPager.setCurrentItem(getTheObject(pos));
-
-        tabLayout = (TabLayout) findViewById(R.id.tabs);
-        tabLayout.setupWithViewPager(mViewPager);
-        fragment = (FragmentHindi)getSupportFragmentManager().findFragmentById(R.id.sub_fragment);
-        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-            @Override
-            public void onTabSelected(TabLayout.Tab tab) {
-                //PositionUpdateInterface positionUpdateInterface = (PositionUpdateInterface)TabsAdapter.ge
-                int pos = tab.getPosition();
-                if (pos == 0){
-                    setLocale(DisplayPathActivity.this,"hi");
-                    SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
-                    SharedPreferences.Editor editor = sharedPref.edit();
-                    editor.putString("locale", "hi");
-                    editor.commit();
-                }
-                else if (pos == 1){
-                    setLocale(DisplayPathActivity.this,"en");
-                    SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
-                    SharedPreferences.Editor editor = sharedPref.edit();
-                    editor.putString("locale", "en");
-                    editor.commit();
-                }
-                fragment = new FragmentHindi();
-                fragment.mCustomPagerAdapter.notifyDataSetChanged();
-            }
-
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab) {
-                //id = FragmentHindi.id;
-            }
-
-            @Override
-            public void onTabReselected(TabLayout.Tab tab) {
-
-            }
-        });
-
 //        mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 //            @Override
 //            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
@@ -118,27 +99,35 @@ FragmentHindi fragment;
 //        String description = intent.getStringExtra("description");
 //        textViewDisplayPath.setText(description);
     }
-    public static void setLocale (Context context,String code){
-        Locale locale = new Locale(code);
-        Locale.setDefault(locale);
-        Configuration config = new Configuration();
-        config.locale = locale;
-        context.getApplicationContext().getResources().updateConfiguration(config, null);
+//    public static void setLocale (Context context,String code){
+//        Locale locale = new Locale(code);
+//        Locale.setDefault(locale);
+//        Configuration config = new Configuration();
+//        config.locale = locale;
+//        context.getApplicationContext().getResources().updateConfiguration(config, null);
+//    }
+//    private void setupViewPager(ViewPager viewPager) {
+//        Intent intent = getIntent();
+//        String pos = intent.getStringExtra("id");
+//        TabsAdapter adapter = new TabsAdapter(getSupportFragmentManager());
+//        FragmentHindi fragmentHindi = new FragmentHindi(completeList,pos);
+//        FragmentHindi fragmentEnglish = new FragmentHindi(completeList,pos);
+//        Bundle bundle = new Bundle();
+//        bundle.putString("position",pos);
+//        fragmentHindi.setArguments(bundle);
+//        fragmentEnglish.setArguments(bundle);
+//        adapter.addFragment(fragmentHindi, "Hindi");
+//        adapter.addFragment(fragmentEnglish, "English");
+//        viewPager.setAdapter(adapter);
+//    }
+public int getTheObject(String pos) {
+    for (int i =0;i<completeList.size();i++){
+        if (completeList.get(i).getId().equalsIgnoreCase(pos)) {
+            return i;
+        }
     }
-    private void setupViewPager(ViewPager viewPager) {
-        Intent intent = getIntent();
-        String pos = intent.getStringExtra("id");
-        TabsAdapter adapter = new TabsAdapter(getSupportFragmentManager());
-        FragmentHindi fragmentHindi = new FragmentHindi(completeList,pos);
-        FragmentHindi fragmentEnglish = new FragmentHindi(completeList,pos);
-        Bundle bundle = new Bundle();
-        bundle.putString("position",pos);
-        fragmentHindi.setArguments(bundle);
-        fragmentEnglish.setArguments(bundle);
-        adapter.addFragment(fragmentHindi, "Hindi");
-        adapter.addFragment(fragmentEnglish, "English");
-        viewPager.setAdapter(adapter);
-    }
+    return -1;
+}
 
     @Override
     public boolean onSupportNavigateUp(){
