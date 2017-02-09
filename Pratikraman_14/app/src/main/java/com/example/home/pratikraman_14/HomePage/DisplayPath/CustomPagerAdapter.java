@@ -35,7 +35,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         this.completeList = completeList;
     }
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        public TextView tv;
+        public TextView tv,tvTotalTime, tvCurrentTime;
         public Button playPause;
         public SeekBar seekbar;
         private double startTime = 0;
@@ -47,6 +47,8 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         public MyViewHolder(View view) {
             super(view);
             tv = (TextView) view.findViewById(R.id.textViewPath);
+            tvTotalTime = (TextView) view.findViewById(R.id.textViewTotalTime);
+            tvCurrentTime = (TextView) view.findViewById(R.id.textViewCurrentTime);
             playPause = (Button)itemView.findViewById(R.id.play);
             seekbar = (SeekBar)itemView.findViewById(R.id.seekbar);
 
@@ -60,6 +62,9 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
                             if (mediaPlayer.isPlaying()) {
                                 mediaPlayer.stop();
                                 playPause.setBackgroundResource(R.drawable.play_button);
+                            }
+                            else {
+                                playPause.setBackgroundResource(R.drawable.pause_button);
                             }
                         }
                         initializeMediaPlayer(file);
@@ -77,6 +82,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
 //        int id = getApplicationContext().getResources().getIdentifier(songListItemVO.songName, "raw", getApplicationContext().getPackageName());
             mediaPlayer = MediaPlayer.create(mContext,file);
             songDuration = mediaPlayer.getDuration();
+
             seekbar.setMax(mediaPlayer.getDuration());
             seekbar.setProgress(mediaPlayer.getCurrentPosition());
             seekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
@@ -84,8 +90,10 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
                 public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                     if (fromUser) {
                         mediaPlayer.seekTo(progress);
+
                     } else {
                         seekbar.setProgress(mediaPlayer.getCurrentPosition());
+
                     }
                 }
 
@@ -106,7 +114,8 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         private void StartSongInMediaPlayer() {
             this.mediaPlayer.start();
             playPause.setBackgroundResource(R.drawable.play_button);
-
+//            tvCurrentTime.setText(mediaPlayer.getCurrentPosition());
+//            tvTotalTime.setText(mediaPlayer.getDuration());
             finalTime = mediaPlayer.getDuration();
             startTime = mediaPlayer.getCurrentPosition();
             seekbar.setProgress((int) startTime);
@@ -125,7 +134,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
 //        startTime = mediaPlayer.getCurrentPosition();
 //        seekbar.setProgress((int) startTime);
 //        myHandler.postDelayed(this, 100);
-
+            //tvCurrentTime.setText(mediaPlayer.getCurrentPosition());
             seekbar.setProgress(mediaPlayer.getCurrentPosition());
             handler.postDelayed(UpdateSongTime, 1000);
         }
@@ -166,12 +175,9 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         holder.tv.setText(completeList.get(position).getDescription());
         holder.handler = new Handler();
         holder.registerOnClickListeners();
-//            currentSongListItemVO = (SongVO) getIntent().getSerializableExtra(Constants.SONG_OBJECT);
         holder.initializeStartElements(completeList.get(position).getMusicFile());
-//        Movie movie = moviesList.get(position);
-//        holder.title.setText(movie.getTitle());
-//        holder.genre.setText(movie.getGenre());
-//        holder.year.setText(movie.getYear());
+//        holder.tvCurrentTime.setText(holder.mediaPlayer.getCurrentPosition());
+//        holder.tvTotalTime.setText(holder.mediaPlayer.getDuration());
     }
 
     @Override

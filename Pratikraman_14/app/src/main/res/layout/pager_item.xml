@@ -94,7 +94,6 @@ tools:showIn="@layout/activity_display_path">
             android:layout_gravity="right"
             android:layout_weight="0.25"
             android:textSize="10sp"
-            android:text="0.03"
             android:textColor="@color/colorPrimaryDark"
             android:id="@+id/textViewCurrentTime"/>
         <SeekBar
@@ -107,7 +106,6 @@ tools:showIn="@layout/activity_display_path">
             android:layout_width="0dp"
             android:layout_marginTop="7dp"
             android:layout_height="match_parent"
-            android:text="5.03"
             android:textSize="10sp"
             android:layout_gravity="left"
             android:textColor="@color/colorPrimaryDark"

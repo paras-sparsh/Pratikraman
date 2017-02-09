@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.icu.text.MessagePattern;
 import android.support.annotation.NonNull;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,6 +31,7 @@ public class ExpandableListviewAdapter extends
         ExpandableRecyclerAdapter<Parts, Path, ParentViewHolder, ChildViewHolder> implements ExpandableRecyclerAdapter.ExpandCollapseListener {
     private LayoutInflater inflator;
     private List<Parts> partsList;
+
 
     Context context;
     ArrayList<Path> parentTitles ;
@@ -67,10 +70,13 @@ public class ExpandableListviewAdapter extends
                     new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            Intent intent = new Intent(context, DisplayPathActivity.class);
-                            intent.putExtra("description",parentTitles.get(parentPosition).description);
-                            intent.putExtra("id",parentTitles.get(parentPosition).getId());
-                            context.startActivity(intent);
+                            if(parentTitles.get(parentPosition).description.length() > 0) {
+                                Intent intent = new Intent(context, DisplayPathActivity.class);
+                                intent.putExtra("description",parentTitles.get(parentPosition).description);
+                                intent.putExtra("id",parentTitles.get(parentPosition).getId());
+                                context.startActivity(intent);
+                            }
+
                         }
                     }
             );
@@ -90,10 +96,10 @@ public class ExpandableListviewAdapter extends
                     new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            Intent intent = new Intent(context, DisplayPathActivity.class);
-                            intent.putExtra("description",pathList.get(childPosition).description);
-                            intent.putExtra("id",pathList.get(childPosition).getId());
-                            context.startActivity(intent);
+                                Intent intent = new Intent(context, DisplayPathActivity.class);
+                                intent.putExtra("description", pathList.get(childPosition).description);
+                                intent.putExtra("id", pathList.get(childPosition).getId());
+                                context.startActivity(intent);
                         }
                     }
             );

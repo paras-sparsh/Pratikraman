@@ -7,12 +7,16 @@ import android.content.res.Configuration;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
@@ -23,6 +27,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.home.pratikraman_14.HomePage.ExpandableListviewAdapter;
 import com.example.home.pratikraman_14.HomePage.HomePageActivity;
 import com.example.home.pratikraman_14.HomePage.Parts;
 import com.example.home.pratikraman_14.HomePage.Path;
@@ -33,10 +38,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Locale;
 
-public class DisplayPathActivity extends AppCompatActivity {
+public class DisplayPathActivity extends AppCompatActivity  {
     TextView textViewDisplayPath;
     CustomPagerAdapter mCustomPagerAdapter;
     RecyclerView mViewPager;
+
     TabLayout tabLayout;
     static  ArrayList<Path> completeList;
 String id;
@@ -50,6 +56,13 @@ FragmentHindi fragment;
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout_display_path);
+//        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+//                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+//        drawer.setDrawerListener(toggle);
+//        toggle.syncState();
+//        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view_display_path);
+//        navigationView.setNavigationItemSelectedListener(this);
         createList();
 
         Intent intent = getIntent();
@@ -71,6 +84,8 @@ mViewPager.addOnScrollListener(new RecyclerView.OnScrollListener() {
         setTitle(completeList.get(newState).getTitle());
     }
 });
+
+
 
 
 //        mViewPager.setCurrentItem(getTheObject(pos));
@@ -120,6 +135,8 @@ mViewPager.addOnScrollListener(new RecyclerView.OnScrollListener() {
 //        adapter.addFragment(fragmentEnglish, "English");
 //        viewPager.setAdapter(adapter);
 //    }
+
+
 public int getTheObject(String pos) {
     for (int i =0;i<completeList.size();i++){
         if (completeList.get(i).getId().equalsIgnoreCase(pos)) {
@@ -255,8 +272,8 @@ public int getTheObject(String pos) {
 
         Path p12 = new Path("57",this.getResources().getString(R.string.title_shraman_sutra_ki_agyaa),this.getResources().getString(R.string.text_shraman_sootra),R.raw.shraman_sutra_ki_agyaa);
         Path p13 = new Path("58",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
-        Path p14 = new Path("59",this.getResources().getString(R.string.title_karemi_bhante_ka_paath),this.getResources().getString(R.string.text_eng_KaremiBhante),R.raw.samayik_karemi_bhante);
-        Path p15 = new Path("60",this.getResources().getString(R.string.title_maangalik),this.getResources().getString(R.string.text_maangalik),R.raw.mangalik_bada_marasa);
+        Path p14 = new Path("59",this.getResources().getString(R.string.title_eng_KaremiBhante),this.getResources().getString(R.string.text_eng_KaremiBhante),R.raw.samayik_karemi_bhante);
+        Path p15 = new Path("60",this.getResources().getString(R.string.title_maangalik),this.getResources().getString(R.string.text_maangalik),R.raw.manglik_bada_ms);
         Path p16 = new Path("61",this.getResources().getString(R.string.title_eng_Irrayavahia),this.getResources().getString(R.string.text_eng_Iriyavahia),R.raw.chauvistva_icchakarenam);
         Path p17 = new Path("62",this.getResources().getString(R.string.title_nidaradosh_nivurutti_ka_paath),this.getResources().getString(R.string.text_nidradosh_nivurutti_ka_paath),R.raw.nidradosh_nivruti_ka_path);
         Path p18 = new Path("63",this.getResources().getString(R.string.title_bhikshadosh_nivurutti_ka_paath),this.getResources().getString(R.string.text_bhikshadosh_nivurutti_ka_paath),R.raw.bhikshadosh_nivruti_ka_path);

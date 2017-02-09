@@ -7,7 +7,7 @@
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/splash_screen"/>
+            android:src="@drawable/final_splash"/>
     </item>
 
 </layer-list>

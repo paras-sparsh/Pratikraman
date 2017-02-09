@@ -4,35 +4,27 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_part_1"
-            android:icon="@drawable/icon_one"
             android:title="@string/chauvisatthav" />
         <item
             android:id="@+id/nav_part_2"
-            android:icon="@drawable/ic_two_nav"
             android:title="@string/pratikaman_ki_aadnya" />
         <item
             android:id="@+id/nav_part_3"
-            android:icon="@drawable/ic_three_nav"
             android:title="@string/samayik" />
         <item
             android:id="@+id/nav_part_4"
-            android:icon="@drawable/ic_four_nav"
             android:title="@string/chaturvishatistav" />
         <item
             android:id="@+id/nav_part_5"
-            android:icon="@drawable/ic_five_nav"
             android:title="@string/vandna" />
         <item
             android:id="@+id/nav_part_6"
-            android:icon="@drawable/ic_six_nav"
             android:title="@string/pratikaman" />
         <item
             android:id="@+id/nav_part_7"
-            android:icon="@drawable/ic_seven_nav"
             android:title="@string/kayotsarg" />
         <item
             android:id="@+id/nav_part_8"
-            android:icon="@drawable/ic_eight_nav"
             android:title="@string/pratyakhyan" />
     </group>
 

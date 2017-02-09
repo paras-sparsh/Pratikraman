@@ -151,14 +151,16 @@
 </string>
 
 <string name="text_chauvisathav_ka_path">
-    Shree Mahaveer Swami, Simandhar Swami, Guruguruniji m. s.  aapase Chauvisathav karne ki aadnyaa leta / leti hu.
-</string>
-<string name="text_devsi_pratikraman_ki_agya">
     श्री महावीर स्वामी, सिमंधर स्वामी, गुरू, गुरूणीजी म.सा.
 
     आपसे
 
-    प्रतिक्रमण ठाने की आज्ञा लेता / लेती हूँ ।
+    चउविसत्थव करने की आज्ञा लेता / लेती हूँ ।
+</string>
+<string name="text_devsi_pratikraman_ki_agya">
+    श्री महावीर स्वामी, सिमंधर स्वामी, गुरू, गुरूणीजी म.सा.
+
+आपसे देवसि / रायसि प्रतिक्रमण ठाने की आज्ञा लेता / लेती हूँ ।
     \n\n\n\n\n
 </string>
 <string name="text_ichhaminam_bhante_ka_path">
