@@ -79,14 +79,16 @@ FragmentHindi fragment;
         mViewPager.setAdapter(mCustomPagerAdapter);
         mCustomPagerAdapter.setSelectedItem(getTheObject(pos));
         mViewPager.scrollToPosition(getTheObject(pos));
+        setTitle(completeList.get(getTheObject(pos)).getTitle());
+        mViewPager.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+                super.onScrollStateChanged(recyclerView, newState);
+                int positionView = ((LinearLayoutManager)mViewPager.getLayoutManager()).findFirstVisibleItemPosition();
 
-mViewPager.addOnScrollListener(new RecyclerView.OnScrollListener() {
-    @Override
-    public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
-        super.onScrollStateChanged(recyclerView, newState);
-       // setTitle(completeList.get(onRetainCustomNonConfigurationInstance()).getTitle());
-    }
-});
+                setTitle(completeList.get(positionView).getTitle());
+            }
+        });
 mViewPager.setHasFixedSize(true);
 
         LinearSnapHelper snapHelper = new LinearSnapHelper() {
