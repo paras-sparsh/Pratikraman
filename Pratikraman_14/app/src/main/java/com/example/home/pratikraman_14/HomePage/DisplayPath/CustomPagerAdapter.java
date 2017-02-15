@@ -26,7 +26,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
     LayoutInflater mLayoutInflater;
     ArrayList<Path> completeList;
     private static int selectedItem = -1;
-
+    public static MediaPlayer mediaPlayer;
 
 
     public CustomPagerAdapter(Context context, ArrayList<Path> completeList ){
@@ -34,6 +34,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         mLayoutInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         this.completeList = completeList;
     }
+
     public class MyViewHolder extends RecyclerView.ViewHolder {
         public TextView tv,tvTotalTime, tvCurrentTime;
         public Button playPause;
@@ -42,7 +43,6 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         private double finalTime = 0;
         private Handler handler;
         int songDuration = 0;
-        public MediaPlayer mediaPlayer;
 
         public MyViewHolder(View view) {
             super(view);
@@ -53,6 +53,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
             seekbar = (SeekBar)itemView.findViewById(R.id.seekbar);
 
         }
+
         private void initializeStartElements(final int file) {
             ((DisplayPathActivity)mContext).runOnUiThread(new Runnable() {
                 @Override
@@ -61,9 +62,21 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
                         if (null != mediaPlayer) {
                             if (mediaPlayer.isPlaying()) {
                                 mediaPlayer.stop();
+                                mediaPlayer.reset();
+//                                if(playPause.getBackground
+//                                        ().equals(R.drawable.play_button)){
+//                                    playPause.setBackgroundResource(R.drawable.pause_button);
+//                                } else {
+//                                    playPause.setBackgroundResource(R.drawable.play_button);
+//                                }
                                 playPause.setBackgroundResource(R.drawable.play_button);
                             }
                             else {
+//                                if(playPause.getBackground().equals(R.drawable.play_button)){
+//                                    playPause.setBackgroundResource(R.drawable.pause_button);
+//                                } else {
+//                                    playPause.setBackgroundResource(R.drawable.play_button);
+//                                }
                                 playPause.setBackgroundResource(R.drawable.pause_button);
                             }
                         }
@@ -84,6 +97,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
             songDuration = mediaPlayer.getDuration();
 
             seekbar.setMax(mediaPlayer.getDuration());
+            tvTotalTime.setText(songDuration);
             seekbar.setProgress(mediaPlayer.getCurrentPosition());
             seekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
                 @Override
@@ -107,21 +121,18 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
 
                 }
             });
-
-
         }
 
         private void StartSongInMediaPlayer() {
-            this.mediaPlayer.start();
+            mediaPlayer.start();
             playPause.setBackgroundResource(R.drawable.play_button);
-//            tvCurrentTime.setText(mediaPlayer.getCurrentPosition());
-//            tvTotalTime.setText(mediaPlayer.getDuration());
+//           tvCurrentTime.setText(mediaPlayer.getCurrentPosition());
+           // tvTotalTime.setText(mediaPlayer.getDuration());
             finalTime = mediaPlayer.getDuration();
             startTime = mediaPlayer.getCurrentPosition();
             seekbar.setProgress((int) startTime);
             handler.postDelayed(UpdateSongTime, 100);
         }
-
 
         private Runnable UpdateSongTime = new Runnable() {
             @Override
@@ -147,14 +158,40 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
                     //Toast.makeText(getContext(),"hdfhdjkghkjf",Toast.LENGTH_LONG);
                     if (mediaPlayer.isPlaying()) {
                         mediaPlayer.pause();
-                        playPause.setBackgroundResource(R.drawable.pause_button);
-
+                        //mediaPlayer.reset();
+                        playPause.setBackgroundResource(R.drawable.play_button);
+//                        if(playPause.getBackground().equals(R.drawable.play_button)){
+//                            playPause.setBackgroundResource(R.drawable.pause_button);
+//                        } else {
+//                            playPause.setBackgroundResource(R.drawable.play_button);
+//                        }
                     } else {
                         StartSongInMediaPlayer();
+                        //playPause.setBackgroundResource(R.drawable.play_button);
+//                        if(playPause.getBackground().equals(R.drawable.play_button)){
+//                            playPause.setBackgroundResource(R.drawable.pause_button);
+//                        } else {
+//                            playPause.setBackgroundResource(R.drawable.play_button);
+//                        }
                     }
                 }
             });
         }
+
+//        @Override
+//        protected  void onPause(){
+//
+//        }
+//        protected void onDestroy() {
+//            super.onPause();
+//            if (mediaPlayer != null) {
+//                mediaPlayer.pause();
+//                if (isFinishing()) {
+//                    mediaPlayer.stop();
+//                    mediaPlayer.release();
+//                }
+//            }
+//        }
     }
 
     @Override
@@ -177,7 +214,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         holder.registerOnClickListeners();
         holder.initializeStartElements(completeList.get(position).getMusicFile());
 //        holder.tvCurrentTime.setText(holder.mediaPlayer.getCurrentPosition());
-//        holder.tvTotalTime.setText(holder.mediaPlayer.getDuration());
+        //holder.tvTotalTime.setText(mediaPlayer.getDuration());
     }
 
     @Override
@@ -190,52 +227,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
     }
 
 //    @Override
-//    public int getCount() {
-//        return completeList.size();
-//    }
-
-//    @Override
-//    public boolean isViewFromObject(View view, Object object) {
-//        return view == ((LinearLayout) object);
-//    }
+//    protected  void onPause(){
 //
-//    @Override
-//    public Object instantiateItem(ViewGroup container, int position) {
-//        View itemView = mLayoutInflater.inflate(R.layout.pager_item, container, false);
-//
-//        tv = (TextView) itemView.findViewById(R.id.textViewPath);
-//        tv.setText(completeList.get(position).getDescription());
-//        playPause = (Button)itemView.findViewById(R.id.play);
-//        seekbar = (SeekBar)itemView.findViewById(R.id.seekbar);
-//        handler = new Handler();
-//        registerOnClickListeners();
-////            currentSongListItemVO = (SongVO) getIntent().getSerializableExtra(Constants.SONG_OBJECT);
-//        initializeStartElements(completeList.get(position).getMusicFile());
-//        container.addView(itemView);
-//        return itemView;
-//    }
-//
-//    @Override
-//    public void destroyItem(ViewGroup container, int position, Object object) {
-//        container.removeView((View) object);
-//
-//    }
-//
-//    public int getItemPosition(Object object) {
-//        return POSITION_UNCHANGED;
-//    }
-//
-//
-
-
-
-//    @Override
-//    public void onDestroy() {
-//        super.onDestroy();
-//        mediaPlayer.release();
-//        if (null != handler) {
-//            handler.removeCallbacks(UpdateSongTime);
-//            handler = null;
-//        }
 //    }
 }

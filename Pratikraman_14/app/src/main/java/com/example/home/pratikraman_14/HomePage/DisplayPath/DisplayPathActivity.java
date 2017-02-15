@@ -20,7 +20,9 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.LinearSnapHelper;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SnapHelper;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
@@ -69,6 +71,7 @@ FragmentHindi fragment;
         String pos = intent.getStringExtra("id");
 
         mViewPager = (RecyclerView) findViewById(R.id.pager);
+        mViewPager.setHasFixedSize(true);
         mCustomPagerAdapter = new CustomPagerAdapter(this,completeList);
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         mViewPager.setLayoutManager(mLayoutManager);
@@ -81,12 +84,43 @@ mViewPager.addOnScrollListener(new RecyclerView.OnScrollListener() {
     @Override
     public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
         super.onScrollStateChanged(recyclerView, newState);
-        setTitle(completeList.get(newState).getTitle());
+       // setTitle(completeList.get(onRetainCustomNonConfigurationInstance()).getTitle());
     }
 });
+mViewPager.setHasFixedSize(true);
 
+        LinearSnapHelper snapHelper = new LinearSnapHelper() {
+            @Override
+            public int findTargetSnapPosition(RecyclerView.LayoutManager layoutManager, int velocityX, int velocityY) {
+                View centerView = findSnapView(layoutManager);
+                if (centerView == null)
+                    return RecyclerView.NO_POSITION;
 
+                int position = layoutManager.getPosition(centerView);
+                int targetPosition = -1;
+                if (layoutManager.canScrollHorizontally()) {
+                    if (velocityX < 0) {
+                        targetPosition = position - 1;
+                    } else {
+                        targetPosition = position + 1;
+                    }
+                }
 
+                if (layoutManager.canScrollVertically()) {
+                    if (velocityY < 0) {
+                        targetPosition = position - 1;
+                    } else {
+                        targetPosition = position + 1;
+                    }
+                }
+
+                final int firstItem = 0;
+                final int lastItem = layoutManager.getItemCount() - 1;
+                targetPosition = Math.min(lastItem, Math.max(targetPosition, firstItem));
+                return targetPosition;
+            }
+        };
+        snapHelper.attachToRecyclerView(mViewPager);
 
 //        mViewPager.setCurrentItem(getTheObject(pos));
 //        mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
