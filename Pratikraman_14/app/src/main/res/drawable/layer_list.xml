@@ -7,7 +7,7 @@
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/final_splash"/>
+            android:src="@drawable/rectangle_navigation_header"/>
     </item>
 
 </layer-list>

@@ -187,6 +187,16 @@ public int getTheObject(String pos) {
         finish();
         return true;
     }
+    @Override
+    protected  void onDestroy() {
+        super.onDestroy();
+        if (CustomPagerAdapter.mediaPlayer != null) {
+            CustomPagerAdapter.mediaPlayer.pause();
+            if (isFinishing()) {
+                CustomPagerAdapter.mediaPlayer.stop();
+            }
+        }
+    }
 
     public void createList() {
         completeList = new ArrayList<>();
