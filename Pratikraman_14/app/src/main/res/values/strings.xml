@@ -20,7 +20,7 @@
     <string name="part_8">Bhav Vandana</string>
 
     <string name="title_eng_navkar_mantra">Navkar Mantra</string>
-    <string name="title_eng_Tikkhuto">Tikkhuto Ka Path</string>
+    <string name="title_eng_Tikkhuto">Tikkhuto Ka Path(3 times)</string>
     <string name="title_eng_dhyan">4 Dhyan Ka Path</string>
     <string name="title_eng_Tassauttari">Tassa Uttari Ka Path</string>
     <string name="title_eng_Logassa">Logassa Ka Path</string>
@@ -34,6 +34,7 @@
     <string name="text_eng_navkar_mantra">Namo Arihantanam,\nNamo Siddanam,\nNamo Aayariyanam,\nNamo Uvajjhayanam,\nNamo Loe Savva-sahunam,\nEso Panch Namokkaro,\nSavva-pava ppanasano \nManglanam cha savvesim\nPadhamamHavai Mangalam.
    \n\n\n\n\n </string>
     <string name="text_eng_Tikkhuto">
+        (3 baar Saviddhi bole)
         Tikkhuto, Ayahinam,\n
 Payahinam, Karemi,\n
 Vandami, Namamsami,\n
@@ -152,6 +153,14 @@ Agame Tivihe Pannatte Tamjaha Suttagame, Atthagame, Tadubhayagame, Is Tarah Teen
         Vicharta, Gyan Aur Gyanvant Purusho Ki Avinay Ashatna Ki Ho To Jo Me Devasio Aiyaro Kao Tass Michhami Dukkadam.
         \n\n\n\n\n
     </string>
+    <string name="text_dnyan_ke_atichar_ka_path_with_micchami_dukdaam">
+        Agame Tivihe Pannatte Tamjaha Suttagame, Atthagame, Tadubhayagame, Is Tarah Teen Prakar Ke Agamrup Gyan Ke Vishay Me Jo Koi Atichar
+        Laga Ho To Aloum,  Jam Vaiddham, Vachhameliyam, Heenakkharam, Achhakkharam, Payheenam, Vinayheenam, Jogheenam, Ghosaheenam,
+        Sutthudinnam, Dutthupadichhiyam, Akale Kao Sajjhao, Kale Na Kao Sajjhao, Asajjhaye Sajjhaiyam, Sajjhaye Na Sajjhaiyam, Bhanta,
+        Gunta,
+        Vicharta, Gyan Aur Gyanvant Purusho Ki Avinay Ashatna Ki Ho.
+        \n\n\n\n\n
+        </string>
     <string name="text_darshan_samyaktva_ka_path">
         Arihanto Mah Devo, Javjjivam Susahuno Guruno\n
 Jinapannattam Tattam, Ea Sammattam Maye Gahiyam ।।1।।\n

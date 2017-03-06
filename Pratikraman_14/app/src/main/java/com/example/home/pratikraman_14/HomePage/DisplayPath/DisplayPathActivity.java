@@ -212,7 +212,7 @@ public int getTheObject(String pos) {
         Path p8 = new Path("9",this.getResources().getString(R.string.title_eng_Nammotthunam),this.getResources().getString(R.string.text_eng_Nammotthunam),R.raw.chauvistva_namutthunam);
         Path p10 = new Path("3002",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
 
-        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3,p4,p5,p6,p10,p7,p9,p8));
+        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3,p4,p5,p6,p7,p9,p8));
         return parentList;
     }
 
@@ -281,7 +281,7 @@ public int getTheObject(String pos) {
     public ArrayList<Path> createparentListForSixth() {
         Path p1 = new Path("46",this.getResources().getString(R.string.title_chautha_avashyak),this.getResources().getString(R.string.text_chauthe_aavashyak_ki_aadnyaa),R.raw.chouthe_aavyshak_ki_agyaa);
         Path p2 = new Path("47",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
-        Path p3 = new Path("48",this.getResources().getString(R.string.title_dnyan_ka_atichar_ka_path),this.getResources().getString(R.string.text_dnyan_ke_atichar_ka_path),R.raw.pratikraman_agme_tivehe_panate);
+        Path p3 = new Path("48",this.getResources().getString(R.string.title_dnyan_ka_atichar_ka_path),this.getResources().getString(R.string.text_dnyan_ke_atichar_ka_path_with_micchami_dukdaam),R.raw.pratikraman_agme_tivehe_panate);
         Path p4 = new Path("49",this.getResources().getString(R.string.title_dansan_samkit_ka_path),this.getResources().getString(R.string.text_dansan_samkit_ka_path),R.raw.pratikraman_dasan_saamath_ka_path);
         // Path p5 = new Path("50",this.getResources().getString(R.string.title_barah_anuvrat),"",0);//Path p5 = new Path("50",this.getResources().getString(R.string.title_barah_anuvrat),"");
 
@@ -317,8 +317,8 @@ public int getTheObject(String pos) {
         Path p20 = new Path("65",this.getResources().getString(R.string.title_33_bol_ka_paath),this.getResources().getString(R.string.text_teintes_bol_ka_paath),R.raw.tentees_bol);
         Path p21 = new Path("66",this.getResources().getString(R.string.title_nigranth_pravachan_ka_path),this.getResources().getString(R.string.text_nigranth_pravachan_ka_path),R.raw.nigrantha_chouvistva);
         Path p22 = new Path("67",this.getResources().getString(R.string.title_ichhami_khamasamno_ka_path),this.getResources().getString(R.string.text_ichhami_khamasamno_ka_path),R.raw.icchami_khamsamno);
-        Path p23 = new Path("68",this.getResources().getString(R.string.title_bhav_vandana_ki_agyaa),this.getResources().getString(R.string.title_bhav_vandana_ki_agyaa),R.raw.bhaavvandana_agyaa);
-        // Path p24 = new Path("69",this.getResources().getString(R.string.title_savaiya),"");
+        Path p23 = new Path("68",this.getResources().getString(R.string.title_bhav_vandana_ki_agyaa),this.getResources().getString(R.string.text_panchva_avashyak),R.raw.bhaavvandana_agyaa);
+        // Path p24 = new Path("69",this.getResources().getString(R.string.title_savaiya),"");text
 
         Path a1 = new Path("88",this.getResources().getString(R.string.title_savaiya),this.getResources().getString(R.string.text_first_savaiya),R.raw.savaiyya_one);
         Path a2 = new Path("89",this.getResources().getString(R.string.title_savaiya),this.getResources().getString(R.string.text_second_savaiya),R.raw.savaiyya_two);
@@ -344,7 +344,7 @@ public int getTheObject(String pos) {
     }
 
     public ArrayList<Path> createparentListForSeventh() {
-        Path p1 = new Path("95",this.getResources().getString(R.string.title_panchve_aavayshyak),this.getResources().getString(R.string.text_panchva_avashyak),R.raw.pachva_aavshyak);
+        Path p1 = new Path("95",this.getResources().getString(R.string.title_panchve_aavayshyak),this.getResources().getString(R.string.text_pachave_aavashyak_kee_aadnyaa),R.raw.pachva_aavshyak);
         Path p2 = new Path("96",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
         Path p3 = new Path("97",this.getResources().getString(R.string.title_prayaschitt_ka_path),this.getResources().getString(R.string.text_prayaschitt_ka_path),R.raw.devsiyam_one_line);
         Path p4 = new Path("98",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
@@ -367,8 +367,8 @@ public int getTheObject(String pos) {
         Path p2 = new Path("107",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
         Path p3 = new Path("108",this.getResources().getString(R.string.title_samuchhay_pachhakkhan_ka_path),this.getResources().getString(R.string.text_samuchhay_pachhakkhan_ka_path),R.raw.ganthiyam);
         Path p4 = new Path("109",this.getResources().getString(R.string.title_antim_path),this.getResources().getString(R.string.text_antim_path),R.raw.antim_path);
-        Path p5 = new Path("110",this.getResources().getString(R.string.title_eng_Nammotthunam),this.getResources().getString(R.string.text_eng_Nammotthunam),R.raw.sham_saveg);
-        Path p6 = new Path("111",this.getResources().getString(R.string.title_dnyan_ka_atichar_ka_path),this.getResources().getString(R.string.text_dnyan_ke_atichar_ka_path),R.raw.pratikraman_agme_tivehe_panate);
+        Path p5 = new Path("110",this.getResources().getString(R.string.title_eng_Nammotthunam),this.getResources().getString(R.string.text_eng_Nammotthunam),R.raw.chauvistva_namutthunam);
+        Path p6 = new Path("111",this.getResources().getString(R.string.title_dnyan_ka_atichar_ka_path),this.getResources().getString(R.string.text_dnyan_ke_atichar_ka_path_with_micchami_dukdaam),R.raw.pratikraman_agme_tivehe_panate);
         ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3,p4,p5,p6));
         return parentList;
     }
