@@ -340,7 +340,7 @@ public class HomePageActivity extends AppCompatActivity
         Path p8 = new Path("53",this.getResources().getString(R.string.title_attharah_papsthan_ka_path),this.getResources().getString(R.string.text_attharah_papsthan_ka_path),R.raw.samayik_atharah_papasthan);
         Path p9 = new Path("54",this.getResources().getString(R.string.title_chaudah_sthaan_samoorchchhim_manushya_ka_path),this.getResources().getString(R.string.text_chaudah_sthaan_samoorchchhim_manushya_ka_path),R.raw.pratikraman_choudah_sthan_saamurchim);
         Path p10 = new Path("55",this.getResources().getString(R.string.title_pacchis_mithyaatva_ka_paath),this.getResources().getString(R.string.text_pacchis_mithyaatva_ka_paath),R.raw.pratikraman_pacchis_mithyatva);
-        Path p11 = new Path("56",this.getResources().getString(R.string.title_ichhami_thami_ka_path),this.getResources().getString(R.string.text_ichhami_thami_ka_path),R.raw.samayik_icchami_thami);
+        Path p11 = new Path("56",this.getResources().getString(R.string.title_ichhami_thami_ka_path),this.getResources().getString(R.string.text_ichhami_thami_padikmevu_ka_path),R.raw.samayik_icchami_thami);
 
         Path p12 = new Path("57",this.getResources().getString(R.string.title_shraman_sutra_ki_agyaa),this.getResources().getString(R.string.text_shraman_sootra),R.raw.shraman_sutra_ki_agyaa);
         Path p13 = new Path("58",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
