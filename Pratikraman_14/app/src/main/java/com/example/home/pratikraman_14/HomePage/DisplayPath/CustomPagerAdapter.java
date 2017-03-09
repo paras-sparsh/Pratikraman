@@ -28,7 +28,6 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
     private static int selectedItem = -1;
     public static MediaPlayer mediaPlayer;
 
-
     public CustomPagerAdapter(Context context, ArrayList<Path> completeList ){
         mContext = context;
         mLayoutInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -51,7 +50,6 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
             tvCurrentTime = (TextView) view.findViewById(R.id.textViewCurrentTime);
             playPause = (Button)itemView.findViewById(R.id.play);
             seekbar = (SeekBar)itemView.findViewById(R.id.seekbar);
-
         }
 
         private void initializeStartElements(final int file) {
@@ -62,23 +60,12 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
                         if (null != mediaPlayer) {
                             if (mediaPlayer.isPlaying()) {
                                 mediaPlayer.stop();
-                                mediaPlayer.reset();
-//                                if(playPause.getBackground
-//                                        ().equals(R.drawable.play_button)){
-//                                    playPause.setBackgroundResource(R.drawable.pause_button);
-//                                } else {
-//                                    playPause.setBackgroundResource(R.drawable.play_button);
-//                                }
+                                //mediaPlayer.reset();
                                 playPause.setBackgroundResource(R.drawable.play_button);
                             }
-                            else {
-//                                if(playPause.getBackground().equals(R.drawable.play_button)){
-//                                    playPause.setBackgroundResource(R.drawable.pause_button);
-//                                } else {
-//                                    playPause.setBackgroundResource(R.drawable.play_button);
-//                                }
-                                playPause.setBackgroundResource(R.drawable.pause_button);
-                            }
+//                            else {
+//                                playPause.setBackgroundResource(R.drawable.pause_button);
+//                            }
                         }
                         initializeMediaPlayer(file);
                     } catch (IllegalStateException e) {
@@ -88,7 +75,6 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
                     }
                 }
             });
-
         }
 
         private void initializeMediaPlayer(int file) {
@@ -97,17 +83,17 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
             songDuration = mediaPlayer.getDuration();
 
             seekbar.setMax(mediaPlayer.getDuration());
-            tvTotalTime.setText(songDuration);
+            tvCurrentTime.setText(getTimeString(mediaPlayer.getCurrentPosition()));
+            tvTotalTime.setText(getTimeString(mediaPlayer.getDuration()));
             seekbar.setProgress(mediaPlayer.getCurrentPosition());
             seekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
                 @Override
                 public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                     if (fromUser) {
                         mediaPlayer.seekTo(progress);
-
+                        seekbar.setProgress(progress);
                     } else {
                         seekbar.setProgress(mediaPlayer.getCurrentPosition());
-
                     }
                 }
 
@@ -125,12 +111,13 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
 
         private void StartSongInMediaPlayer() {
             mediaPlayer.start();
-            playPause.setBackgroundResource(R.drawable.play_button);
-//           tvCurrentTime.setText(mediaPlayer.getCurrentPosition());
-           // tvTotalTime.setText(mediaPlayer.getDuration());
+            playPause.setBackgroundResource(R.drawable.pause_button);
+
             finalTime = mediaPlayer.getDuration();
             startTime = mediaPlayer.getCurrentPosition();
             seekbar.setProgress((int) startTime);
+            tvCurrentTime.setText(getTimeString(mediaPlayer.getCurrentPosition()));
+            tvTotalTime.setText(getTimeString(mediaPlayer.getDuration()));
             handler.postDelayed(UpdateSongTime, 100);
         }
 
@@ -142,11 +129,8 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         };
 
         public void seekUpdation() {
-//        startTime = mediaPlayer.getCurrentPosition();
-//        seekbar.setProgress((int) startTime);
-//        myHandler.postDelayed(this, 100);
-            //tvCurrentTime.setText(mediaPlayer.getCurrentPosition());
             seekbar.setProgress(mediaPlayer.getCurrentPosition());
+            tvCurrentTime.setText(getTimeString(mediaPlayer.getCurrentPosition()));
             handler.postDelayed(UpdateSongTime, 1000);
         }
 
@@ -160,47 +144,22 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
                         mediaPlayer.pause();
                         //mediaPlayer.reset();
                         playPause.setBackgroundResource(R.drawable.play_button);
-//                        if(playPause.getBackground().equals(R.drawable.play_button)){
-//                            playPause.setBackgroundResource(R.drawable.pause_button);
-//                        } else {
-//                            playPause.setBackgroundResource(R.drawable.play_button);
-//                        }
                     } else {
                         StartSongInMediaPlayer();
-                        //playPause.setBackgroundResource(R.drawable.play_button);
-//                        if(playPause.getBackground().equals(R.drawable.play_button)){
-//                            playPause.setBackgroundResource(R.drawable.pause_button);
-//                        } else {
-//                            playPause.setBackgroundResource(R.drawable.play_button);
-//                        }
                     }
                 }
             });
         }
 
-//        @Override
-//        protected  void onPause(){
-//
-//        }
-//        protected void onDestroy() {
-//            super.onPause();
-//            if (mediaPlayer != null) {
-//                mediaPlayer.pause();
-//                if (isFinishing()) {
-//                    mediaPlayer.stop();
-//                    mediaPlayer.release();
-//                }
-//            }
-//        }
     }
 
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.pager_item, parent, false);
-
         return new MyViewHolder(itemView);
     }
+
     public void setSelectedItem(int position)
     {
         selectedItem = position;
@@ -213,8 +172,6 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         holder.handler = new Handler();
         holder.registerOnClickListeners();
         holder.initializeStartElements(completeList.get(position).getMusicFile());
-//        holder.tvCurrentTime.setText(holder.mediaPlayer.getCurrentPosition());
-        //holder.tvTotalTime.setText(mediaPlayer.getDuration());
     }
 
     @Override
@@ -225,9 +182,18 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
     public int getItemViewType(int position) {
         return position;
     }
+    private String getTimeString(long millis) {
+        StringBuffer buf = new StringBuffer();
 
-//    @Override
-//    protected  void onPause(){
-//
-//    }
+        int hours = (int) (millis / (1000 * 60 * 60));
+        int minutes = (int) ((millis % (1000 * 60 * 60)) / (1000 * 60));
+        int seconds = (int) (((millis % (1000 * 60 * 60)) % (1000 * 60)) / 1000);
+
+        buf
+                .append(String.format("%d", minutes))
+                .append(":")
+                .append(String.format("%02d", seconds));
+
+        return buf.toString();
+    }
 }
