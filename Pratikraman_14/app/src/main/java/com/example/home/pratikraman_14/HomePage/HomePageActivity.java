@@ -238,7 +238,7 @@ public class HomePageActivity extends AppCompatActivity
 
     public ArrayList<Path> createparentListForFirstNav() {
         Path p1 = new Path("1",this.getResources().getString(R.string.title_chauvisathav_ka_path),this.getResources().getString(R.string.text_chauvisathav_ka_path),R.raw.chauvistva_agyaa);
-        Path p2 = new Path("2",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p2 = new Path("2",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("3",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
         Path p4 = new Path("4",this.getResources().getString(R.string.title_eng_Irrayavahia),this.getResources().getString(R.string.text_eng_Iriyavahia),R.raw.chauvistva_icchakarenam);
         Path p5 = new Path("5",this.getResources().getString(R.string.title_eng_Tassauttari),this.getResources().getString(R.string.text_eng_Tassauttari),R.raw.chauvistva_tassa_uttari);
@@ -254,7 +254,7 @@ public class HomePageActivity extends AppCompatActivity
 
     public ArrayList<Path> createparentListForSecondNav() {
         Path p1 = new Path("10",this.getResources().getString(R.string.title_devasi_pratikraman_karne_ki_aadnyaa),this.getResources().getString(R.string.text_devsi_pratikraman_ki_agya),R.raw.agyaa_devsi_pratikraman);
-        Path p2 = new Path("11",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p2 = new Path("11",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("12",this.getResources().getString(R.string.title_ichhaminam_bhante_ka_path),this.getResources().getString(R.string.text_ichhaminam_bhante_ka_path),R.raw.agyaa_ecchami_nama_bhante);
         Path p4 = new Path("13",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
         ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3,p4));
@@ -263,12 +263,12 @@ public class HomePageActivity extends AppCompatActivity
 
     public ArrayList<Path> createparentListForThirdNav() {
         Path p1 = new Path("14",this.getResources().getString(R.string.title_pratham_aavayshyak),this.getResources().getString(R.string.text_pratham_avashyak_ki_aadnyaa),R.raw.samayik_pehla_aavyshyak_agyaa);
-        Path p2 = new Path("15",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p2 = new Path("15",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("16",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
         Path p4 = new Path("17",this.getResources().getString(R.string.title_eng_KaremiBhante),this.getResources().getString(R.string.text_eng_KaremiBhante),R.raw.samayik_karemi_bhante);
         Path p5 = new Path("18",this.getResources().getString(R.string.title_ichhami_thami_ka_path),this.getResources().getString(R.string.text_ichhami_thami_ka_path),R.raw.samayik_icchami_thami);
         Path p6 = new Path("19",this.getResources().getString(R.string.title_eng_Tassauttari),this.getResources().getString(R.string.text_eng_Tassauttari),R.raw.samayik_tassa_uttari);
-        Path p7 = new Path("20",this.getResources().getString(R.string.title_dnyan_ka_atichar_ka_path),this.getResources().getString(R.string.text_dnyan_ke_atichar_ka_path),R.raw.pratikraman_agme_tivehe_panate);
+        Path p7 = new Path("20",this.getResources().getString(R.string.title_dnyan_ka_atichar_ka_path),this.getResources().getString(R.string.text_dnyan_ke_atichar_ka_path),R.raw.agme_tivehe_without_michhami);
         Path p8 = new Path("21",this.getResources().getString(R.string.title_darshan_samyaktva_ka_path),this.getResources().getString(R.string.text_darshan_samyaktva_ka_path),R.raw.samayik_arihant_mahadevo);
         //Path p9 = new Path("22",this.getResources().getString(R.string.title_barah_sthool),"");
         Path p14 = new Path("27",this.getResources().getString(R.string.title_pehla_sthool_pranatipat_virman_vrat),this.getResources().getString(R.string.text_pehla_sthool),R.raw.samayik_sthool_one);
@@ -298,7 +298,7 @@ public class HomePageActivity extends AppCompatActivity
 
     public ArrayList<Path> createparentListForFourthNav() {
         Path p1 = new Path("40",this.getResources().getString(R.string.title_dusre_aavayshyak),this.getResources().getString(R.string.text_dusare_aavashyak_ki_aadnyaa),R.raw.dusre_aavyshak_ki_agyaa);
-        Path p2 = new Path("41",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p2 = new Path("41",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("42",this.getResources().getString(R.string.title_eng_Logassa),this.getResources().getString(R.string.text_eng_Logassa),R.raw.chauvistva_logassa);
 
         ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3));
@@ -307,7 +307,7 @@ public class HomePageActivity extends AppCompatActivity
 
     public ArrayList<Path> createparentListForFifthNav() {
         Path p1 = new Path("43",this.getResources().getString(R.string.title_tije_aavayshyak),this.getResources().getString(R.string.text_teesare_aavashyak_ki_aadnyaa),R.raw.tisre_aavshyak_ki_agyaa);
-        Path p2 = new Path("44",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p2 = new Path("44",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("45",this.getResources().getString(R.string.title_ichhami_khamasamno_ka_path),this.getResources().getString(R.string.text_ichhami_khamasamno_ka_path),R.raw.icchami_khamsamno);
 
         ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3));
@@ -316,7 +316,7 @@ public class HomePageActivity extends AppCompatActivity
 
     public ArrayList<Path> createparentListForSixthNav() {
         Path p1 = new Path("46",this.getResources().getString(R.string.title_chautha_avashyak),this.getResources().getString(R.string.text_chauthe_aavashyak_ki_aadnyaa),R.raw.chouthe_aavyshak_ki_agyaa);
-        Path p2 = new Path("47",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p2 = new Path("47",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("48",this.getResources().getString(R.string.title_dnyan_ka_atichar_ka_path),this.getResources().getString(R.string.text_dnyan_ke_atichar_ka_path_with_micchami_dukdaam),R.raw.pratikraman_agme_tivehe_panate);
         Path p4 = new Path("49",this.getResources().getString(R.string.title_dansan_samkit_ka_path),this.getResources().getString(R.string.text_dansan_samkit_ka_path),R.raw.pratikraman_dasan_saamath_ka_path);
         // Path p5 = new Path("50",this.getResources().getString(R.string.title_barah_anuvrat),"",0);//Path p5 = new Path("50",this.getResources().getString(R.string.title_barah_anuvrat),"");
@@ -327,7 +327,7 @@ public class HomePageActivity extends AppCompatActivity
         Path b4 = new Path("79",this.getResources().getString(R.string.title_chautha_anuvrat),this.getResources().getString(R.string.text_chautha_anuvrat),R.raw.pratikraman_anuvrat_four);
         Path b5 = new Path("80",this.getResources().getString(R.string.title_panchva_anuvrat),this.getResources().getString(R.string.text_panchva_anuvrat),R.raw.pratikraman_anuvrat_five);
         Path b6 = new Path("81",this.getResources().getString(R.string.title_chattha_dishivrat),this.getResources().getString(R.string.text_chattha_dishivrat),R.raw.pratikraman_anuvrat_six);
-        Path b7 = new Path("82",this.getResources().getString(R.string.title_satava_vrat_upbhog_paribhogvihim),this.getResources().getString(R.string.text_satava_vrat_upbhog_paribhogvihim),R.raw.pratikraman_anuvrat_eight);
+        Path b7 = new Path("82",this.getResources().getString(R.string.title_satava_vrat_upbhog_paribhogvihim),this.getResources().getString(R.string.text_satava_vrat_upbhog_paribhogvihim),R.raw.pratikraman_anuvrat_seven);
         Path b8 = new Path("83",this.getResources().getString(R.string.title_athave_anarthadand_virman_vrat),this.getResources().getString(R.string.text_athava_anatthadand_virman_vrat),R.raw.pratikraman_anuvrat_eight);
         Path b9 = new Path("84",this.getResources().getString(R.string.title_navva_samayik_vrat),this.getResources().getString(R.string.text_navva_samayik_vrat),R.raw.pratikraman_anuvrat_nine);
         Path b10 = new Path("85",this.getResources().getString(R.string.title_dasave_desavagasik_vrat),this.getResources().getString(R.string.text_dasva_deshavagasik_vrat),R.raw.pratikraman_anuvrat_ten);
@@ -337,7 +337,7 @@ public class HomePageActivity extends AppCompatActivity
 
         Path p6 = new Path("51",this.getResources().getString(R.string.title_badi_sanlekhana_ka_path),this.getResources().getString(R.string.text_badi_sanlekhana_ka_path),R.raw.pratikraman_badi_salekhana);
         Path p7 = new Path("52",this.getResources().getString(R.string.title_samuchchhay_ka_path),this.getResources().getString(R.string.text_samuchchhay_ka_path),R.raw.pratikraman_samucchay);
-        Path p8 = new Path("53",this.getResources().getString(R.string.title_attharah_papsthan_ka_path),this.getResources().getString(R.string.text_attharah_papsthan_ka_path),R.raw.samayik_atharah_papasthan);
+        Path p8 = new Path("53",this.getResources().getString(R.string.title_attharah_papsthan_ka_path),this.getResources().getString(R.string.text_attharah_papsthan_ka_path_with_micchami),R.raw.athrah_papasthan_michhami);
         Path p9 = new Path("54",this.getResources().getString(R.string.title_chaudah_sthaan_samoorchchhim_manushya_ka_path),this.getResources().getString(R.string.text_chaudah_sthaan_samoorchchhim_manushya_ka_path),R.raw.pratikraman_choudah_sthan_saamurchim);
         Path p10 = new Path("55",this.getResources().getString(R.string.title_pacchis_mithyaatva_ka_paath),this.getResources().getString(R.string.text_pacchis_mithyaatva_ka_paath),R.raw.pratikraman_pacchis_mithyatva);
         Path p11 = new Path("56",this.getResources().getString(R.string.title_ichhami_thami_ka_path),this.getResources().getString(R.string.text_ichhami_thami_padikmevu_ka_path),R.raw.samayik_icchami_thami);
@@ -356,7 +356,7 @@ public class HomePageActivity extends AppCompatActivity
         Path p23 = new Path("68",this.getResources().getString(R.string.title_bhav_vandana_ki_agyaa),this.getResources().getString(R.string.text_panchva_avashyak),R.raw.bhaavvandana_agyaa);
         // Path p24 = new Path("69",this.getResources().getString(R.string.title_savaiya),"");
 
-        Path a1 = new Path("88",this.getResources().getString(R.string.title_savaiya),this.getResources().getString(R.string.text_first_savaiya),R.raw.savaiyya_one);
+        Path a1 = new Path("88",this.getResources().getString(R.string.title_savaiya),this.getResources().getString(R.string.text_first_savaiya),R.raw.savaiyya_one_merge);
         Path a2 = new Path("89",this.getResources().getString(R.string.title_savaiya),this.getResources().getString(R.string.text_second_savaiya),R.raw.savaiyya_two);
         Path a3 = new Path("90",this.getResources().getString(R.string.title_savaiya),this.getResources().getString(R.string.text_third_savaiyya),R.raw.savaiyya_three);
         Path a4 = new Path("91",this.getResources().getString(R.string.title_savaiya),this.getResources().getString(R.string.text_fourth_savaiyya),R.raw.savaiyya_four);
@@ -368,11 +368,11 @@ public class HomePageActivity extends AppCompatActivity
         Path p27 = new Path("72",this.getResources().getString(R.string.title_adhai_dweep_pandrah_kshetra_ka_path),this.getResources().getString(R.string.text_adhai_dweep_pandrah_kshetra_ka_path),R.raw.pratikraman_shravak_shravika_khamane_ka_path);
         Path p28 = new Path("73",this.getResources().getString(R.string.title_chaurasi_lakh_jivYoni_ka_path),this.getResources().getString(R.string.text_chaurasi_lakh_jivyoni_ka_path),R.raw.pratikraman_saath_lakh);
         Path p29 = new Path("74",this.getResources().getString(R.string.title_kulkodi_ko_khamane_ka_path),this.getResources().getString(R.string.text_kulkodi_ko_khamane_pa_path),R.raw.pratikraman_pruthvikay_ke_kodikul);
-        Path p30 = new Path("75",this.getResources().getString(R.string.title_attharah_papsthan_ka_path),this.getResources().getString(R.string.text_attharah_papsthan_ka_path),R.raw.samayik_atharah_papasthan);
+        Path p30 = new Path("75",this.getResources().getString(R.string.title_attharah_papsthan_ka_path),this.getResources().getString(R.string.text_attharah_papsthan_ka_path_with_micchami),R.raw.athrah_papasthan_michhami);
 
-        Path p31 = new Path("2003",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p31 = new Path("2003",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p32 = new Path("2004",this.getResources().getString(R.string.title_ichhami_thami_ka_path),this.getResources().getString(R.string.text_ichhami_thami_ka_path),R.raw.samayik_icchami_thami);
-        Path p33 = new Path("2005",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p33 = new Path("2005",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p34 = new Path("2006",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
 
         ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3,p4,b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,p6,p7,p8,p9,p10,p11,p12,p2,p13,p14,p15,p11,p16,p17,p18,p19,p20,p21,p22,p23,p2,p13,a1,a2,a3,a4,a5,a6,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34));
@@ -381,7 +381,7 @@ public class HomePageActivity extends AppCompatActivity
 
     public ArrayList<Path> createparentListForSeventhNav() {
         Path p1 = new Path("95",this.getResources().getString(R.string.title_panchve_aavayshyak),this.getResources().getString(R.string.text_pachave_aavashyak_kee_aadnyaa),R.raw.pachva_aavshyak);
-        Path p2 = new Path("96",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p2 = new Path("96",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("97",this.getResources().getString(R.string.title_prayaschitt_ka_path),this.getResources().getString(R.string.text_prayaschitt_ka_path),R.raw.devsiyam_one_line);
         Path p4 = new Path("98",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
         Path p5 = new Path("99",this.getResources().getString(R.string.title_eng_KaremiBhante),this.getResources().getString(R.string.text_eng_KaremiBhante),R.raw.samayik_karemi_bhante);
@@ -400,7 +400,7 @@ public class HomePageActivity extends AppCompatActivity
 
     public ArrayList<Path> createparentListForEighthNav() {
         Path p1 = new Path("106",this.getResources().getString(R.string.title_chatthe_aavashyak_ki_aadnya),this.getResources().getString(R.string.text_chatthe_aavashyak_ki_aadnya),R.raw.chatte_aavyshak_ki_agyaa);
-        Path p2 = new Path("107",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p2 = new Path("107",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("108",this.getResources().getString(R.string.title_samuchhay_pachhakkhan_ka_path),this.getResources().getString(R.string.text_samuchhay_pachhakkhan_ka_path),R.raw.ganthiyam);
         Path p4 = new Path("109",this.getResources().getString(R.string.title_antim_path),this.getResources().getString(R.string.text_antim_path),R.raw.antim_path);
         Path p5 = new Path("110",this.getResources().getString(R.string.title_eng_Nammotthunam),this.getResources().getString(R.string.text_eng_Nammotthunam),R.raw.chauvistva_namutthunam);
@@ -488,7 +488,7 @@ public class HomePageActivity extends AppCompatActivity
         Path p11 = new Path("86",this.getResources().getString(R.string.title_gyarahva_padipunna_paushadh_vrat),this.getResources().getString(R.string.text_gyarahva_padipunna_paushadh_vrat),R.raw.pratikraman_anuvrat_eleven);
         Path p12 = new Path("87",this.getResources().getString(R.string.title_barah_anuvrat),this.getResources().getString(R.string.text_barahva_atithi_samvibhag_vrat),R.raw.pratikraman_anuvrat_twelve);
 
-        Path a1 = new Path("88",this.getResources().getString(R.string.title_savaiya),this.getResources().getString(R.string.text_first_savaiya),R.raw.savaiyya_one);
+        Path a1 = new Path("88",this.getResources().getString(R.string.title_savaiya),this.getResources().getString(R.string.text_first_savaiya),R.raw.savaiyya_one_merge);
         Path a2 = new Path("89",this.getResources().getString(R.string.title_savaiya),this.getResources().getString(R.string.text_second_savaiya),R.raw.savaiyya_two);
         Path a3 = new Path("90",this.getResources().getString(R.string.title_savaiya),this.getResources().getString(R.string.text_third_savaiyya),R.raw.savaiyya_three);
         Path a4 = new Path("91",this.getResources().getString(R.string.title_savaiya),this.getResources().getString(R.string.text_fourth_savaiyya),R.raw.savaiyya_four);
@@ -530,7 +530,7 @@ public class HomePageActivity extends AppCompatActivity
 
     public ArrayList<Path> createparentListForFirst() {
         Path p1 = new Path("1",this.getResources().getString(R.string.title_chauvisathav_ka_path),this.getResources().getString(R.string.text_chauvisathav_ka_path),R.raw.chauvistva_agyaa);
-        Path p2 = new Path("2",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p2 = new Path("2",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("3",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
         Path p4 = new Path("4",this.getResources().getString(R.string.title_eng_Irrayavahia),this.getResources().getString(R.string.text_eng_Iriyavahia),R.raw.chauvistva_icchakarenam);
         Path p5 = new Path("5",this.getResources().getString(R.string.title_eng_Tassauttari),this.getResources().getString(R.string.text_eng_Tassauttari),R.raw.chauvistva_tassa_uttari);
@@ -546,7 +546,7 @@ public class HomePageActivity extends AppCompatActivity
 
     public ArrayList<Path> createparentListForSecond() {
         Path p1 = new Path("10",this.getResources().getString(R.string.title_devasi_pratikraman_karne_ki_aadnyaa),this.getResources().getString(R.string.text_devsi_pratikraman_ki_agya),R.raw.agyaa_devsi_pratikraman);
-        Path p2 = new Path("11",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p2 = new Path("11",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("12",this.getResources().getString(R.string.title_ichhaminam_bhante_ka_path),this.getResources().getString(R.string.text_ichhaminam_bhante_ka_path),R.raw.agyaa_ecchami_nama_bhante);
         Path p4 = new Path("13",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
         ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3,p4));
@@ -555,12 +555,12 @@ public class HomePageActivity extends AppCompatActivity
 
     public ArrayList<Path> createparentListForThird() {
         Path p1 = new Path("14",this.getResources().getString(R.string.title_pratham_aavayshyak),this.getResources().getString(R.string.text_pratham_avashyak_ki_aadnyaa),R.raw.samayik_pehla_aavyshyak_agyaa);
-        Path p2 = new Path("15",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p2 = new Path("15",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("16",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
         Path p4 = new Path("17",this.getResources().getString(R.string.title_eng_KaremiBhante),this.getResources().getString(R.string.text_eng_KaremiBhante),R.raw.samayik_karemi_bhante);
         Path p5 = new Path("18",this.getResources().getString(R.string.title_ichhami_thami_ka_path),this.getResources().getString(R.string.text_ichhami_thami_ka_path),R.raw.samayik_icchami_thami);
         Path p6 = new Path("19",this.getResources().getString(R.string.title_eng_Tassauttari),this.getResources().getString(R.string.text_eng_Tassauttari),R.raw.samayik_tassa_uttari);
-        Path p7 = new Path("20",this.getResources().getString(R.string.title_dnyan_ka_atichar_ka_path),this.getResources().getString(R.string.text_dnyan_ke_atichar_ka_path),R.raw.samayik_gyaan_atichar_path);
+        Path p7 = new Path("20",this.getResources().getString(R.string.title_dnyan_ka_atichar_ka_path),this.getResources().getString(R.string.text_dnyan_ke_atichar_ka_path),R.raw.agme_tivehe_without_michhami);
         Path p8 = new Path("21",this.getResources().getString(R.string.title_darshan_samyaktva_ka_path),this.getResources().getString(R.string.text_darshan_samyaktva_ka_path),R.raw.samayik_arihant_mahadevo);
         Path p9 = new Path("22",this.getResources().getString(R.string.title_barah_sthool),"",0);
         Path p10 = new Path("23",this.getResources().getString(R.string.title_sanlekhana_ke_panch_atichar_ka_path),this.getResources().getString(R.string.text_sanlekhana_ke_panch_atichar_ka_path),R.raw.samayik_salekhana_ke_atichar);
@@ -575,7 +575,7 @@ public class HomePageActivity extends AppCompatActivity
 
     public ArrayList<Path> createparentListForFourth() {
         Path p1 = new Path("40",this.getResources().getString(R.string.title_dusre_aavayshyak),this.getResources().getString(R.string.text_dusare_aavashyak_ki_aadnyaa),R.raw.dusre_aavyshak_ki_agyaa);
-        Path p2 = new Path("41",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p2 = new Path("41",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("42",this.getResources().getString(R.string.title_eng_Logassa),this.getResources().getString(R.string.text_eng_Logassa),R.raw.chauvistva_logassa);
 
         ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3));
@@ -584,7 +584,7 @@ public class HomePageActivity extends AppCompatActivity
 
     public ArrayList<Path> createparentListForFifth() {
         Path p1 = new Path("43",this.getResources().getString(R.string.title_tije_aavayshyak),this.getResources().getString(R.string.text_teesare_aavashyak_ki_aadnyaa),R.raw.tisre_aavshyak_ki_agyaa);
-        Path p2 = new Path("44",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p2 = new Path("44",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("45",this.getResources().getString(R.string.title_ichhami_khamasamno_ka_path),this.getResources().getString(R.string.text_ichhami_khamasamno_ka_path),R.raw.icchami_khamsamno);
 
         ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3));
@@ -593,13 +593,13 @@ public class HomePageActivity extends AppCompatActivity
 
     public ArrayList<Path> createparentListForSixth() {
         Path p1 = new Path("46",this.getResources().getString(R.string.title_chautha_avashyak),this.getResources().getString(R.string.text_chauthe_aavashyak_ki_aadnyaa),R.raw.chouthe_aavyshak_ki_agyaa);
-        Path p2 = new Path("47",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p2 = new Path("47",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("48",this.getResources().getString(R.string.title_dnyan_ka_atichar_ka_path),this.getResources().getString(R.string.text_dnyan_ke_atichar_ka_path),R.raw.pratikraman_agme_tivehe_panate);
         Path p4 = new Path("49",this.getResources().getString(R.string.title_dansan_samkit_ka_path),this.getResources().getString(R.string.text_dansan_samkit_ka_path),R.raw.pratikraman_dasan_saamath_ka_path);
         Path p5 = new Path("50",this.getResources().getString(R.string.title_barah_anuvrat),"",0);
         Path p6 = new Path("51",this.getResources().getString(R.string.title_badi_sanlekhana_ka_path),this.getResources().getString(R.string.text_badi_sanlekhana_ka_path),R.raw.pratikraman_badi_salekhana);
         Path p7 = new Path("52",this.getResources().getString(R.string.title_samuchchhay_ka_path),this.getResources().getString(R.string.text_samuchchhay_ka_path),R.raw.pratikraman_samucchay);
-        Path p8 = new Path("53",this.getResources().getString(R.string.title_attharah_papsthan_ka_path),this.getResources().getString(R.string.text_attharah_papsthan_ka_path),R.raw.samayik_atharah_papasthan);
+        Path p8 = new Path("53",this.getResources().getString(R.string.title_attharah_papsthan_ka_path),this.getResources().getString(R.string.text_attharah_papsthan_ka_path),R.raw.athrah_papasthan_michhami);
         Path p9 = new Path("54",this.getResources().getString(R.string.title_chaudah_sthaan_samoorchchhim_manushya_ka_path),this.getResources().getString(R.string.text_chaudah_sthaan_samoorchchhim_manushya_ka_path),R.raw.pratikraman_choudah_sthan_saamurchim);
         Path p10 = new Path("55",this.getResources().getString(R.string.title_pacchis_mithyaatva_ka_paath),this.getResources().getString(R.string.text_pacchis_mithyaatva_ka_paath),R.raw.pratikraman_pacchis_mithyatva);
         Path p11 = new Path("56",this.getResources().getString(R.string.title_ichhami_thami_ka_path),this.getResources().getString(R.string.text_ichhami_thami_ka_path),R.raw.samayik_icchami_thami);
@@ -623,11 +623,11 @@ public class HomePageActivity extends AppCompatActivity
         Path p27 = new Path("72",this.getResources().getString(R.string.title_adhai_dweep_pandrah_kshetra_ka_path),this.getResources().getString(R.string.text_adhai_dweep_pandrah_kshetra_ka_path),R.raw.pratikraman_shravak_shravika_khamane_ka_path);
         Path p28 = new Path("73",this.getResources().getString(R.string.title_chaurasi_lakh_jivYoni_ka_path),this.getResources().getString(R.string.text_chaurasi_lakh_jivyoni_ka_path),R.raw.pratikraman_saath_lakh);
         Path p29 = new Path("74",this.getResources().getString(R.string.title_kulkodi_ko_khamane_ka_path),this.getResources().getString(R.string.text_kulkodi_ko_khamane_pa_path),R.raw.pratikraman_pruthvikay_ke_kodikul);
-        Path p30 = new Path("75",this.getResources().getString(R.string.title_attharah_papsthan_ka_path),this.getResources().getString(R.string.text_attharah_papsthan_ka_path),R.raw.samayik_atharah_papasthan);
+        Path p30 = new Path("75",this.getResources().getString(R.string.title_attharah_papsthan_ka_path),this.getResources().getString(R.string.text_attharah_papsthan_ka_path),R.raw.athrah_papasthan_michhami);
 
-        Path p31 = new Path("2003",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p31 = new Path("2003",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p32 = new Path("2004",this.getResources().getString(R.string.title_ichhami_thami_ka_path),this.getResources().getString(R.string.text_ichhami_thami_ka_path),R.raw.samayik_icchami_thami);
-        Path p33 = new Path("2005",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p33 = new Path("2005",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p34 = new Path("2006",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
 
         ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p31,p13,p14,p15,p32,p16,p17,p18,p19,p20,p21,p22,p23,p33,p34,p24,p25,p26,p27,p28,p29,p30));
@@ -636,7 +636,7 @@ public class HomePageActivity extends AppCompatActivity
 
     public ArrayList<Path> createparentListForSeventh() {
         Path p1 = new Path("95",this.getResources().getString(R.string.title_panchve_aavayshyak),this.getResources().getString(R.string.text_panchva_avashyak),R.raw.pachva_aavshyak);
-        Path p2 = new Path("96",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p2 = new Path("96",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("97",this.getResources().getString(R.string.title_prayaschitt_ka_path),this.getResources().getString(R.string.text_prayaschitt_ka_path),R.raw.devsiyam_one_line);
         Path p4 = new Path("98",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
         Path p5 = new Path("99",this.getResources().getString(R.string.title_eng_KaremiBhante),this.getResources().getString(R.string.text_eng_KaremiBhante),R.raw.samayik_karemi_bhante);
@@ -655,10 +655,10 @@ public class HomePageActivity extends AppCompatActivity
 
     public ArrayList<Path> createparentListForEighth() {
         Path p1 = new Path("106",this.getResources().getString(R.string.title_chatthe_aavashyak_ki_aadnya),this.getResources().getString(R.string.text_chatthe_aavashyak_ki_aadnya),R.raw.chatte_aavyshak_ki_agyaa);
-        Path p2 = new Path("107",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto);
+        Path p2 = new Path("107",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("108",this.getResources().getString(R.string.title_samuchhay_pachhakkhan_ka_path),this.getResources().getString(R.string.text_samuchhay_pachhakkhan_ka_path),R.raw.ganthiyam);
         Path p4 = new Path("109",this.getResources().getString(R.string.title_antim_path),this.getResources().getString(R.string.text_antim_path),R.raw.antim_path);
-        Path p5 = new Path("110",this.getResources().getString(R.string.title_eng_Nammotthunam),this.getResources().getString(R.string.text_eng_Nammotthunam),R.raw.sham_saveg);
+        Path p5 = new Path("110",this.getResources().getString(R.string.title_eng_Nammotthunam),this.getResources().getString(R.string.text_eng_Nammotthunam),R.raw.chauvistva_namutthunam);
         Path p6 = new Path("111",this.getResources().getString(R.string.title_dnyan_ka_atichar_ka_path),this.getResources().getString(R.string.text_dnyan_ke_atichar_ka_path),R.raw.pratikraman_agme_tivehe_panate);
         ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3,p4,p5,p6));
         return parentList;

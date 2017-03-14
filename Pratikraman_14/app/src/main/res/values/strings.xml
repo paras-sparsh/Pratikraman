@@ -156,7 +156,7 @@ Agame Tivihe Pannatte Tamjaha Suttagame, Atthagame, Tadubhayagame, Is Tarah Teen
         Laga Ho To Aloum,  Jam Vaiddham, Vachhameliyam, Heenakkharam, Achhakkharam, Payheenam, Vinayheenam, Jogheenam, Ghosaheenam,
         Sutthudinnam, Dutthupadichhiyam, Akale Kao Sajjhao, Kale Na Kao Sajjhao, Asajjhaye Sajjhaiyam, Sajjhaye Na Sajjhaiyam, Bhanta,
         Gunta,
-        Vicharta, Gyan Aur Gyanvant Purusho Ki Avinay Ashatna Ki Ho To Jo Me Devasio Aiyaro Kao Tass Michhami Dukkadam.
+        Vicharta, Gyan Aur Gyanvant Purusho Ki Avinay Ashatna Ki Ho.
         \n\n\n\n\n
     </string>
     <string name="text_dnyan_ke_atichar_ka_path_with_micchami_dukdaam">
@@ -164,7 +164,7 @@ Agame Tivihe Pannatte Tamjaha Suttagame, Atthagame, Tadubhayagame, Is Tarah Teen
         Laga Ho To Aloum,  Jam Vaiddham, Vachhameliyam, Heenakkharam, Achhakkharam, Payheenam, Vinayheenam, Jogheenam, Ghosaheenam,
         Sutthudinnam, Dutthupadichhiyam, Akale Kao Sajjhao, Kale Na Kao Sajjhao, Asajjhaye Sajjhaiyam, Sajjhaye Na Sajjhaiyam, Bhanta,
         Gunta,
-        Vicharta, Gyan Aur Gyanvant Purusho Ki Avinay Ashatna Ki Ho.
+        Vicharta, Gyan Aur Gyanvant Purusho Ki Avinay Ashatna Ki Ho To Jo Me Devasio Aiyaro Kao Tass Michhami Dukkadam.
         \n\n\n\n\n
         </string>
     <string name="text_darshan_samyaktva_ka_path">
@@ -275,6 +275,14 @@ Sanlekhana Ke Vishay Me Jo Koi Atichar Laga Ho To Aloum -
         In Attharah Papsthano Me Se Kisi Ka Sevan Kiya Ho, Karaya Ho,  Karte Hue ka anumodan kiya ho.
         \n\n\n\n\n
     </string>
+    <string name="text_attharah_papsthan_ka_path_with_micchami">
+        1. Pranatipat, 2. Mrushawad, 3. Adattadan, 4. Maithun, 5. Parigrah, 6. Krodh, 7. Maan, 8. Maya, 9. Lobh,
+        10. Rag, 11. Dwesh, 12. Kalah,
+        13. Abhyakhyan, 14. Paishunya, 15. Parpariwad, 16. Rati-Arati, 17. Maya-mrushawad, 18. Mithyadarshan shalya\n
+        In Attharah Papsthano Me Se Kisi Ka Sevan Kiya Ho, Karaya Ho,  Karte Hue ka anumodan kiya ho.\n
+        Tassa Micchami Dukkdam.
+        \n\n\n\n\n
+        </string>
     <string name="text_icchami_thami_ka_path_without_micchami">
         Ichhami Thami Kaussaggam Jo Me Devasio Aaiyaro Kao, Kaio, Vaio, Manasio, Ussutto, Ummaggo, Akappo, Akarnijjo, Dujjhao, Duvvichintio,
         Anayaro, Anichhiyavvo, Asavag Pauggo, Nane Tah Dansane, Charittacharitte, Sue, Samaiye, Tinham Guttinam, Chaunham Kasayanam,

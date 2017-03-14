@@ -63,6 +63,9 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
                                 //mediaPlayer.reset();
                                 playPause.setBackgroundResource(R.drawable.play_button);
                             }
+                            if(getTimeString(mediaPlayer.getCurrentPosition()).equals(getTimeString(mediaPlayer.getDuration()))){
+                                playPause.setBackgroundResource(R.drawable.play_button);
+                            }
 //                            else {
 //                                playPause.setBackgroundResource(R.drawable.pause_button);
 //                            }
