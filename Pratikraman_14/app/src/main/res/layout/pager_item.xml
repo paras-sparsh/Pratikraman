@@ -10,6 +10,11 @@ android:background="#f7f7f7"
 app:layout_behavior="@string/appbar_scrolling_view_behavior"
 tools:context="com.example.home.pratikraman_14.HomePage.DisplayPath.DisplayPathActivity"
 tools:showIn="@layout/activity_display_path">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ivPosition"
+        android:visibility="gone"/>
 
 <ScrollView
     android:layout_width="match_parent"

@@ -64,13 +64,13 @@ public class ExpandableListviewAdapter extends
     public void onBindParentViewHolder( ParentViewHolder partsViewHolder, final int parentPosition, @NonNull Parts parent) {
         PartsViewHolder holder=(PartsViewHolder)partsViewHolder;
         holder.tvPath.setText(parentTitles.get(parentPosition).title);
-        if(parentTitles.get(parentPosition).description.length() > 0){
+        if(parentTitles.get(parentPosition).description.length() > 0 || parentTitles.get(parentPosition).title.equals("poses")){
             holder.imageViewArrow.setVisibility(View.INVISIBLE);
             holder.tvPath.setOnClickListener(
                     new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            if(parentTitles.get(parentPosition).description.length() > 0) {
+                            if(parentTitles.get(parentPosition).description.length() > 0 || parentTitles.get(parentPosition).title.equals("poses")) {
                                 Intent intent = new Intent(context, DisplayPathActivity.class);
                                 intent.putExtra("description",parentTitles.get(parentPosition).description);
                                 intent.putExtra("id",parentTitles.get(parentPosition).getId());

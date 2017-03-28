@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
@@ -42,6 +43,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         private double finalTime = 0;
         private Handler handler;
         int songDuration = 0;
+        public ImageView imageView;
 
         public MyViewHolder(View view) {
             super(view);
@@ -50,6 +52,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
             tvCurrentTime = (TextView) view.findViewById(R.id.textViewCurrentTime);
             playPause = (Button)itemView.findViewById(R.id.play);
             seekbar = (SeekBar)itemView.findViewById(R.id.seekbar);
+            imageView = (ImageView)itemView.findViewById(R.id.ivPosition);
         }
 
         private void initializeStartElements(final int file) {
@@ -57,18 +60,27 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
                 @Override
                 public void run() {
                     try {
+
+
                         if (null != mediaPlayer) {
-                            if (mediaPlayer.isPlaying()) {
-                                mediaPlayer.stop();
-                                //mediaPlayer.reset();
-                                playPause.setBackgroundResource(R.drawable.play_button);
-                            }
                             if(getTimeString(mediaPlayer.getCurrentPosition()).equals(getTimeString(mediaPlayer.getDuration()))){
                                 playPause.setBackgroundResource(R.drawable.play_button);
                             }
+
+
+//                            mediaPlayer = MediaPlayer.create(v.getContext(), mItem.getmSound());
+//                            mediaPlayer.start();
+
 //                            else {
 //                                playPause.setBackgroundResource(R.drawable.pause_button);
 //                            }
+                        }
+                        if (mediaPlayer != null && mediaPlayer.isPlaying()) {
+                            playPause.setBackgroundResource(R.drawable.play_button);
+                            mediaPlayer.stop();
+                            mediaPlayer.reset();
+                            mediaPlayer.release();
+                            mediaPlayer = null;
                         }
                         initializeMediaPlayer(file);
                     } catch (IllegalStateException e) {
@@ -83,6 +95,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         private void initializeMediaPlayer(int file) {
 //        int id = getApplicationContext().getResources().getIdentifier(songListItemVO.songName, "raw", getApplicationContext().getPackageName());
             mediaPlayer = MediaPlayer.create(mContext,file);
+            //mediaPlayer.start();
             songDuration = mediaPlayer.getDuration();
 
             seekbar.setMax(mediaPlayer.getDuration());
@@ -113,6 +126,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         }
 
         private void StartSongInMediaPlayer() {
+            //mediaPlayer.reset();
             mediaPlayer.start();
             playPause.setBackgroundResource(R.drawable.pause_button);
 
@@ -136,7 +150,6 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
             tvCurrentTime.setText(getTimeString(mediaPlayer.getCurrentPosition()));
             handler.postDelayed(UpdateSongTime, 1000);
         }
-
 
         private void registerOnClickListeners() {
             playPause.setOnClickListener(new View.OnClickListener() {
@@ -171,10 +184,18 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
     public void onBindViewHolder(MyViewHolder holder, int position) {
         if(selectedItem == position)
             holder.itemView.setSelected(true);
-        holder.tv.setText(completeList.get(position).getDescription());
-        holder.handler = new Handler();
-        holder.registerOnClickListeners();
-        holder.initializeStartElements(completeList.get(position).getMusicFile());
+
+        if(completeList.get(position).getDescription().length() == 0 && completeList.get(position).getTitle().equals("poses")){
+            holder.imageView.setImageResource(completeList.get(position).getMusicFile());
+            holder.imageView.setVisibility(View.VISIBLE);
+        } else {
+            holder.imageView.setVisibility(View.GONE);
+            holder.tv.setText(completeList.get(position).getDescription());
+            holder.handler = new Handler();
+            holder.registerOnClickListeners();
+            holder.initializeStartElements(completeList.get(position).getMusicFile());
+        }
+
     }
 
     @Override
