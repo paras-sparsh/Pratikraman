@@ -45,6 +45,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         int songDuration = 0;
         public ImageView imageView;
 
+
         public MyViewHolder(View view) {
             super(view);
             tv = (TextView) view.findViewById(R.id.textViewPath);
@@ -182,6 +183,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
     }
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
+        holder.setIsRecyclable(false);
         if(selectedItem == position)
             holder.itemView.setSelected(true);
 
