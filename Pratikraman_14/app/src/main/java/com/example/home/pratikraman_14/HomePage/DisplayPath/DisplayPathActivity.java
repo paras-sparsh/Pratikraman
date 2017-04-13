@@ -41,14 +41,11 @@ import java.util.Arrays;
 import java.util.Locale;
 
 public class DisplayPathActivity extends AppCompatActivity  {
-    TextView textViewDisplayPath;
     CustomPagerAdapter mCustomPagerAdapter;
     RecyclerView mViewPager;
 
-    TabLayout tabLayout;
     static  ArrayList<Path> completeList;
-String id;
-FragmentHindi fragment;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,13 +55,6 @@ FragmentHindi fragment;
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout_display_path);
-//        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-//                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-//        drawer.setDrawerListener(toggle);
-//        toggle.syncState();
-//        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view_display_path);
-//        navigationView.setNavigationItemSelectedListener(this);
         createList();
 
         Intent intent = getIntent();
@@ -72,7 +62,9 @@ FragmentHindi fragment;
 
         mViewPager = (RecyclerView) findViewById(R.id.pager);
         mViewPager.setHasFixedSize(true);
-        mCustomPagerAdapter = new CustomPagerAdapter(this,completeList);
+        mViewPager.getRecycledViewPool().clear();
+        mViewPager.getRecycledViewPool().setMaxRecycledViews(0, 0);
+        mCustomPagerAdapter = new CustomPagerAdapter(this, completeList);
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         mViewPager.setLayoutManager(mLayoutManager);
         mViewPager.setItemAnimator(new DefaultItemAnimator());
@@ -84,93 +76,47 @@ FragmentHindi fragment;
             @Override
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
                 super.onScrollStateChanged(recyclerView, newState);
-                int positionView = ((LinearLayoutManager)mViewPager.getLayoutManager()).findFirstVisibleItemPosition();
+                int positionView = ((LinearLayoutManager) mViewPager.getLayoutManager()).findFirstVisibleItemPosition();
 
                 setTitle(completeList.get(positionView).getTitle());
             }
         });
-mViewPager.setHasFixedSize(true);
+        mViewPager.setHasFixedSize(true);
 
-        LinearSnapHelper snapHelper = new LinearSnapHelper() {
-            @Override
-            public int findTargetSnapPosition(RecyclerView.LayoutManager layoutManager, int velocityX, int velocityY) {
-                View centerView = findSnapView(layoutManager);
-                if (centerView == null)
-                    return RecyclerView.NO_POSITION;
-
-                int position = layoutManager.getPosition(centerView);
-                int targetPosition = -1;
-                if (layoutManager.canScrollHorizontally()) {
-                    if (velocityX < 0) {
-                        targetPosition = position - 1;
-                    } else {
-                        targetPosition = position + 1;
-                    }
-                }
-
-                if (layoutManager.canScrollVertically()) {
-                    if (velocityY < 0) {
-                        targetPosition = position - 1;
-                    } else {
-                        targetPosition = position + 1;
-                    }
-                }
-
-                final int firstItem = 0;
-                final int lastItem = layoutManager.getItemCount() - 1;
-                targetPosition = Math.min(lastItem, Math.max(targetPosition, firstItem));
-                return targetPosition;
-            }
-        };
-        snapHelper.attachToRecyclerView(mViewPager);
-
-//        mViewPager.setCurrentItem(getTheObject(pos));
-//        mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+//        LinearSnapHelper snapHelper = new LinearSnapHelper() {
 //            @Override
-//            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-//                setTitle(completeList.get(position).getTitle());
+//            public int findTargetSnapPosition(RecyclerView.LayoutManager layoutManager, int velocityX, int velocityY) {
+//                View centerView = findSnapView(layoutManager);
+//                if (centerView == null)
+//                    return RecyclerView.NO_POSITION;
+//
+//                int position = layoutManager.getPosition(centerView);
+//                int targetPosition = -1;
+//                if (layoutManager.canScrollHorizontally()) {
+//                    if (velocityX < 0) {
+//                        targetPosition = position - 1;
+//                    } else {
+//                        targetPosition = position + 1;
+//                    }
+//                }
+//
+//                if (layoutManager.canScrollVertically()) {
+//                    if (velocityY < 0) {
+//                        targetPosition = position - 1;
+//                    } else {
+//                        targetPosition = position + 1;
+//                    }
+//                }
+//
+//                final int firstItem = 0;
+//                final int lastItem = layoutManager.getItemCount() - 1;
+//                targetPosition = Math.min(lastItem, Math.max(targetPosition, firstItem));
+//                return targetPosition;
 //            }
-//
-//            @Override
-//            public void onPageSelected(int position) {
-//
-//            }
-//
-//            @Override
-//            public void onPageScrollStateChanged(int state) {
-//
-//            }
-//        });
+//        };
+//        snapHelper.attachToRecyclerView(mViewPager);
 
-
-        //textViewDisplayPath = (TextView)findViewById(R.id.textViewPath);
-//        Typeface typeFace= Typeface.createFromAsset(getAssets(),"helveticaMedium.ttf");
-//        textViewDisplayPath.setTypeface(typeFace);
-//        Intent intent = getIntent();
-//        String description = intent.getStringExtra("description");
-//        textViewDisplayPath.setText(description);
     }
-//    public static void setLocale (Context context,String code){
-//        Locale locale = new Locale(code);
-//        Locale.setDefault(locale);
-//        Configuration config = new Configuration();
-//        config.locale = locale;
-//        context.getApplicationContext().getResources().updateConfiguration(config, null);
-//    }
-//    private void setupViewPager(ViewPager viewPager) {
-//        Intent intent = getIntent();
-//        String pos = intent.getStringExtra("id");
-//        TabsAdapter adapter = new TabsAdapter(getSupportFragmentManager());
-//        FragmentHindi fragmentHindi = new FragmentHindi(completeList,pos);
-//        FragmentHindi fragmentEnglish = new FragmentHindi(completeList,pos);
-//        Bundle bundle = new Bundle();
-//        bundle.putString("position",pos);
-//        fragmentHindi.setArguments(bundle);
-//        fragmentEnglish.setArguments(bundle);
-//        adapter.addFragment(fragmentHindi, "Hindi");
-//        adapter.addFragment(fragmentEnglish, "English");
-//        viewPager.setAdapter(adapter);
-//    }
 
 
 public int getTheObject(String pos) {

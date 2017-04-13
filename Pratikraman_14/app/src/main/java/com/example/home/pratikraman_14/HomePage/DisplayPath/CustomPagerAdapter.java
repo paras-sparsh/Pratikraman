@@ -45,7 +45,6 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         int songDuration = 0;
         public ImageView imageView;
 
-
         public MyViewHolder(View view) {
             super(view);
             tv = (TextView) view.findViewById(R.id.textViewPath);
@@ -61,20 +60,10 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
                 @Override
                 public void run() {
                     try {
-
-
                         if (null != mediaPlayer) {
                             if(getTimeString(mediaPlayer.getCurrentPosition()).equals(getTimeString(mediaPlayer.getDuration()))){
                                 playPause.setBackgroundResource(R.drawable.play_button);
                             }
-
-
-//                            mediaPlayer = MediaPlayer.create(v.getContext(), mItem.getmSound());
-//                            mediaPlayer.start();
-
-//                            else {
-//                                playPause.setBackgroundResource(R.drawable.pause_button);
-//                            }
                         }
                         if (mediaPlayer != null && mediaPlayer.isPlaying()) {
                             playPause.setBackgroundResource(R.drawable.play_button);
@@ -93,8 +82,28 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
             });
         }
 
+        private void stopPlayerForPoses() {
+            ((DisplayPathActivity)mContext).runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        if (mediaPlayer != null && mediaPlayer.isPlaying()) {
+                           // playPause.setBackgroundResource(R.drawable.play_button);
+                            mediaPlayer.stop();
+                            //mediaPlayer.reset();
+                            //mediaPlayer.release();
+                            //mediaPlayer = null;
+                        }
+                    } catch (IllegalStateException e) {
+                        e.printStackTrace();
+                    } catch (Resources.NotFoundException e) {
+                        e.printStackTrace();
+                    }
+                }
+            });
+        }
+
         private void initializeMediaPlayer(int file) {
-//        int id = getApplicationContext().getResources().getIdentifier(songListItemVO.songName, "raw", getApplicationContext().getPackageName());
             mediaPlayer = MediaPlayer.create(mContext,file);
             //mediaPlayer.start();
             songDuration = mediaPlayer.getDuration();
@@ -116,12 +125,10 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
 
                 @Override
                 public void onStartTrackingTouch(SeekBar seekBar) {
-
                 }
 
                 @Override
                 public void onStopTrackingTouch(SeekBar seekBar) {
-
                 }
             });
         }
@@ -156,7 +163,6 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
             playPause.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    //Toast.makeText(getContext(),"hdfhdjkghkjf",Toast.LENGTH_LONG);
                     if (mediaPlayer.isPlaying()) {
                         mediaPlayer.pause();
                         //mediaPlayer.reset();
@@ -167,7 +173,6 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
                 }
             });
         }
-
     }
 
     @Override
@@ -190,6 +195,8 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         if(completeList.get(position).getDescription().length() == 0 && completeList.get(position).getTitle().equals("poses")){
             holder.imageView.setImageResource(completeList.get(position).getMusicFile());
             holder.imageView.setVisibility(View.VISIBLE);
+            holder.handler = new Handler();
+            holder.stopPlayerForPoses();
         } else {
             holder.imageView.setVisibility(View.GONE);
             holder.tv.setText(completeList.get(position).getDescription());
@@ -197,7 +204,6 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
             holder.registerOnClickListeners();
             holder.initializeStartElements(completeList.get(position).getMusicFile());
         }
-
     }
 
     @Override
@@ -211,7 +217,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
     private String getTimeString(long millis) {
         StringBuffer buf = new StringBuffer();
 
-        int hours = (int) (millis / (1000 * 60 * 60));
+        //int hours = (int) (millis / (1000 * 60 * 60));
         int minutes = (int) ((millis % (1000 * 60 * 60)) / (1000 * 60));
         int seconds = (int) (((millis % (1000 * 60 * 60)) % (1000 * 60)) / 1000);
 

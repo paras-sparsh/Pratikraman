@@ -4,20 +4,9 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
     <string name="title_activity_display_path">Path</string>
-    <string name="title_activity_tp">tp</string>
     <string name="title_activity_expanded_navigation_drawer"></string>
 
-
-    <string name="part_1">Vandana</string>
-    <string name="part_2">Samayik</string>
-    <string name="part_3">Pratikraman Ki Agyya</string>
-    <string name="part_4">Koussag</string>
-    <string name="part_5">Pratyakyhan</string>
-    <string name="part_6">Chovisattva</string>
-    <string name="part_7">Shraman Sutra</string>
-    <string name="part_8">Bhav Vandana</string>
 
     <string name="title_eng_navkar_mantra">Navkar Mantra</string>
     <string name="title_eng_Tikkhuto">Tikkhuto Ka Path(3 times)</string>
@@ -26,10 +15,7 @@
     <string name="title_eng_Logassa">Logassa Ka Path</string>
     <string name="title_eng_KaremiBhante">Karemi Bhante Ka Path</string>
     <string name="title_eng_Nammotthunam">Nammotthunam Ka Path</string>
-    <string name="title_eng_EyassaNavamassa">Eyassa Navamassa Ka Path</string>
     <string name="title_eng_Irrayavahia">Iriyavahi Ka Path</string>
-    <string name="title_eng_Tein">Teen Tatva Ka Path</string>
-    <string name="title_eng_GuruGun">Guru Gun Ka Path</string>
 
     <string name="text_eng_navkar_mantra">Namo Arihantanam,\nNamo Siddanam,\nNamo Aayariyanam,\nNamo Uvajjhayanam,\nNamo Loe Savva-sahunam,\nEso Panch Namokkaro,\nSavva-pava ppanasano \nManglanam cha savvesim\nPadhamamHavai Mangalam.
    \n\n\n\n\n </string>
@@ -101,26 +87,9 @@ Namotthunam \n <strong>&#40;3re mai &#41;</strong>\n
 Namotthunam mam dhammayariyass dhammovdesyassa Aneggunsanjuttass java sampaviu kamass.\n\n\n\n\n
 
 </string>
-    <string name="text_eng_EyassaNavamassa">Eyassa Navamassa Samaiya Vayassa Pancha Aiyara Janiyavva Na Samayariyavva Tamjaha Te Alou&#45;
-Manaduppanihane, Vayaduppanihane, Kayaduppanihane, Samaiyassa Sai Akaranayae, Samaiyassa
-AnavatthiyassaKaranyae Tass Michhami Dukkadam.\n\n
-Samaiyam Sammam Kayenam Na Phasiyam, Na Paliyam, Na Sohiyam, Na Teeriyam, Na Kittiyam,
-Na Arahiyam, Anaye Anupaliyam Na Bhavai Tass Micchami Dukkadam.\n\n
-Paddikkamami Aaharasanna, Bhayasanna, Mehunasanna, PariggahaSanna aeya chu Sanna kaya Tass Micchami Dukkadam.\n\n
-Paddikkamami chaunham Vikaha Ithikaha/ puriskaha, bhattkaha, Deskaha, raykaha aeya chu Vikaha kaya Tass Micchami Dukkadam.\n\n
-Aekkamane Vaekkamane Aeyaare Anayaare jo mein devsio aeyaaro kao Tass Micchami Dukkadam.\n\n
-Samaea Manso Das Dosa Vayanassa Das Dosa, Sarirassa Duvalassa Dosa kaya Tass Micchami Dukkadam.\n\n\n\n\n\n
-</string>
     <string name="text_eng_dhyan">Dhyan mai man, vachan, kaaya chalet hua ho,
 Aartdhyan, Raudradhyan dhyaya ho Dharma Dhyan Shukla Dhyan nahi dhyaya ho, to Tassa Micchhami Dukkadam.\n\n\n\n\n
 </string>
-    <string name="text_eng_Tein">Arihanto Mahadevo, Javajjivam Susahuno Guruno
-Jinapanattam Tattam, ea Sammatam maye Gahiyam.\n\n\n\n\n
-</string>
-    <string name="text_eng_GuruGun">Panchendiy Savarno taha navaviha Bambhacher Guttidharo\nChuvih Kasaymukko, ea Attharas Gunehim Sanjutto\n
-Panch Mahavvaya Jutto, Panch Vihayar Palan Samttho\n
-Panch Samie Tigutto, Chattis Guno Guru Majjha\n\n\n\n\n
-    </string>
     
 <string name="text_chauvisathav_ka_path">
     Shree Mahaveer Swami, Simandhar Swami, Guruguruniji m. s.  aapase Chauvisathav karne ki aadnyaa leta / leti hu.
@@ -148,9 +117,6 @@ Ichhaminam Bhante! Tubbhehim Abbanunnaye Samane Devasiyam Padikkamanam Thayemi
         Panchanham Anuvayanam Tinham
         Gunvayanam, Chaunham Sikkhavayanam, Baras Vihass Savag Dhammass Jam Khandiyam, Jam Virahiyam, Tass Michhami Dukkadam.\n\n\n\n\n
         </string>
-    <string name="text_kayotsarg_instruction">
-        ( \'Appanam Osrami \'kehte hi Kayotsarg Mudra mai baithe. )( Kayotsarg mai micchami dukkadam na bole )
-    </string>
     <string name="text_dnyan_ke_atichar_ka_path">
 Agame Tivihe Pannatte Tamjaha Suttagame, Atthagame, Tadubhayagame, Is Tarah Teen Prakar Ke Agamrup Gyan Ke Vishay Me Jo Koi Atichar
         Laga Ho To Aloum,  Jam Vaiddham, Vachhameliyam, Heenakkharam, Achhakkharam, Payheenam, Vinayheenam, Jogheenam, Ghosaheenam,
@@ -708,9 +674,6 @@ Gurudev Maharaj! Apki Diwas Sambhandi Avinay Ashatana Ki Ho To Maf Kijiye.
         Gurunisa Maharaj Apka Is Bhav, Parbhav, Bhav-Bhav Me Sadakal Sharan Ho
 \n\n\n\n\n\n
     </string>
-    <string name="text_seventh_savaiya">
-\n\n\n\n\n\n
-    </string>
     <string name="text_doha">
         Anant Chaubisi Jin Namu Siddh Ananta Karod,\n\n
 Kevalgyani Ganadhara Vandu Be Kar Jod |\n\n
@@ -766,13 +729,6 @@ Pruthvikay ke Barah Lakh Kodikul, Apkay Ke Sat Lakh Kodikul, Teukay Teen Lakh Ko
         Manushay Ke Barah Lakh Kodikul Yo Ek Karod Sade satanve Lakh Kodikul Ki Viradhana Ki Ho To Devsi Sambhandi Tass Michhami
         Dukkadam.
         \n\n\n\n\n
-    </string>
-    <string name="text_kshamapna_path">
-        Khamemi Savve Jeeva, Savve Jeeva Khamantu Me,\n
-Mitti Me Savva Bhooesu, Veram Majzam Na Kenai |\n
-Evamahm Aloiyam, Nindiyam Garhiyam Duguchhiyam Sammam,\n
-Tivihenam Padikkanto, Vandami Ji Chuvvisam |
-\n\n\n\n\n
     </string>
     <string name="text_pachave_aavashyak_kee_aadnyaa">
         Pahala Samayik, Dusara Chauvisattva, Teesari Vandana, Chautha Pratikraman, ye Chaar Avashyak Purn Huye|
@@ -838,27 +794,6 @@ Bhutkal Ka Pratikraman, Vartaman Kal Ki Samayik Aur Bhavishya Kal Ka Pacchkkhan,
     <string name="title_chauvisathav_ka_path">
         Chauvisathav Ki Aadnya
     </string>
-    <string name="title_tikhutto_ka_path">
-        Tikhutto Ka Path
-    </string>
-    <string name="title_navkar_mantra_ka_path">
-        Navkar Mantra Ka Path
-    </string>
-    <string name="title_iriyavahi_ka_path">
-        Iriyavahi Ka Path
-    </string>
-    <string name="title_tass_uttari_ka_path">
-        Tass Uttari Ka Path
-    </string>
-    <string name="title_logassa">
-        Logassa
-    </string>
-    <string name="title_kayotsarg_vishudhi_ka_path">
-        Kayotsarg Vishudhi Ka Path
-    </string>
-    <string name="title_nammotthunam_ka_path">
-        Nammotthunam Ka Path
-    </string>
 
     <string name="title_ichhaminam_bhante_ka_path">
         Ichhaminam Bhante Ka Path
@@ -889,9 +824,6 @@ Bhutkal Ka Pratikraman, Vartaman Kal Ki Samayik Aur Bhavishya Kal Ka Pacchkkhan,
     <string name="title_panchava_sthool_parigrah_pariman_vrat">
         Panchava Sthool Parigrah Pariman Vrat
     </string>
-    <string name="title_chatthe_dishivrat">
-        Chatthe Dishivrat
-    </string>
     <string name="title_satava_upbhog_paribhog_pariman_vrat">
         Satava Upbhog Paribhog Pariman  Vrat
     </string>
@@ -907,29 +839,17 @@ Bhutkal Ka Pratikraman, Vartaman Kal Ki Samayik Aur Bhavishya Kal Ka Pacchkkhan,
     <string name="title_dasave_desavagasik_vrat">
         Dasave Desavagasik Vrat
     </string>
-    <string name="title_gyarhave_padipunna_paushadh_vrat">
-        Gyarhave Padipunna Paushadh Vrat
-    </string>
-    <string name="title_barhave_atithi_samvibhag_vrat">
-        Barhave Atithi Samvibhag Vrat
-    </string>
     <string name="title_sanlekhana_ke_panch_atichar_ka_path">
         Sanlekhana Ke Panch Atichar Ka Path
     </string>
     <string name="title_attharah_papsthan_ka_path">
         Attharah Papsthan Ka Path
     </string>
-    <string name="title_chaar_dhyan_ka_path">
-        Chaar Dhyan Ka Path
-    </string>
     <string name="title_ichhami_khamasamno_ka_path">
         Ichhami Khamasamno Ka Path
     </string>
     <string name="title_chautha_avashyak">
         Chautha Avashyak
-    </string>
-    <string name="title_dyaan_ke_atichar_ka_paath">
-        Dyaan Ke Atichar Ka Paath
     </string>
     <string name="title_dansan_samkit_ka_path">
         Dansan Samkit Ka Path
@@ -958,14 +878,8 @@ Bhutkal Ka Pratikraman, Vartaman Kal Ki Samayik Aur Bhavishya Kal Ka Pacchkkhan,
     <string name="title_satava_vrat_upbhog_paribhogvihim">
         Satava Vrat Upbhog-Paribhogvihim
     </string>
-    <string name="title_athava_anatthadand_virman_vrat">
-        Athava Anatthadand Virman Vrat
-    </string>
     <string name="title_navva_samayik_vrat">
         Navva  Samayik Vrat
-    </string>
-    <string name="title_dasva_deshavagasik_vrat">
-        Dasva Deshavagasik Vrat
     </string>
     <string name="title_gyarahva_padipunna_paushadh_vrat">
         Gyarahva Padipunna Paushadh Vrat
@@ -985,9 +899,6 @@ Bhutkal Ka Pratikraman, Vartaman Kal Ki Samayik Aur Bhavishya Kal Ka Pacchkkhan,
     <string name="title_pacchis_mithyaatva_ka_paath">
         Pacchis Mithyaatva Ka Paath
     </string>
-    <string name="title_shraman_sootra">
-        Shraman Sootra
-    </string>
     <string name="title_maangalik">
         Maangalik
     </string>
@@ -1006,9 +917,6 @@ Bhutkal Ka Pratikraman, Vartaman Kal Ki Samayik Aur Bhavishya Kal Ka Pacchkkhan,
     <string name="title_nigranth_pravachan_ka_path">
         Nigranth Pravachan Ka Path
     </string>
-    <string name="title_panchva_avashyak">
-        Panchva Avashyak
-    </string>
     <string name="title_savaiya">
         Savaiya
     </string>
@@ -1026,9 +934,6 @@ Bhutkal Ka Pratikraman, Vartaman Kal Ki Samayik Aur Bhavishya Kal Ka Pacchkkhan,
     </string>
     <string name="title_kulkodi_ko_khamane_ka_path">
         Kulkodi Ko Khamane Ka Path
-    </string>
-    <string name="title_kshamapna_path">
-        Kshamapna Path
     </string>
     <string name="title_prayaschitt_ka_path">
         Prayaschitt Ka Path
@@ -1057,9 +962,6 @@ Bhutkal Ka Pratikraman, Vartaman Kal Ki Samayik Aur Bhavishya Kal Ka Pacchkkhan,
     <string name="title_tije_aavayshyak">
         Tije Aavashyak ki_Aadnyaa
     </string>
-    <string name="title_chouthe_aavayshyak">
-        Chavthe Aavashyak ki_Aadnyaa
-    </string>
     <string name="title_panchve_aavayshyak">
         Panchve Aavashyak ki_Aadnyaa
     </string>
@@ -1075,25 +977,5 @@ Bhutkal Ka Pratikraman, Vartaman Kal Ki Samayik Aur Bhavishya Kal Ka Pacchkkhan,
     <string name="title_chatthe_aavashyak_ki_aadnya">
         Chatthe Aavashyak ki Aadnya
     </string>
-    <string name="title_activity_path">PathActivity</string>
-    <string name="section_format">Hello World from section: %1$d</string>
-    <string name="title_pehli_samayik">Pehla samayik</string>
-    <string name="title_mithyatva_ka_pratikraman">Mithyatva ka pratikraman</string>
-    <string name="title_sham_saveg">Sham Savveg</string>
-    <string name="title_bhootkaal_ka_pratikraman">Bhootkaal ka Pratikraman</string>
-
-    <string name="text_pehli_samayik">Pahla Samayik, Dusra Chauvisattva, Teesri Vandana, Chautha Pratikraman, Panchva Kaussagga Aur Chattha Pratyakhyan In Chah
-        Avashyako Me Atikram, Vyatikram, Atichar, Anachar, Jante Ajante Koi Atichar Dosh Laga Ho Tatha Path Uchharan Karte
-        Samay Kana, Matra, Anuswar, Pad, Akshar, Adhik, Nyun, Aage, Piche Kaha Ho To Devsi Sambhandi Tass Michhami Dukkadam.\n\n
-\n\n\n\n\n</string>
-    <string name="text_mithyatva_ka_pratikraman">Mithyatva Ka Pratikraman, Avrat Ka Pratkraman, Pramad Ka Pratikraman, Kashay Ka Pratikraman, Ashubh Yog Ka Pratikraman,
-        In Panch Prakar Ka Pratikraman Nahi Kiya Ho To Tass Michhami Dukkadam.\n\n
-\n\n\n\n\n</string>
-    <string name="text_sham_saveg">Sam, Samveg, Nirved, Anukampa Aur Astha, Sacche Ki Shradha aur Juthe Ka Barmbar Michhami Dukkadam.\n\n
-\n\n\n\n\n</string>
-    <string name="text_bhootkaal_ka_pratikraman">Bhutkal Ka Pratikraman, Vartaman Kal Ki Samayik Aur Agmi Kal Ka Pachhakkhan, Ye Teen Karte Hai,
-        Karvate Hai, Karne Wale Ko Anumodan Dete Hai, Un Pursho Ko Dhanya Hai. Dev Arihant, Guru Nigranth, Keval Bhashit
-        Dayamay Dharma Ye Teen Tatva Sar!Sansar Aasar!Bhagwant Maharaj Apka Marg Sachham!Sachham!Sachham!Thaithui Mangalam.
-\n\n\n\n\n</string>
 
 </resources>

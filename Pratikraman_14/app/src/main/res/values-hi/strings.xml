@@ -3,22 +3,9 @@
 <string name="app_name">Pratikraman</string>
 <string name="navigation_drawer_open">Open navigation drawer</string>
 <string name="navigation_drawer_close">Close navigation drawer</string>
-<string name="action_settings">Settings</string>
-<string name="title_activity_display_path">प्रतिक्रमण</string>
-<string name="title_activity_tp">tp</string>
-<string name="title_activity_expanded_navigation_drawer"></string>
+    <string name="title_activity_display_path">प्रतिक्रमण</string>
+    <string name="title_activity_expanded_navigation_drawer"></string>
 
-
-<string name = "part_1">
-    भाग 1</string>
-<string name = "part_2">
-    भाग 2</string>
-<string name = "part_3">भाग 3</string>
-<string name = "part_4">भाग 4</string>
-<string name = "part_5">भाग 5</string>
-<string name = "part_6">भाग 6</string>
-<string name = "part_7">भाग 7</string>
-<string name = "part_8">भाग 8</string>
 
 <string name="title_eng_navkar_mantra">नवकार मंत्र
 </string>
@@ -41,17 +28,8 @@
 <string name="title_eng_Nammotthunam">
     णमोत्थुणं का पाठ
 </string>
-<string name="title_eng_EyassaNavamassa">
-    एयस्स नवमस्स का पाठ
-</string>
 <string name="title_eng_Irrayavahia">
     इरियावहि का पाठ
-</string>
-<string name="title_eng_Tein">
-    तीन तत्त्व का पाठ
-</string>
-<string name="title_eng_GuruGun">
-    गुरू गुण का पाठ
 </string>
 
 
@@ -115,34 +93,10 @@
     \n\n\n\n\n
 </string>
 
-<string name="text_eng_EyassaNavamassa">
-
-    एयस्स नवमस्स सामाइयवयस्स पंच अइयारा जाणियव्वा न समायरियव्वा तंजहा ते आलोउं – मणदुप्पणिहाणे,  वयदुप्पणिहाणे, कायदुप्पणिहाणे, सामाइयस्स सइअकरणयाए, सामाइयस्स अणवठ्ठियस्स करणयाए, जो मे देवसिओ अइयारो कओ तस्स मिच्छामि दुक्कडं । \n\n
-    सामाइयं सम्मं काएणं न फासियं, न पालियं, न सोहियं, न तीरियं, न किट्टियं, न आराहियं आणाए अणुपालियं न भवइ
-    तस्स मिच्छामि दुक्कडं ।\n\n
-    पडिक्कमामि  आहारसन्ना, भयसन्ना, मेहूणसन्ना,  परिग्गहसन्ना, एया चउसन्ना कया तस्स मिच्छामि दुक्कडं ।\n\n
-    पडिक्कमामि चउव्विहं विकहा, इत्थिकहा ( पुरिसकहा ), भत्तकहा, देसकहा, रायकहा, एया चउ विकहा कया तस्स मिच्छामि दुक्कडं ।\n\n
-    अइक्कमे, वइक्कमे, अइयारे, अणायारे, जो मे देवसिओ अइयारो कओ तस्स मिच्छामि दुक्कडं ।\n\n
-    सामाइए मणसो दस दोसा, वयणस्स दस दोसा, सरीरस्स दुवालस दोसा कया तस्स मिच्छामि दुक्कडं ।\n\n
-    \n\n\n\n\n</string>
 <string name="text_eng_Iriyavahia">
     इच्छाकारेणं संदिसह भगवं। इरियावहियं पडिक्कमामि। \n
     इच्छं इच्छामि, पडिक्कमिउं इरियावहियाए, विराहणाए, गमणागमणे, पाणक्कमणे, बीयक्कमणे, हरियक्कमणे, ओसा उत्तिंग - पणग - दग - मट्टी – मक्कडा - संताणा - संकमणे जे मे जीवा विराहिया, एगिंदिया, बेइंदिया, तेइंदिया, चउरिंदिया, पंचिंदिया, अभिहया, वत्तिया,  लेसिया, संघाइया, संघट्टिया, परियाविया, किलामिया, उद्दविया, ठाणाओ ठाणं, संकामिया, जीवियाओ ववरोविया, तस्स मिच्छामि दुक्कडं ।
     \n\n\n\n\n
-</string>
-<string name="text_eng_Tein">
-    अरिहंतो मह देवो, जावज्जीवं सुसाहुणो गुरूणो । \n
-    जिण पणत्तं तत्तं, इअ सम्मत्तं मए गहियं ॥
-    \n\n\n\n\n
-</string>
-<string name="text_eng_dhyan_mean">
-    कायोत्सर्ग में मन, वचन, काया चलित हुआ हो, आर्त्तध्यान, रौद्रध्यान ध्याया हो, धर्म ध्यान, शुक्लध्यान न ध्याया हो तो तस्स मिच्छामि दुक्कडं ।
-    \n\n\n\n\n</string>
-<string name="text_eng_GuruGun">
-    पंचिदिय – संवरणो तह णवविह – बंभचेर गुत्तिधरो । \n
-    चउव्विह – कसाय – मुक्को , इअ अठ्ठारस्स गुणेहिं संजुत्तो ॥ \n
-    पंच महव्वयजुत्तो, पंचविहायार – पालण – समत्थो । \n
-    पंच समिइ तिगुत्तो, छत्तीस गुणो गुरू मज्झ ॥\n\n\n\n\n
 </string>
 
 <string name="text_chauvisathav_ka_path">
@@ -174,8 +128,6 @@
     <string name="text_ichhami_thami_padikmevu_ka_path">
     इच्छामि ठामि काउसग्गं जो मे देवसिओ अइयारो कओ,  काइओ, वाइओ,  माणसिओ, उसुत्तो, उमग्गो, अकप्पो, अकरणिज्जो, दुज्झाओ, दुव्विचिंतिओ, अणायारो, अणिच्छिअव्वो, असावगपाउग्गो, नाणे तह दंसणे चरित्ताचरिते,  सूए, सामाइए, तिण्हं गुत्तीणं, चउण्हं कसायाणं, पंचण्हमणुव्वयाणं, तिण्हं गुणव्वयाणं, चउण्हं सिक्खावयाणं बारसविहस्स सावगधम्मस्स, जं खंडियं, जं विराहियं तस्स मिच्छामि दुक्कडं  ।
     \n\n\n\n\n
-</string>
-<string name="text_kayotsarg_instruction">
 </string>
 <string name="text_dnyan_ke_atichar_ka_path">
     आगमे तिविहे पण्णत्ते, तं जहा सुत्तागमे, अत्थागमे, तदुभयागमे, इस तरह तीन प्रकार आगम रूप ज्ञान के विषय में जो कोई अतिचार लगा हो तो आलोउं जंवाइद्धं, वच्चामेलियं, हीणक्खरं, अच्चक्खरं, पयहीणं, विणयहीणं, जोगहीणं, घोसहीणं, सुट्ठुदिण्णं दुट्ठूपडिच्छियं, अकाले कओ सज्झाओ, काले न कओ सज्झाओ, असज्झाए सज्झाइयं, सज्झाए न सज्झाइयं भणतां, गुणतां, विचारतां ज्ञान और ज्ञानवंत की आशातना की हो ।
@@ -567,9 +519,6 @@
     आप मांगलिक हो, आप उत्तम हो, हे स्वामी !  हे नाथ! आपका इस भव – परभव, भवभव में सदाकाल शरण हो ।
     \n\n\n\n\n\n
 </string>
-<string name="text_seventh_savaiya">
-    \n\n\n\n\n\n
-</string>
 <string name="text_doha">
     अनंत चोविसी जीन नमु सिद्ध अनंताक्रोड \n\n
     केवल ज्ञानी गणधरा, वंदूँ बे कर जोड ।। १ ।।\n\n
@@ -613,10 +562,6 @@
 <string name="text_kulkodi_ko_khamane_pa_path">
     पृथ्वीकाय के बारह लाख कोडीकुल, अपकाय के सात लाख कोडीकुल, तेऊकाय के तीन लाख कोडीकुल, वायुकाय के सात लाख कोडीकुल, वनस्पतिकाय के अठ्ठाइस लाख कोडीकुल, द्विन्द्रिय के सात लाख कोडीकुल, त्रीन्द्रिय के आठ लाख कोडीकुल, चतुरिंद्रिय के नव लाख कोडीकुल, जलचर के साढे बारह लाख कोडीकुल, स्थलचर  के दस लाख कोडीकुल,  खेचर के बारह लाख कोडीकुल, उरपर के दस लाख कोडीकुल,  भूजपर के नव लाख कोडीकुल,  नरक के पच्चीस लाख कोडीकुल, देवता के छब्बीस लाख कोडीकुल,  मनुष्य के बारह लाख कोडीकुल यों एक करोड साडेसतानवे लाख कोडीकुल की विराधना की हो तो देवसी संबंधी तस्स मिच्छामि दुक्कडं ।\n\n
     \n\n\n
-</string>
-<string name="text_kshamapna_path">
-
-    \n\n\n\n\n
 </string>
 <string name="text_pachave_aavashyak_kee_aadnyaa">
     पहला सामायिक, दुसरा चउवीसत्थव, तीसरी वंदना, चौथा प्रतिकमण, ये चार आवश्यक पूर्ण हुए ।\n
@@ -673,27 +618,6 @@
 <string name="title_chauvisathav_ka_path">
     चउवीसत्थव का पाठ ( चउवीसत्थव की आज्ञा )
 </string>
-<string name="title_tikhutto_ka_path">
-    Tikhutto Ka Path
-</string>
-<string name="title_navkar_mantra_ka_path">
-    Navkar Mantra Ka Path
-</string>
-<string name="title_iriyavahi_ka_path">
-    Iriyavahi Ka Path
-</string>
-<string name="title_tass_uttari_ka_path">
-    Tass Uttari Ka Path
-</string>
-<string name="title_logassa">
-    Logassa
-</string>
-<string name="title_kayotsarg_vishudhi_ka_path">
-    Kayotsarg Vishudhi Ka Path
-</string>
-<string name="title_nammotthunam_ka_path">
-    Nammotthunam Ka Path
-</string>
 
 <string name="title_ichhaminam_bhante_ka_path">
     इच्छामिणं भंते का पाठ
@@ -724,9 +648,6 @@
 <string name="title_panchava_sthool_parigrah_pariman_vrat">
     पाचवाँ स्थूल
 </string>
-<string name="title_chatthe_dishivrat">
-    छट्ठे दिशिव्रत
-</string>
 <string name="title_satava_upbhog_paribhog_pariman_vrat">
     सातवाँ उपभोग परिभोग परिमाणव्रत
 </string>
@@ -742,12 +663,6 @@
 <string name="title_dasave_desavagasik_vrat">
     दसवें देसावगासिक व्रत
 </string>
-<string name="title_gyarhave_padipunna_paushadh_vrat">
-    ग्यारहवें  पडिपुन्न पौषध व्रत
-</string>
-<string name="title_barhave_atithi_samvibhag_vrat">
-    बारहवें  अतिथिसंविभाग व्रत
-</string>
 <string name="title_sanlekhana_ke_panch_atichar_ka_path">
     संलेखना के पांच अतिचार
 </string>
@@ -755,18 +670,11 @@
     अठारह  पापस्थान का पाठ
 </string>
 
-<string name="title_chaar_dhyan_ka_path">
-
-</string>
-
 <string name="title_ichhami_khamasamno_ka_path">
     इच्छामि खमासमणो का पाठ
 </string>
 <string name="title_chautha_avashyak">
     चौथा आवश्यक
-</string>
-<string name="title_dyaan_ke_atichar_ka_paath">
-    ज्ञान के अतिचार का पाठ
 </string>
 <string name="title_dansan_samkit_ka_path">
     दंसणसमत्त का पाठ
@@ -799,14 +707,8 @@
 <string name="title_satava_vrat_upbhog_paribhogvihim">
     सातवाँ व्रत उपभोगपरिभोगविहिं
 </string>
-<string name="title_athava_anatthadand_virman_vrat">
-    आठवां अणट्ठादण्डविरमणव्रत
-</string>
 <string name="title_navva_samayik_vrat">
     नववां सामायिक व्रत
-</string>
-<string name="title_dasva_deshavagasik_vrat">
-    दसवाँ देसावगासिक व्रत
 </string>
 <string name="title_gyarahva_padipunna_paushadh_vrat">
     ग्यारहवाँ पडिपुन्न पौषधव्रत
@@ -826,9 +728,6 @@
 <string name="title_pacchis_mithyaatva_ka_paath">
     पच्चीस मिथ्यात्व का पाठ
 </string>
-<string name="title_shraman_sootra">
-    श्रमणसूत्र
-</string>
 <string name="title_maangalik">
     मांगलिक
 </string>
@@ -846,10 +745,6 @@
 </string>
 <string name="title_nigranth_pravachan_ka_path">
     निर्ग्रन्थ प्रवचन का पाठ
-</string>
-
-<string name="title_panchva_avashyak">
-    पाँचवा आवश्यक
 </string>
 
 <string name="title_savaiya">
@@ -871,9 +766,6 @@
     कुलकोडी को खमाने का पाठ
 </string>
 
-<string name="title_kshamapna_path">
-    क्षमापना का पाठ ( खमतखामना का पाठ )
-</string>
 <string name="title_prayaschitt_ka_path">
     प्रायश्चित्त का पाठ
 </string>
@@ -902,9 +794,6 @@
 <string name="title_tije_aavayshyak">
     तिसरा आवश्यक की आज्ञा
 </string>
-<string name="title_chouthe_aavayshyak">
-    चौथा आवश्यक की आज्ञा
-</string>
 <string name="title_panchve_aavayshyak">
     पाँचवा आवश्यक की आज्ञा
 </string>
@@ -920,26 +809,5 @@
 <string name="title_chatthe_aavashyak_ki_aadnya">
     छट्ठे आवश्यक की आज्ञा
 </string>
-<string name="title_pehli_samayik">Pehla samayik</string>
-<string name="title_mithyatva_ka_pratikraman">Mithyatva ka pratikraman</string>
-<string name="title_sham_saveg">Sham Savveg</string>
-<string name="title_bhootkaal_ka_pratikraman">Bhootkaal ka Pratikraman</string>
 
-<string name="text_pehli_samayik">
-    पहला सामायिक,  दूसरा चउवीसत्थव, तीसरी वंदना, चौथा प्रतिकमण,  पाँचवा कायोत्सर्ग, छट्ठा प्रत्याख्यान यह छहो आवश्यक पूर्ण हुए,  उनमे अतिक्रम, व्यतिक्रम, अतिचार, अनाचार,जानते, अजानते, कोई पाप दोष लगा हो तथा पाठ उच्चारण करते समय काना, मात्रा, अनुस्वार, पद,  अक्षर, अधिक, न्यून, आगे, पीछे कहा हो तो देवसी संबंधी तस्स मिच्छामि दुक्कडं ।\n\n
-    \n\n\n\n\n
-</string>
-<string name="text_mithyatva_ka_pratikraman">
-    मिथ्यात्व का प्रतिकमण, अव्रत का  प्रतिकमण, प्रमाद का प्रतिकमण,  कषाय का प्रतिकमण,  अशुभयोग का प्रतिकमण, एवं पाँच प्रकार का प्रतिकमण नहीं किया हो तो तस्स मिच्छामि दुक्कडं ।\n\n
-    \n\n\n\n\n
-</string>
-<string name="text_sham_saveg">
-    शम, संवेग, निर्वेद, अनुकंपा और आस्था, सच्चे की श्रद्धा और झुठे का बारम्बार मिच्छामि दुक्कडं ।\n\n
-    \n\n\n\n\n
-</string>
-<string name="text_bhootkaal_ka_pratikraman">
-    भुतकाल का प्रतिकमण,  वर्तमानकाल की सामायिक, भविष्यकाल का प्रत्याख्यान, ये तीन करते है, करवाते है, करनेवालों का अनुमोदन करते है, उन पुरूषों को धन्य हैं ।देव अरिहन्त, गुरू निग्रंथ, केवलभाषित दयामय धर्म यह तीन तत्व सार ! संसार असार । भगवंत महाराज  आपका मार्ग सच्चं! सच्चं! सच्चं! थइ थुई मंगलं ।
-    \n\n\n\n\n
-</string>
-<string name="dhyaan_mai">( ध्यान में ) - </string>
 </resources>

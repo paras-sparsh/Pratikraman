@@ -11,11 +11,14 @@ android:orientation="horizontal"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.home.pratikraman_14.HomePage.DisplayPath.DisplayPathActivity"
     tools:showIn="@layout/activity_display_path">
-<android.support.v7.widget.RecyclerView
+<com.lsjwzh.widget.recyclerviewpager.RecyclerViewPager
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/pager"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:singlePageFling="true"
+    app:triggerOffset="0.1"
+    android:clipToPadding="false"
         />
         <ImageView
             android:id="@+id/left_nav"

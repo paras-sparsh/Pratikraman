@@ -25,6 +25,7 @@ public class ExpandedNavigationDrawer extends AppCompatActivity {
     ArrayList<Parts> parts;
     ArrayList<Path> parentList;
     Bundle mySavedInstance;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
