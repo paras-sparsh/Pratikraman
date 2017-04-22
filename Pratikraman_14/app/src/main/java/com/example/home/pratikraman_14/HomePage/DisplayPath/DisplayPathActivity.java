@@ -77,11 +77,11 @@ public class DisplayPathActivity extends AppCompatActivity  {
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
                 super.onScrollStateChanged(recyclerView, newState);
                 int positionView = ((LinearLayoutManager) mViewPager.getLayoutManager()).findFirstVisibleItemPosition();
-
                 setTitle(completeList.get(positionView).getTitle());
             }
         });
         mViewPager.setHasFixedSize(true);
+       // mViewPager.
 
 //        LinearSnapHelper snapHelper = new LinearSnapHelper() {
 //            @Override
@@ -136,6 +136,7 @@ public int getTheObject(String pos) {
     @Override
     protected  void onDestroy() {
         super.onDestroy();
+
         if (CustomPagerAdapter.mediaPlayer != null) {
             CustomPagerAdapter.mediaPlayer.pause();
             if (isFinishing()) {

@@ -44,6 +44,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         private Handler handler;
         int songDuration = 0;
         public ImageView imageView;
+        //public  MediaPlayer mediaPlayer;
 
         public MyViewHolder(View view) {
             super(view);
@@ -60,11 +61,11 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
                 @Override
                 public void run() {
                     try {
-                        if (null != mediaPlayer) {
-                            if(getTimeString(mediaPlayer.getCurrentPosition()).equals(getTimeString(mediaPlayer.getDuration()))){
-                                playPause.setBackgroundResource(R.drawable.play_button);
-                            }
-                        }
+//                        if (null != mediaPlayer) {
+//                            if(getTimeString(mediaPlayer.getCurrentPosition()).equals(getTimeString(mediaPlayer.getDuration()))){
+//                                playPause.setBackgroundResource(R.drawable.play_button);
+//                            }
+//                        }
                         if (mediaPlayer != null && mediaPlayer.isPlaying()) {
                             playPause.setBackgroundResource(R.drawable.play_button);
                             mediaPlayer.stop();
@@ -90,9 +91,9 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
                         if (mediaPlayer != null && mediaPlayer.isPlaying()) {
                            // playPause.setBackgroundResource(R.drawable.play_button);
                             mediaPlayer.stop();
-                            //mediaPlayer.reset();
+                            mediaPlayer.reset();
                             //mediaPlayer.release();
-                            //mediaPlayer = null;
+                           // mediaPlayer = null;
                         }
                     } catch (IllegalStateException e) {
                         e.printStackTrace();
@@ -177,7 +178,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
 
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View itemView = LayoutInflater.from(parent.getContext())
+        final View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.pager_item, parent, false);
         return new MyViewHolder(itemView);
     }
@@ -201,8 +202,9 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
             holder.imageView.setVisibility(View.GONE);
             holder.tv.setText(completeList.get(position).getDescription());
             holder.handler = new Handler();
-            holder.registerOnClickListeners();
             holder.initializeStartElements(completeList.get(position).getMusicFile());
+            holder.registerOnClickListeners();
+
         }
     }
 
