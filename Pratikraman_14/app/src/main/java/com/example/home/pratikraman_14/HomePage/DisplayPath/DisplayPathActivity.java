@@ -40,7 +40,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Locale;
 
-public class DisplayPathActivity extends AppCompatActivity  {
+public class DisplayPathActivity extends AppCompatActivity implements CustomPagerAdapter.MusicServiceInterface {
     CustomPagerAdapter mCustomPagerAdapter;
     RecyclerView mViewPager;
 
@@ -70,6 +70,7 @@ public class DisplayPathActivity extends AppCompatActivity  {
         mViewPager.setItemAnimator(new DefaultItemAnimator());
         mViewPager.setAdapter(mCustomPagerAdapter);
         mCustomPagerAdapter.setSelectedItem(getTheObject(pos));
+        mCustomPagerAdapter.setMusicServiceInterfaceListener(this);
         mViewPager.scrollToPosition(getTheObject(pos));
         setTitle(completeList.get(getTheObject(pos)).getTitle());
         mViewPager.addOnScrollListener(new RecyclerView.OnScrollListener() {
@@ -78,6 +79,8 @@ public class DisplayPathActivity extends AppCompatActivity  {
                 super.onScrollStateChanged(recyclerView, newState);
                 int positionView = ((LinearLayoutManager) mViewPager.getLayoutManager()).findFirstVisibleItemPosition();
                 setTitle(completeList.get(positionView).getTitle());
+                Intent intent1 = new Intent(DisplayPathActivity.this,MyService.class);
+                stopService(intent1);
             }
         });
         mViewPager.setHasFixedSize(true);
@@ -336,5 +339,20 @@ public int getTheObject(String pos) {
         Path p6 = new Path("111",this.getResources().getString(R.string.title_dnyan_ka_atichar_ka_path),this.getResources().getString(R.string.text_dnyan_ke_atichar_ka_path_with_micchami_dukdaam),R.raw.pratikraman_agme_tivehe_panate);
         ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(i1,p1,p2,p3,p4,p5,p6));
         return parentList;
+    }
+
+    @Override
+    public void callMusicService(int musicId,boolean isPlaying) {
+        if(isPlaying == false) {
+            Intent intent = new Intent(this, MyService.class);
+            intent.putExtra("musicId",musicId);
+            intent.putExtra("isPlaying",false);
+            startService(intent);
+        } else {
+            Intent intent = new Intent(this, MyService.class);
+            //intent.putExtra("musicId",musicId);
+            intent.putExtra("isPlaying",true);
+            startService(intent);
+        }
     }
 }

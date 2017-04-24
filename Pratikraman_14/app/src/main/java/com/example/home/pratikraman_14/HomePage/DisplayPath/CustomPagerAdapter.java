@@ -27,6 +27,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
     LayoutInflater mLayoutInflater;
     ArrayList<Path> completeList;
     private static int selectedItem = -1;
+    public MusicServiceInterface musicServiceInterface;
     public static MediaPlayer mediaPlayer;
 
     public CustomPagerAdapter(Context context, ArrayList<Path> completeList ){
@@ -54,6 +55,8 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
             playPause = (Button)itemView.findViewById(R.id.play);
             seekbar = (SeekBar)itemView.findViewById(R.id.seekbar);
             imageView = (ImageView)itemView.findViewById(R.id.ivPosition);
+            this.setIsRecyclable(false);
+
         }
 
         private void initializeStartElements(final int file) {
@@ -145,6 +148,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
             tvCurrentTime.setText(getTimeString(mediaPlayer.getCurrentPosition()));
             tvTotalTime.setText(getTimeString(mediaPlayer.getDuration()));
             handler.postDelayed(UpdateSongTime, 100);
+
         }
 
         private Runnable UpdateSongTime = new Runnable() {
@@ -176,6 +180,10 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         }
     }
 
+    public interface MusicServiceInterface {
+        public  void callMusicService(int musicId,boolean isPlaying);
+    }
+
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         final View itemView = LayoutInflater.from(parent.getContext())
@@ -183,12 +191,27 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         return new MyViewHolder(itemView);
     }
 
+
+
     public void setSelectedItem(int position)
     {
         selectedItem = position;
     }
+
     @Override
-    public void onBindViewHolder(MyViewHolder holder, int position) {
+    public void onDetachedFromRecyclerView(RecyclerView recyclerView) {
+        super.onDetachedFromRecyclerView(recyclerView);
+        mediaPlayer.release();mediaPlayer = null;
+    }
+
+    @Override
+    public void onViewDetachedFromWindow(MyViewHolder holder) {
+        super.onViewDetachedFromWindow(holder);
+        mediaPlayer.release();mediaPlayer = null;
+    }
+
+    @Override
+    public void onBindViewHolder(final MyViewHolder holder, final int position) {
         holder.setIsRecyclable(false);
         if(selectedItem == position)
             holder.itemView.setSelected(true);
@@ -196,18 +219,35 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         if(completeList.get(position).getDescription().length() == 0 && completeList.get(position).getTitle().equals("poses")){
             holder.imageView.setImageResource(completeList.get(position).getMusicFile());
             holder.imageView.setVisibility(View.VISIBLE);
-            holder.handler = new Handler();
-            holder.stopPlayerForPoses();
+//            holder.handler = new Handler();
+//            holder.stopPlayerForPoses();
         } else {
             holder.imageView.setVisibility(View.GONE);
             holder.tv.setText(completeList.get(position).getDescription());
+//holder.playPause.setText("f");
+//            holder.playPause.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    if (holder.playPause.getText().equals("f")) {
+//                        holder.playPause.setText("t");
+//                        musicServiceInterface.callMusicService(completeList.get(position).getMusicFile(),false);
+//                    } else {
+//                        holder.playPause.setText("f");
+//                        musicServiceInterface.callMusicService(completeList.get(position).getMusicFile(),true);
+//                    }
+//
+//                }
+//            });
+
             holder.handler = new Handler();
             holder.initializeStartElements(completeList.get(position).getMusicFile());
             holder.registerOnClickListeners();
 
         }
     }
-
+ public void setMusicServiceInterfaceListener(MusicServiceInterface musicServiceInterface) {
+     this.musicServiceInterface = musicServiceInterface;
+ }
     @Override
     public int getItemCount() {
         return completeList.size();
