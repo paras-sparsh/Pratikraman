@@ -674,7 +674,7 @@
     इच्छामि खमासमणो का पाठ
 </string>
 <string name="title_chautha_avashyak">
-    चौथा आवश्यक
+    चौथा आवश्यक  की आज्ञा
 </string>
 <string name="title_dansan_samkit_ka_path">
     दंसणसमत्त का पाठ
@@ -809,5 +809,26 @@
 <string name="title_chatthe_aavashyak_ki_aadnya">
     छट्ठे आवश्यक की आज्ञा
 </string>
+    <string name="title_agyaa_ka_aasan">
+        Agyaa Lene Ka Aasan
+    </string>
+    <string name="title_kausagg_ka_aasan">
+        Kaussag Ka Aasan
+    </string>
+    <string name="title_khamasamno_ka_aasan">
+        Icchami Khamasamno Ka Aasan
+    </string>
+    <string name="title_dhyaan_ke_atichar_ke_path_ka_aasan">
+        Dhyaan Ke Aticchar Ke Paath Ka Aasan
+    </string>
+    <string name="title_manglik_lene_tak_ka_aasan">
+        Maanglik Lene Tak Ka Aasan
+    </string>
+    <string name="title_bhaav_vandana_ka_aasan">
+        Bhaav Vandana Ka Aasan
+    </string>
+    <string name="title_pachhkhan_ka_aasan">
+        Pacchkhan Lene Ka Aasan
+    </string>
 
 </resources>

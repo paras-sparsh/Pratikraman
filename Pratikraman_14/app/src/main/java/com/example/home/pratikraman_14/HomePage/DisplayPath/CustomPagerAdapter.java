@@ -189,7 +189,7 @@ class CustomPagerAdapter extends RecyclerView.Adapter<CustomPagerAdapter.MyViewH
         if(selectedItem == position)
             holder.itemView.setSelected(true);
 
-        if(completeList.get(position).getDescription().length() == 0 && completeList.get(position).getTitle().equals("poses")){
+        if(completeList.get(position).getDescription().length() == 0){
             holder.imageView.setImageResource(completeList.get(position).getMusicFile());
             holder.imageView.setVisibility(View.VISIBLE);
             holder.handler = new Handler();

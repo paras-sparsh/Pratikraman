@@ -977,5 +977,25 @@ Bhutkal Ka Pratikraman, Vartaman Kal Ki Samayik Aur Bhavishya Kal Ka Pacchkkhan,
     <string name="title_chatthe_aavashyak_ki_aadnya">
         Chatthe Aavashyak ki Aadnya
     </string>
-
+<string name="title_agyaa_ka_aasan">
+        Agyaa Lene Ka Aasan
+    </string>
+    <string name="title_kausagg_ka_aasan">
+        Kaussag Ka Aasan
+    </string>
+    <string name="title_khamasamno_ka_aasan">
+        Icchami Khamasamno Ka Aasan
+    </string>
+    <string name="title_dhyaan_ke_atichar_ke_path_ka_aasan">
+        Dhyaan Ke Aticchar Ke Paath Ka Aasan
+    </string>
+    <string name="title_manglik_lene_tak_ka_aasan">
+        Maanglik Lene Tak Ka Aasan
+    </string>
+    <string name="title_bhaav_vandana_ka_aasan">
+        Bhaav Vandana Ka Aasan
+    </string>
+    <string name="title_pachhkhan_ka_aasan">
+        Pacchkhan Lene Ka Aasan
+    </string>
 </resources>
