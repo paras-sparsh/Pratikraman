@@ -76,7 +76,13 @@ public class ExpandableListviewAdapter extends
                     new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            if(parentTitles.get(parentPosition).description.length() > 0 || parentTitles.get(parentPosition).title.equals("poses")) {
+                            if(parentTitles.get(parentPosition).description.length() > 0 || parentTitles.get(parentPosition).id.equals("5555")
+                                    || parentTitles.get(parentPosition).id.equals("5556")
+                                    || parentTitles.get(parentPosition).id.equals("5557")
+                                    || parentTitles.get(parentPosition).id.equals("5558")
+                                    || parentTitles.get(parentPosition).id.equals("5559")
+                                    || parentTitles.get(parentPosition).id.equals("5560")
+                                    || parentTitles.get(parentPosition).id.equals("5561")) {
                                 Intent intent = new Intent(context, DisplayPathActivity.class);
                                 intent.putExtra("description",parentTitles.get(parentPosition).description);
                                 intent.putExtra("id",parentTitles.get(parentPosition).getId());

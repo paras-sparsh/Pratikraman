@@ -171,7 +171,7 @@ public int getTheObject(String pos) {
         Path p3 = new Path("3",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
         Path p4 = new Path("4",this.getResources().getString(R.string.title_eng_Irrayavahia),this.getResources().getString(R.string.text_eng_Iriyavahia),R.raw.chauvistva_icchakarenam);
         Path p5 = new Path("5",this.getResources().getString(R.string.title_eng_Tassauttari),this.getResources().getString(R.string.text_eng_Tassauttari),R.raw.chauvistva_tassa_uttari);
-        Path p6 = new Path("6",this.getResources().getString(R.string.title_eng_Logassa),this.getResources().getString(R.string.text_eng_Logassa),R.raw.chauvistva_dhyaan_logassa_do_bar);
+        Path p6 = new Path("6",this.getResources().getString(R.string.title_eng_Logassa_chauvisatvva),this.getResources().getString(R.string.text_eng_Logassa),R.raw.chauvistva_dhyaan_logassa_do_bar);
         Path p7 = new Path("7",this.getResources().getString(R.string.title_eng_dhyan),this.getResources().getString(R.string.text_eng_dhyan),R.raw.chauvistva_char_dhyaan);
         Path p9 = new Path("3001",this.getResources().getString(R.string.title_eng_Logassa),this.getResources().getString(R.string.text_eng_Logassa),R.raw.chauvistva_logassa);
         Path p8 = new Path("9",this.getResources().getString(R.string.title_eng_Nammotthunam),this.getResources().getString(R.string.text_eng_Nammotthunam),R.raw.chauvistva_namutthunam);
@@ -222,9 +222,9 @@ public int getTheObject(String pos) {
         Path p11 = new Path("24",this.getResources().getString(R.string.title_attharah_papsthan_ka_path),this.getResources().getString(R.string.text_attharah_papsthan_ka_path),R.raw.samayik_atharah_papasthan);
         Path p12 = new Path("25",this.getResources().getString(R.string.title_ichhami_thami_ka_path),this.getResources().getString(R.string.text_icchami_thami_ka_path_without_micchami),R.raw.samayik_dhyaan_mai_icchami_thami);
         Path p13 = new Path("26",this.getResources().getString(R.string.title_eng_dhyan),this.getResources().getString(R.string.text_eng_dhyan),R.raw.chauvistva_char_dhyaan);
-        Path p27 = new Path("2010",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
+       // Path p27 = new Path("2010",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
 
-        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3,p4,p5,p6,i1,p7,p8,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p10,p11,p12,p27,p13));
+        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3,p4,p5,p6,i1,p7,p8,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p10,p11,p12,p13));
         return parentList;
     }
 
@@ -329,13 +329,13 @@ public int getTheObject(String pos) {
         Path p6 = new Path("100",this.getResources().getString(R.string.title_ichhami_thami_ka_path),this.getResources().getString(R.string.text_ichhami_thami_ka_path),R.raw.samayik_icchami_thami);
         Path p7 = new Path("101",this.getResources().getString(R.string.title_eng_Tassauttari),this.getResources().getString(R.string.text_eng_Tassauttari),R.raw.chauvistva_tassa_uttari);
         Path p8 = new Path("102",this.getResources().getString(R.string.title_logassa_dnyaan),this.getResources().getString(R.string.text_logassa_dnyaan),R.raw.dhyaan_logassa_instructions);
-        Path p9 = new Path("103",this.getResources().getString(R.string.title_eng_Logassa),this.getResources().getString(R.string.text_eng_Logassa),R.raw.chauvistva_logassa);
+        //Path p9 = new Path("103",this.getResources().getString(R.string.title_eng_Logassa),this.getResources().getString(R.string.text_eng_Logassa),R.raw.chauvistva_logassa);
         Path p10 = new Path("104",this.getResources().getString(R.string.title_eng_dhyan),this.getResources().getString(R.string.text_eng_dhyan),R.raw.chauvistva_char_dhyaan);
         Path p11 = new Path("105",this.getResources().getString(R.string.title_ichhami_khamasamno_ka_path),this.getResources().getString(R.string.text_ichhami_khamasamno_ka_path),R.raw.icchami_khamsamno);
-        Path p12 = new Path("2001",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
+        //Path p12 = new Path("2001",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
         Path p13 = new Path("2002",this.getResources().getString(R.string.title_eng_Logassa),this.getResources().getString(R.string.text_eng_Logassa),R.raw.chauvistva_logassa);
 
-        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3,p4,p5,p6,p7,p8,p9,p12,p10,p13,p11));
+        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3,p4,p5,p6,p7,p8,p10,p13,p11));
         return parentList;
     }
 

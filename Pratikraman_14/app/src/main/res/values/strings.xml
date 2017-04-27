@@ -16,7 +16,9 @@
     <string name="title_eng_KaremiBhante">Karemi Bhante Ka Path</string>
     <string name="title_eng_Nammotthunam">Nammotthunam Ka Path</string>
     <string name="title_eng_Irrayavahia">Iriyavahi Ka Path</string>
-
+<string name="title_eng_Logassa_chauvisatvva">
+    Logassa - Chauvisattva Ka Path
+</string>
     <string name="text_eng_navkar_mantra">Namo Arihantanam,\nNamo Siddanam,\nNamo Aayariyanam,\nNamo Uvajjhayanam,\nNamo Loe Savva-sahunam,\nEso Panch Namokkaro,\nSavva-pava ppanasano \nManglanam cha savvesim\nPadhamamHavai Mangalam.
    \n\n\n\n\n </string>
     <string name="text_eng_Tikkhuto">
@@ -740,7 +742,21 @@ Devsiya Payacchitt Visohanattham Karemi Kaussaggam.
     </string>
     <string name="text_logassa_dnyaan">
 (Rayasi or Devsi Pratikaman - 4 loggassa ,  Pakkhi Pratikaman - 8 loggassa, Chaumasi Pratikaman - 12 loggassa,
-        Savvatsari Pratikaman - 20 loggassa Ka Kayotsarg karna )
+        Savvatsari Pratikaman - 20 loggassa Ka Kayotsarg karna ) \n\n
+        Logassa Ujjoya&#45; gare Dhamma&#45; Tittha&#45; Yare jine,\n
+Arihante Kittaissam Chauvisampi Kevali &#40;1&#41; \n\n
+Usabhamajiyam Cha Vande, Sambhavamabhinandanam Cha\n
+Sumaim Cha Paumappaham Supasam Jinam Cha Chandappaham Vande &#40;2&#41;\n\n
+Suvihim Cha Puffhadantam Siyal Sijjansa Vasu&#45; pujjamCha\n
+Vimalmanantam Cha Jinam, Dhammam Santim Cha Vandami &#40;3&#41;\n\n
+Kunthum Aram Cha Mallim Vande Muni&#45; suvvayamNami&#45; jinam Cha.\n
+VandamiRittha&#45; nemim Pasamtah Vaddhamanam Cha &#40;4&#41;\n\n
+Evam Mae Abhithua, Vihuyarayamala Pahinjarmarana\n
+ChauVisam Pi jinavara, Titthayara Me Pasiyantu &#40;5&#41;\n\n
+Kittiya&#45; vandiy&#45; mahiya, Je ea Logassa Uttama Siddha.\n
+Arugga&#45; Bohi&#45; labham, Samahi&#45; Vara&#45; Muttamam&#45; dintu &#40;6&#41;\n\n
+Chandesu Nimmalayara Aichhesu Ahiyam Payasayara.\n
+Sagarvargambhira Siddha Siddhim Mam Disantu &#40;7&#41;\n\n\n\n\n\n\n
     </string>
     <string name="text_chatthe_aavashyak_ki_aadnya">
         Pahala Samayik, Dusara Chauvisattva, Teesari Vandana, Chautha Pratikraman, Panchva Kaussagga,
