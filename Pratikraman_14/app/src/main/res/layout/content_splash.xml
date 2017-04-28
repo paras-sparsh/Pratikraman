@@ -1,54 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
      android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    android:background="#efefef"
+    android:background="@color/colorPrimary"
    >
     <ImageView
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginBottom="110dp"
-        android:src="@drawable/ic_chk"/>
-    <TextView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:text="Pratikraman"
-    android:textColor="@color/colorPrimary"
-    android:textSize="35sp"
-    android:layout_gravity="center"
-    android:gravity="center"
-        android:id="@+id/tv_title"
-    android:textAllCaps="false"
-    android:typeface="serif"
-        android:textStyle="bold|italic"/>
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/splash_final_logo_screen"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="35dp"
-
-        android:text="Enlightens Your Soul"
-        android:textColor="#1AFF0D"
-        android:textSize="20sp"
-        android:layout_marginTop="50dp"
-       android:gravity="center"
-        android:layout_gravity="center"
-        android:textAllCaps="false"
-        android:typeface="normal"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="35dp"
-
-        android:text="By Paras Sparsh"
-        android:textColor="#E4241A"
-        android:textSize="20sp"
-        android:layout_marginTop="115dp"
-        android:gravity="center"
-        android:layout_gravity="center"
-        android:textAllCaps="false"
-        android:typeface="serif"
-        android:textStyle="italic|bold"/>
-
-</FrameLayout>
+</LinearLayout>
