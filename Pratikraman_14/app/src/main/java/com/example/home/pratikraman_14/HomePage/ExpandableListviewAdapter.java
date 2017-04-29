@@ -70,7 +70,21 @@ public class ExpandableListviewAdapter extends
                 || parentTitles.get(parentPosition).id.equals("5558")
                 || parentTitles.get(parentPosition).id.equals("5559")
                 || parentTitles.get(parentPosition).id.equals("5560")
-                || parentTitles.get(parentPosition).id.equals("5561")){
+                || parentTitles.get(parentPosition).id.equals("5561")
+                || parentTitles.get(parentPosition).id.equals("5562")
+                || parentTitles.get(parentPosition).id.equals("5563")
+                || parentTitles.get(parentPosition).id.equals("5564")
+                || parentTitles.get(parentPosition).id.equals("5565")
+                || parentTitles.get(parentPosition).id.equals("5566")
+                || parentTitles.get(parentPosition).id.equals("5567")
+                || parentTitles.get(parentPosition).id.equals("5568")
+                || parentTitles.get(parentPosition).id.equals("5569")
+                || parentTitles.get(parentPosition).id.equals("5570")
+                || parentTitles.get(parentPosition).id.equals("5571")
+                || parentTitles.get(parentPosition).id.equals("5572")
+                || parentTitles.get(parentPosition).id.equals("5573")
+                || parentTitles.get(parentPosition).id.equals("5574")
+                || parentTitles.get(parentPosition).id.equals("5575")){
             holder.imageViewArrow.setVisibility(View.INVISIBLE);
             holder.tvPath.setOnClickListener(
                     new View.OnClickListener() {
@@ -82,7 +96,21 @@ public class ExpandableListviewAdapter extends
                                     || parentTitles.get(parentPosition).id.equals("5558")
                                     || parentTitles.get(parentPosition).id.equals("5559")
                                     || parentTitles.get(parentPosition).id.equals("5560")
-                                    || parentTitles.get(parentPosition).id.equals("5561")) {
+                                    || parentTitles.get(parentPosition).id.equals("5561")
+                                    || parentTitles.get(parentPosition).id.equals("5562")
+                                    || parentTitles.get(parentPosition).id.equals("5563")
+                                    || parentTitles.get(parentPosition).id.equals("5564")
+                                    || parentTitles.get(parentPosition).id.equals("5565")
+                                    || parentTitles.get(parentPosition).id.equals("5566")
+                                    || parentTitles.get(parentPosition).id.equals("5567")
+                                    || parentTitles.get(parentPosition).id.equals("5568")
+                                    || parentTitles.get(parentPosition).id.equals("5569")
+                                    || parentTitles.get(parentPosition).id.equals("5570")
+                                    || parentTitles.get(parentPosition).id.equals("5571")
+                                    || parentTitles.get(parentPosition).id.equals("5572")
+                                    || parentTitles.get(parentPosition).id.equals("5573")
+                                    || parentTitles.get(parentPosition).id.equals("5574")
+                                    || parentTitles.get(parentPosition).id.equals("5575")) {
                                 Intent intent = new Intent(context, DisplayPathActivity.class);
                                 intent.putExtra("description",parentTitles.get(parentPosition).description);
                                 intent.putExtra("id",parentTitles.get(parentPosition).getId());

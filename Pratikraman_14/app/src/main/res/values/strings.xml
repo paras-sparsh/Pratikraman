@@ -9,15 +9,15 @@
 
 
     <string name="title_eng_navkar_mantra">Navkar Mantra</string>
-    <string name="title_eng_Tikkhuto">Tikkhuto Ka Path(3 times)</string>
+    <string name="title_eng_Tikkhuto">Tikkhuto Ka Path (3 times)</string>
     <string name="title_eng_dhyan">4 Dhyan Ka Path</string>
     <string name="title_eng_Tassauttari">Tassa Uttari Ka Path</string>
     <string name="title_eng_Logassa">Logassa Ka Path</string>
     <string name="title_eng_KaremiBhante">Karemi Bhante Ka Path</string>
-    <string name="title_eng_Nammotthunam">Nammotthunam Ka Path</string>
+    <string name="title_eng_Nammotthunam">Nammotthunam Ka Path (2 times)</string>
     <string name="title_eng_Irrayavahia">Iriyavahi Ka Path</string>
 <string name="title_eng_Logassa_chauvisatvva">
-    Logassa - Chauvisattva Ka Path
+    Logassa - Chauvisattva Ka Path (2 times)
 </string>
     <string name="text_eng_navkar_mantra">Namo Arihantanam,\nNamo Siddanam,\nNamo Aayariyanam,\nNamo Uvajjhayanam,\nNamo Loe Savva-sahunam,\nEso Panch Namokkaro,\nSavva-pava ppanasano \nManglanam cha savvesim\nPadhamamHavai Mangalam.
    \n\n\n\n\n </string>
@@ -862,7 +862,7 @@ Bhutkal Ka Pratikraman, Vartaman Kal Ki Samayik Aur Bhavishya Kal Ka Pacchkkhan,
         Attharah Papsthan Ka Path
     </string>
     <string name="title_ichhami_khamasamno_ka_path">
-        Ichhami Khamasamno Ka Path
+        Ichhami Khamasamno Ka Path (2 times)
     </string>
     <string name="title_chautha_avashyak">
         Chautha Avashyak
@@ -1012,6 +1012,15 @@ Bhutkal Ka Pratikraman, Vartaman Kal Ki Samayik Aur Bhavishya Kal Ka Pacchkkhan,
         Bhaav Vandana Ka Aasan
     </string>
     <string name="title_pachhkhan_ka_aasan">
-        Pacchkhan Lene Ka Aasan
+        Pacchhkhan Lene Ka Aasan
     </string>
+
+<string name="title_logassa_chauvisatva_ka_aasan">
+        Logassa - Chauvisatthav Ka Aasan
+    </string>
+
+    <string name ="title_namuthunam_ka_aasan">Namothhunam Ka Aasan</string>
+    <string name="title_aadnya_ka_aasan">Aadnya Lene Ka Aasan</string>
+    <string name="title_logassa_dhyaan_ka_aasan">Logassa Dhyaan Ka Aasan</string>
+    <string name="title_aage_ke_path_ka_aasan">Aage Ke Path Ka Aasan</string>
 </resources>

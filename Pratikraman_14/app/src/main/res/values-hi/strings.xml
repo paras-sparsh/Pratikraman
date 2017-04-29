@@ -23,13 +23,13 @@
     लोगस्स का पाठ
 </string>
     <string name="title_eng_Logassa_chauvisatvva">
-    लोगस्स – चउवीसत्थव का पाठ
+    लोगस्स – चउवीसत्थव का पाठ (दो बार)
 </string>
 <string name="title_eng_KaremiBhante">
     करेमि भंते  का पाठ
 </string>
 <string name="title_eng_Nammotthunam">
-    णमोत्थुणं का पाठ
+    णमोत्थुणं का पाठ (दो बार)
 </string>
 <string name="title_eng_Irrayavahia">
     इरियावहि का पाठ
@@ -690,7 +690,7 @@
 </string>
 
 <string name="title_ichhami_khamasamno_ka_path">
-    इच्छामि खमासमणो का पाठ
+    इच्छामि खमासमणो का पाठ (दो बार)
 </string>
 <string name="title_chautha_avashyak">
     चौथा आवश्यक  की आज्ञा
@@ -829,25 +829,32 @@
     छट्ठे आवश्यक की आज्ञा
 </string>
     <string name="title_agyaa_ka_aasan">
-        Agyaa Lene Ka Aasan
+        आज्ञा लेने का आसन
     </string>
     <string name="title_kausagg_ka_aasan">
-        Kaussag Ka Aasan
+        कायोत्सर्ग का आसन
     </string>
     <string name="title_khamasamno_ka_aasan">
-        Icchami Khamasamno Ka Aasan
+        इच्छामि खमासमणो का आसन
     </string>
     <string name="title_dhyaan_ke_atichar_ke_path_ka_aasan">
-        Dhyaan Ke Aticchar Ke Paath Ka Aasan
+        ज्ञान के अतिचार का पाठ के आसन
     </string>
     <string name="title_manglik_lene_tak_ka_aasan">
-        Maanglik Lene Tak Ka Aasan
+        मांगलिक लेने तक का आसन
     </string>
     <string name="title_bhaav_vandana_ka_aasan">
-        Bhaav Vandana Ka Aasan
+        भाववंदना का आसन
     </string>
     <string name="title_pachhkhan_ka_aasan">
-        Pacchkhan Lene Ka Aasan
+        पच्चक्खाण लेने का आसन
     </string>
+    <string name="title_logassa_chauvisatva_ka_aasan">
+        लोगस्स - चउवीसत्थव  का आसन
+    </string>
+    <string name ="title_namuthunam_ka_aasan">णमोत्थुणं  का आसन</string>
+    <string name="title_aadnya_ka_aasan">आज्ञा लेने का आसन</string>
+    <string name="title_logassa_dhyaan_ka_aasan">लोगस्स ध्यान का आसन</string>
+    <string name="title_aage_ke_path_ka_aasan">आगे के पाठ का आसन</string>
 
 </resources>

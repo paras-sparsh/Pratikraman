@@ -165,41 +165,45 @@ public int getTheObject(String pos) {
     }
 
     public ArrayList<Path> createparentListForFirst() {
-        Path i1 = new Path("5555",this.getResources().getString(R.string.title_agyaa_ka_aasan),"",R.drawable.pose_five);
+        Path i1 = new Path("5555",this.getResources().getString(R.string.title_agyaa_ka_aasan),"",R.drawable.pose_fifteen);
         Path p1 = new Path("1",this.getResources().getString(R.string.title_chauvisathav_ka_path),this.getResources().getString(R.string.text_chauvisathav_ka_path),R.raw.chauvistva_agyaa);
         Path p2 = new Path("2",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("3",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
         Path p4 = new Path("4",this.getResources().getString(R.string.title_eng_Irrayavahia),this.getResources().getString(R.string.text_eng_Iriyavahia),R.raw.chauvistva_icchakarenam);
         Path p5 = new Path("5",this.getResources().getString(R.string.title_eng_Tassauttari),this.getResources().getString(R.string.text_eng_Tassauttari),R.raw.chauvistva_tassa_uttari);
+        Path i2 = new Path("5562",this.getResources().getString(R.string.title_logassa_chauvisatva_ka_aasan),"",R.drawable.pose_fifteen);
         Path p6 = new Path("6",this.getResources().getString(R.string.title_eng_Logassa_chauvisatvva),this.getResources().getString(R.string.text_eng_Logassa),R.raw.chauvistva_dhyaan_logassa_do_bar);
         Path p7 = new Path("7",this.getResources().getString(R.string.title_eng_dhyan),this.getResources().getString(R.string.text_eng_dhyan),R.raw.chauvistva_char_dhyaan);
         Path p9 = new Path("3001",this.getResources().getString(R.string.title_eng_Logassa),this.getResources().getString(R.string.text_eng_Logassa),R.raw.chauvistva_logassa);
+        Path i3 = new Path("5563",this.getResources().getString(R.string.title_namuthunam_ka_aasan),"",R.drawable.pose_eleven);
         Path p8 = new Path("9",this.getResources().getString(R.string.title_eng_Nammotthunam),this.getResources().getString(R.string.text_eng_Nammotthunam),R.raw.chauvistva_namutthunam);
         Path p10 = new Path("3002",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
 
-        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(i1,p1,p2,p3,p4,p5,p6,p7,p9,p8));
+        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(i1,p1,p2,p3,p4,p5,i2,p6,p7,p9,i3,p8));
         return parentList;
     }
 
     public ArrayList<Path> createparentListForSecond() {
         //Path i1 = new Path("5556","poses","",R.drawable.pose_two);
+        Path i1 = new Path("5564",this.getResources().getString(R.string.title_aadnya_ka_aasan),"",R.drawable.pose_five);
         Path p1 = new Path("10",this.getResources().getString(R.string.title_devasi_pratikraman_karne_ki_aadnyaa),this.getResources().getString(R.string.text_devsi_pratikraman_ki_agya),R.raw.agyaa_devsi_pratikraman);
         Path p2 = new Path("11",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("12",this.getResources().getString(R.string.title_ichhaminam_bhante_ka_path),this.getResources().getString(R.string.text_ichhaminam_bhante_ka_path),R.raw.agyaa_ecchami_nama_bhante);
         Path p4 = new Path("13",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
-        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3,p4));
+        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(i1,p1,p2,p3,p4));
         return parentList;
     }
 
     public ArrayList<Path> createparentListForThird() {
         //Path i1 = new Path("5557","poses","",R.drawable.pose_three);
+        Path i2 = new Path("5565",this.getResources().getString(R.string.title_aadnya_ka_aasan),"",R.drawable.pose_fifteen);
         Path p1 = new Path("14",this.getResources().getString(R.string.title_pratham_aavayshyak),this.getResources().getString(R.string.text_pratham_avashyak_ki_aadnyaa),R.raw.samayik_pehla_aavyshyak_agyaa);
         Path p2 = new Path("15",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("16",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
         Path p4 = new Path("17",this.getResources().getString(R.string.title_eng_KaremiBhante),this.getResources().getString(R.string.text_eng_KaremiBhante),R.raw.samayik_karemi_bhante);
         Path p5 = new Path("18",this.getResources().getString(R.string.title_ichhami_thami_ka_path),this.getResources().getString(R.string.text_ichhami_thami_ka_path),R.raw.samayik_icchami_thami);
         Path p6 = new Path("19",this.getResources().getString(R.string.title_eng_Tassauttari),this.getResources().getString(R.string.text_eng_Tassauttari),R.raw.samayik_tassa_uttari);
-        Path i1 = new Path("5556",this.getResources().getString(R.string.title_kausagg_ka_aasan),"",R.drawable.pose_six);
+        Path i1 = new Path("5556",this.getResources().getString(R.string.title_kausagg_ka_aasan),"",R.drawable.pose_fifteen);
         Path p7 = new Path("20",this.getResources().getString(R.string.title_dnyan_ka_atichar_ka_path),this.getResources().getString(R.string.text_dnyan_ke_atichar_ka_path),R.raw.agme_tivehe_without_michhami);
         Path p8 = new Path("21",this.getResources().getString(R.string.title_darshan_samyaktva_ka_path),this.getResources().getString(R.string.text_darshan_samyaktva_ka_path),R.raw.samayik_arihant_mahadevo);
         //Path p9 = new Path("22",this.getResources().getString(R.string.title_barah_sthool),"");
@@ -224,36 +228,39 @@ public int getTheObject(String pos) {
         Path p13 = new Path("26",this.getResources().getString(R.string.title_eng_dhyan),this.getResources().getString(R.string.text_eng_dhyan),R.raw.chauvistva_char_dhyaan);
        // Path p27 = new Path("2010",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
 
-        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3,p4,p5,p6,i1,p7,p8,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p10,p11,p12,p13));
+        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(i2,p1,p2,p3,p4,p5,p6,i1,p7,p8,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p10,p11,p12,p13));
         return parentList;
     }
 
     public ArrayList<Path> createparentListForFourth() {
         //Path i1 = new Path("5558","poses","",R.drawable.pose_four);
+        Path i2 = new Path("5566",this.getResources().getString(R.string.title_aadnya_ka_aasan),"",R.drawable.pose_three);
         Path p1 = new Path("40",this.getResources().getString(R.string.title_dusre_aavayshyak),this.getResources().getString(R.string.text_dusare_aavashyak_ki_aadnyaa),R.raw.dusre_aavyshak_ki_agyaa);
         Path p2 = new Path("41",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("42",this.getResources().getString(R.string.title_eng_Logassa),this.getResources().getString(R.string.text_eng_Logassa),R.raw.chauvistva_logassa);
 
-        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3));
+        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(i2,p1,p2,p3));
         return parentList;
     }
 
     public ArrayList<Path> createparentListForFifth() {
         //Path i1 = new Path("5559","poses","",R.drawable.pose_five);
+        Path i2 = new Path("5567",this.getResources().getString(R.string.title_aadnya_ka_aasan),"",R.drawable.pose_sixteen);
         Path p1 = new Path("43",this.getResources().getString(R.string.title_tije_aavayshyak),this.getResources().getString(R.string.text_teesare_aavashyak_ki_aadnyaa),R.raw.tisre_aavshyak_ki_agyaa);
         Path p2 = new Path("44",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
-        Path i1 = new Path("5557",this.getResources().getString(R.string.title_khamasamno_ka_aasan),"",R.drawable.pose_two);
+        Path i1 = new Path("5557",this.getResources().getString(R.string.title_khamasamno_ka_aasan),"",R.drawable.pose_fourteen);
         Path p3 = new Path("45",this.getResources().getString(R.string.title_ichhami_khamasamno_ka_path),this.getResources().getString(R.string.text_ichhami_khamasamno_ka_path),R.raw.icchami_khamsamno);
 
-        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,i1,p3));
+        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(i2,p1,p2,i1,p3));
         return parentList;
     }
 
     public ArrayList<Path> createparentListForSixth() {
         //Path i1 = new Path("5560","poses","",R.drawable.pose_six);
+        Path i4 = new Path("5568",this.getResources().getString(R.string.title_aadnya_ka_aasan),"",R.drawable.pose_twelve);
         Path p1 = new Path("46",this.getResources().getString(R.string.title_chautha_avashyak),this.getResources().getString(R.string.text_chauthe_aavashyak_ki_aadnyaa),R.raw.chouthe_aavyshak_ki_agyaa);
         Path p2 = new Path("47",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
-        Path i1 = new Path("5558",this.getResources().getString(R.string.title_dhyaan_ke_atichar_ke_path_ka_aasan),"",R.drawable.pose_seven);
+        Path i1 = new Path("5558",this.getResources().getString(R.string.title_dhyaan_ke_atichar_ke_path_ka_aasan),"",R.drawable.pose_eleven);
         Path p3 = new Path("48",this.getResources().getString(R.string.title_dnyan_ka_atichar_ka_path),this.getResources().getString(R.string.text_dnyan_ke_atichar_ka_path_with_micchami_dukdaam),R.raw.pratikraman_agme_tivehe_panate);
         Path p4 = new Path("49",this.getResources().getString(R.string.title_dansan_samkit_ka_path),this.getResources().getString(R.string.text_dansan_samkit_ka_path),R.raw.pratikraman_dasan_saamath_ka_path);
         // Path p5 = new Path("50",this.getResources().getString(R.string.title_barah_anuvrat),"",0);//Path p5 = new Path("50",this.getResources().getString(R.string.title_barah_anuvrat),"");
@@ -285,16 +292,18 @@ public int getTheObject(String pos) {
         Path p13 = new Path("58",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
         Path p14 = new Path("59",this.getResources().getString(R.string.title_eng_KaremiBhante),this.getResources().getString(R.string.text_eng_KaremiBhante),R.raw.samayik_karemi_bhante);
         Path p15 = new Path("60",this.getResources().getString(R.string.title_maangalik),this.getResources().getString(R.string.text_maangalik),R.raw.manglik_bada_ms);
+        Path i6 = new Path("5575",this.getResources().getString(R.string.title_aage_ke_path_ka_aasan),"",R.drawable.pose_twelve);
         Path p16 = new Path("61",this.getResources().getString(R.string.title_eng_Irrayavahia),this.getResources().getString(R.string.text_eng_Iriyavahia),R.raw.chauvistva_icchakarenam);
         Path p17 = new Path("62",this.getResources().getString(R.string.title_nidaradosh_nivurutti_ka_paath),this.getResources().getString(R.string.text_nidradosh_nivurutti_ka_paath),R.raw.nidradosh_nivruti_ka_path);
         Path p18 = new Path("63",this.getResources().getString(R.string.title_bhikshadosh_nivurutti_ka_paath),this.getResources().getString(R.string.text_bhikshadosh_nivurutti_ka_paath),R.raw.bhikshadosh_nivruti_ka_path);
         Path p19 = new Path("64",this.getResources().getString(R.string.title_svadhaay_tatha_pratilekhana_dosh_nivurutti_ka_paath),this.getResources().getString(R.string.text_svadhaay_tatha_pratilekhana_dosh_nivurutti_ka_paath),R.raw.swadhyay_tatha_pratilekhna_dosh);
         Path p20 = new Path("65",this.getResources().getString(R.string.title_33_bol_ka_paath),this.getResources().getString(R.string.text_teintes_bol_ka_paath),R.raw.tentees_bol);
         Path p21 = new Path("66",this.getResources().getString(R.string.title_nigranth_pravachan_ka_path),this.getResources().getString(R.string.text_nigranth_pravachan_ka_path),R.raw.nigrantha_chouvistva);
+        Path i5 = new Path("5574",this.getResources().getString(R.string.title_khamasamno_ka_aasan),"",R.drawable.pose_fourteen);
         Path p22 = new Path("67",this.getResources().getString(R.string.title_ichhami_khamasamno_ka_path),this.getResources().getString(R.string.text_ichhami_khamasamno_ka_path),R.raw.icchami_khamsamno);
         Path p23 = new Path("68",this.getResources().getString(R.string.title_bhav_vandana_ki_agyaa),this.getResources().getString(R.string.text_panchva_avashyak),R.raw.bhaavvandana_agyaa);
         // Path p24 = new Path("69",this.getResources().getString(R.string.title_savaiya),"");text
-        Path i3 = new Path("5560",this.getResources().getString(R.string.title_bhaav_vandana_ka_aasan),"",R.drawable.pose_three);
+        Path i3 = new Path("5560",this.getResources().getString(R.string.title_bhaav_vandana_ka_aasan),"",R.drawable.pose_seventeen);
 
         Path a1 = new Path("88",this.getResources().getString(R.string.title_savaiya),this.getResources().getString(R.string.text_first_savaiya),R.raw.savaiyya_one_merge);
         Path a2 = new Path("89",this.getResources().getString(R.string.title_savaiya),this.getResources().getString(R.string.text_second_savaiya),R.raw.savaiyya_two);
@@ -315,12 +324,13 @@ public int getTheObject(String pos) {
         Path p33 = new Path("2005",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p34 = new Path("2006",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
 
-        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,i1,p3,p4,b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,p6,p7,p8,p9,p10,p11,p12,i2,p2,p13,p14,p15,p11,p16,p17,p18,p19,p20,p21,p22,p23,p2,p13,i3,a1,a2,a3,a4,a5,a6,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34));
+        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(i4,p1,p2,i1,p3,p4,b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,p6,p7,p8,p9,p10,p11,p12,i2,p2,p13,p14,p15,i6,p11,p16,p17,p18,p19,p20,p21,i5,p22,i3,p23,a1,a2,a3,a4,a5,a6,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34));
         return parentList;
     }
 
     public ArrayList<Path> createparentListForSeventh() {
         //Path i1 = new Path("5561","poses","",R.drawable.pose_seven);
+        Path i2 = new Path("5569",this.getResources().getString(R.string.title_aadnya_ka_aasan),"",R.drawable.pose_thirteen);
         Path p1 = new Path("95",this.getResources().getString(R.string.title_panchve_aavayshyak),this.getResources().getString(R.string.text_pachave_aavashyak_kee_aadnyaa),R.raw.pachva_aavshyak);
         Path p2 = new Path("96",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path p3 = new Path("97",this.getResources().getString(R.string.title_prayaschitt_ka_path),this.getResources().getString(R.string.text_prayaschitt_ka_path),R.raw.devsiyam_one_line);
@@ -328,28 +338,32 @@ public int getTheObject(String pos) {
         Path p5 = new Path("99",this.getResources().getString(R.string.title_eng_KaremiBhante),this.getResources().getString(R.string.text_eng_KaremiBhante),R.raw.samayik_karemi_bhante);
         Path p6 = new Path("100",this.getResources().getString(R.string.title_ichhami_thami_ka_path),this.getResources().getString(R.string.text_ichhami_thami_ka_path),R.raw.samayik_icchami_thami);
         Path p7 = new Path("101",this.getResources().getString(R.string.title_eng_Tassauttari),this.getResources().getString(R.string.text_eng_Tassauttari),R.raw.chauvistva_tassa_uttari);
+        Path i3 = new Path("5572",this.getResources().getString(R.string.title_logassa_dhyaan_ka_aasan),"",R.drawable.pose_fifteen);
         Path p8 = new Path("102",this.getResources().getString(R.string.title_logassa_dnyaan),this.getResources().getString(R.string.text_logassa_dnyaan),R.raw.dhyaan_logassa_instructions);
         //Path p9 = new Path("103",this.getResources().getString(R.string.title_eng_Logassa),this.getResources().getString(R.string.text_eng_Logassa),R.raw.chauvistva_logassa);
         Path p10 = new Path("104",this.getResources().getString(R.string.title_eng_dhyan),this.getResources().getString(R.string.text_eng_dhyan),R.raw.chauvistva_char_dhyaan);
+        Path i4 = new Path("5573",this.getResources().getString(R.string.title_khamasamno_ka_aasan),"",R.drawable.pose_fourteen);
         Path p11 = new Path("105",this.getResources().getString(R.string.title_ichhami_khamasamno_ka_path),this.getResources().getString(R.string.text_ichhami_khamasamno_ka_path),R.raw.icchami_khamsamno);
         //Path p12 = new Path("2001",this.getResources().getString(R.string.title_eng_navkar_mantra),this.getResources().getString(R.string.text_eng_navkar_mantra),R.raw.chauvistva_navkar_mantra);
         Path p13 = new Path("2002",this.getResources().getString(R.string.title_eng_Logassa),this.getResources().getString(R.string.text_eng_Logassa),R.raw.chauvistva_logassa);
 
-        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,p3,p4,p5,p6,p7,p8,p10,p13,p11));
+        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(i2,p1,p2,p3,p4,p5,p6,p7,i3,p8,p10,p13,i4,p11));
         return parentList;
     }
 
     public ArrayList<Path> createparentListForEighth() {
        // Path i1 = new Path("5562","poses","",R.drawable.pose_eight);
+        Path i2 = new Path("5570",this.getResources().getString(R.string.title_aadnya_ka_aasan),"",R.drawable.pose_five);
         Path p1 = new Path("106",this.getResources().getString(R.string.title_chatthe_aavashyak_ki_aadnya),this.getResources().getString(R.string.text_chatthe_aavashyak_ki_aadnya),R.raw.chatte_aavyshak_ki_agyaa);
         Path p2 = new Path("107",this.getResources().getString(R.string.title_eng_Tikkhuto),this.getResources().getString(R.string.text_eng_Tikkhuto),R.raw.thikhuto_merge);
         Path i1 = new Path("5561",this.getResources().getString(R.string.title_pachhkhan_ka_aasan),"",R.drawable.pose_five);
 
         Path p3 = new Path("108",this.getResources().getString(R.string.title_samuchhay_pachhakkhan_ka_path),this.getResources().getString(R.string.text_samuchhay_pachhakkhan_ka_path),R.raw.ganthiyam);
         Path p4 = new Path("109",this.getResources().getString(R.string.title_antim_path),this.getResources().getString(R.string.text_antim_path),R.raw.antim_path);
+        Path i3 = new Path("5571",this.getResources().getString(R.string.title_namuthunam_ka_aasan),"",R.drawable.pose_eleven);
         Path p5 = new Path("110",this.getResources().getString(R.string.title_eng_Nammotthunam),this.getResources().getString(R.string.text_eng_Nammotthunam),R.raw.chauvistva_namutthunam);
         Path p6 = new Path("111",this.getResources().getString(R.string.title_dnyan_ka_atichar_ka_path),this.getResources().getString(R.string.text_dnyan_ke_atichar_ka_path_with_micchami_dukdaam),R.raw.pratikraman_agme_tivehe_panate);
-        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(p1,p2,i1,p3,p4,p5,p6));
+        ArrayList<Path> parentList = new ArrayList<>(Arrays.asList(i2,p1,p2,i1,p3,p4,i3,p5,p6));
         return parentList;
     }
 }
